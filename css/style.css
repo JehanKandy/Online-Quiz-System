@@ -44,5 +44,14 @@ font-family: 'Teko', sans-serif;
 
 .home-body .title {
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 25px;
+    font-size: 45px;
+}
+
+.home-body .content {
+    font-size: 30px;
+}
+
+.home-body .quiz-img {
+    height: 75%;
+    width: 75%;
 }
