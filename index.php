@@ -14,6 +14,9 @@
     <div class="footer">
         This system develop for only educational purposes <br>
         This system doesn't have following function because this system host in free service
+
+        <br><br>
+        <i class="fas fa-exclamation-circle" style="color: red;"></i>
     </div>
 </div>
 
