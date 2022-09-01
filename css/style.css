@@ -36,3 +36,7 @@ font-family: 'Teko', sans-serif;
 .footer hr {
     border-bottom: 1px solid rgb(206, 206, 206);
 }
+
+.home-body {
+    text-align: center;
+}
