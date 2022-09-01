@@ -8,7 +8,7 @@
     </div>
     <img src="images/quiz1.png" alt="quiz" class="quiz-img">
     <div class="content">
-        Take more then 1 Milion Question From the <br> system and also get your result according to quiz
+        Take more then 1 Million Question From the <br> system and also get your result according to quiz
         <hr>
     </div>
     <div class="footer">
