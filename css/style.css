@@ -67,3 +67,7 @@ font-family: 'Teko', sans-serif;
     text-align: center;
     font-size: 30px;
 }
+
+.login-content .body {
+    font-family: 'Rubik', sans-serif;
+}
