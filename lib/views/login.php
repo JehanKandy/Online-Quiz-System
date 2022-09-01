@@ -3,10 +3,10 @@
 
 <div class="login-content">
     <div class="title">
-        Login Here
+        <i class="fas fa-user-alt"></i> Login Here
     </div>
     <div class="body">
-        
+
     </div>
 </div>
 
