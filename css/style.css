@@ -11,3 +11,13 @@ font-family: 'Roboto Flex', sans-serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Teko', sans-serif;
 */
+
+.login-nav-btn {
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    transition: 0.5s;
+}
