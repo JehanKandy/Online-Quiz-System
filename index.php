@@ -16,7 +16,9 @@
         This system doesn't have following function because this system host in free service
 
         <br><br>
-        <i class="fas fa-exclamation-circle" style="color: red;"></i>
+        <i class="fas fa-exclamation-circle" style="color: red;"></i> &nbsp; Password Reset function <br>
+        <i class="fas fa-exclamation-circle" style="color: red;"></i> &nbsp; Password and email Verfy function <br>
+        
     </div>
 </div>
 
