@@ -18,6 +18,9 @@
         <br><br>
         <i class="fas fa-exclamation-circle" style="color: red;"></i> &nbsp; Password Reset function <br>
         <i class="fas fa-exclamation-circle" style="color: red;"></i> &nbsp; Password and email Verfy function <br>
+
+        <br><br>
+        Download Full Project Here : <a href="https://github.com/JehanKandy/Online-Quiz-System" target="_blank"><i class="fas fa-download"></i>Download</a>
         
     </div>
 </div>
