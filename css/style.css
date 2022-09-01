@@ -55,3 +55,7 @@ font-family: 'Teko', sans-serif;
     height: 75%;
     width: 75%;
 }
+
+.login-content {
+    margin-top: 75px;
+}
