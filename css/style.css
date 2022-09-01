@@ -18,6 +18,11 @@ font-family: 'Teko', sans-serif;
     border: 2px solid red;
     border-radius: 5px;
     background: none;
-    color: white;
+    color: red;
     transition: 0.5s;
+}
+
+.login-nav-btn:hover {
+    background-color: red;
+    color: white;
 }
