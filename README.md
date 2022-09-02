@@ -21,4 +21,4 @@ Online Quiz System
 
 2. UPDATE
  - css/style.css
- - lib/
+ - lib/views/
