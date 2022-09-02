@@ -96,4 +96,5 @@ font-family: 'Teko', sans-serif;
     color: rgb(40, 40, 255);
     border-radius: 2px;
     background-color: none;
+    transition: 0.5s;
 }
