@@ -87,3 +87,7 @@ font-family: 'Teko', sans-serif;
     border: 1px solid rgb(204, 204, 204);
     border-radius: 2px;
 }
+
+.login-content .body form table .login-btn {
+    width: 100%;
+}
