@@ -61,6 +61,8 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 75px;
     margin-left: 600px;
     margin-right: 600px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
 }
 
 .login-content .title {
