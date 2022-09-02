@@ -91,5 +91,7 @@ font-family: 'Teko', sans-serif;
 .login-content .body form table .login-btn {
     width: 100%;
     margin-top: 15px;
-    height: 40px;
+    height: 50px;
+    border: 1px solid rgb(40, 40, 255);
+    color: rgb(40, 40, 255);
 }
