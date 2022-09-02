@@ -18,7 +18,7 @@ Online Quiz System
 
 <b>02 September 2022</b>
 1. DEVELOP
-
+ - js
 2. UPDATE
  - css/style.css
  - lib/views/login.php
