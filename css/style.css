@@ -100,5 +100,6 @@ font-family: 'Teko', sans-serif;
 }
 
 .login-content .body form table .login-btn:hover {
-    background-color: rgb(40, 40, 255);
+    background-color: rgb(63, 63, 243);
+    color: white;
 }
