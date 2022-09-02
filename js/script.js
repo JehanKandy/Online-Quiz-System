@@ -1,8 +1,9 @@
-function loginvalidate() {
-    var loginuser = document.forms['loginform']['username'].value
-    if (loginuser == "" || loginuser == null) {
+function validateform() {
+    var usern = document.forms["loginform"]["username"].value
+    if (usern == "" || usern == null) {
         document.getElementById('usererrormsg').style.color = '#ff3f34';
-        document.getElementById('usererrormsg').innerHTML('Username Cannot Be empty');
+        document.getElementById('usererrormsg').innerHTML = '<span style="font-size:12px;">Username connot be empty</span>';
+        document.getElementById('username').style.borderColor = '#ff3f34';
         return false;
     }
 }
