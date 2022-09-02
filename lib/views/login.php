@@ -15,10 +15,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="username" id="username" class="login-input">
+                        <input type="text" name="username" id="username" class="login-input"><span id="usererrormsg"></span>
                     </td>
                     <td>
-
+                        <span id="errorlogo"></span>
                     </td>
                 </tr>
                 <tr>
@@ -26,10 +26,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" name="password" id="password" class="login-input">
+                        <input type="password" name="password" id="password" class="login-input"><span id="usererrormsg"></span>
                     </td>
                     <td>
-
+                        <span id="errorlogo"></span>
                     </td>
                 </tr>
                 <tr>
