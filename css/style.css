@@ -78,8 +78,11 @@ font-family: 'Teko', sans-serif;
 
 .login-content .body {
     font-family: 'Rubik', sans-serif;
+    width: 100%;
 }
 
-.login-content .body form table tr .login-input{
-    
+.login-content .body form table .login-input {
+    width: 380px;
+    height: 50px;
+    border: 1px solid rgb(204, 204, 204);
 }
