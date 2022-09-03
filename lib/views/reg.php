@@ -7,7 +7,7 @@
     </div>
     <div class="body">
         <hr>
-        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="regform" onsubmit="return validateform_reg()">
             <table border="0">
                 <tr>
                     <td>
