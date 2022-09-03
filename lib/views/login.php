@@ -34,6 +34,7 @@
             </table>
         </form>
         <br>
+        <hr>
             <a href="pass_reset.php">Forget Password ?</a><br>
             Don't have an Account ? <a href="reg.php">Sign Up</a>
     </div>
