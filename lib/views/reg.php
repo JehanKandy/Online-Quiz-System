@@ -15,7 +15,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="username" id="username" class="reg-input"><span id="regusererr"></span>
+                        <input type="text" name="username" id="username" class="reg-input" placeholder="Username"><span id="regusererr"></span>
                     </td>
                 </tr>
                 <tr>
@@ -25,7 +25,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="email" name="email" id="email" class="reg-input"><span id="regemailerr"></span>
+                        <input type="email" name="email" id="email" class="reg-input" placeholder="Email"><span id="regemailerr"></span>
                     </td>                
                 <tr>
                     <td>
