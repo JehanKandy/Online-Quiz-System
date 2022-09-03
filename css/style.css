@@ -131,3 +131,17 @@ font-family: 'Teko', sans-serif;
         margin-right: 120px;
     }
 }
+
+
+/*
+
+*   ipad - landscape 
+
+*/
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .login-content {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
