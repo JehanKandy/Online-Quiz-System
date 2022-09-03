@@ -21,7 +21,15 @@
                         Email 
                     </td>
                     <td>
-                        :&nbsp;<input type="email" name="email" id="email" class="reg-input"><span id="regpasserr"></span>
+                        :&nbsp;<input type="email" name="email" id="email" class="reg-input"><span id="regemailerr"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password 
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
                     </td>
                 </tr>
             </table>
