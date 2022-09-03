@@ -29,7 +29,7 @@
                         Password 
                     </td>
                     <td>
-                        <input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
+                        : &nbsp;<input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
                     </td>
                 </tr>
             </table>
