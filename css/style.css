@@ -1,42 +1,114 @@
-<?php include("../layouts/header.php"); ?>
-<?php include("../layouts/nav_login.php"); ?>
-<link rel="stylesheet" href="../../css/style.css">
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
 
-<div class="login-content">
-    <div class="title">
-        <i class="fas fa-user-alt"></i> Login Here
-    </div>
-    <div class="body">
-        <hr>
-        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="loginfoem" onsubmit="return loginvalidate()">
-            <table border="0">
-                <tr>
-                    <td>Username : </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text" name="username" id="username" class="login-input">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Password : </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="password" name="password" id="password" class="login-input">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Login" name="login" class="login-btn">
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <a href="pass_reset.php">Forget Password ?</a><br>
-            Don't have an Account ? <a href="reg.php">Sign Up</a>
-        </form>
-    </div>
-</div>
+/*
 
-<?php include("../layouts/footer.php"); ?>
+use font families
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Teko', sans-serif;
+*/
+
+.login-nav-btn {
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: none;
+    color: red;
+    transition: 0.5s;
+}
+
+.login-nav-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 15px;
+}
+
+.footer hr {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.home-body {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home-body .title {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 45px;
+}
+
+.home-body .content {
+    font-size: 30px;
+}
+
+.home-body .quiz-img {
+    height: 75%;
+    width: 75%;
+}
+
+.login-content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 500px;
+}
+
+.login-content .title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.login-content .body {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+}
+
+.login-content .body form table .login-input {
+    width: 380px;
+    height: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+}
+
+.login-content .body form table .login-btn {
+    width: 100%;
+    margin-top: 15px;
+    height: 50px;
+    border: 1px solid rgb(40, 40, 255);
+    color: rgb(40, 40, 255);
+    border-radius: 2px;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.login-content .body form table .login-btn:hover {
+    background-color: rgb(63, 63, 243);
+    color: white;
+}
+
+
+/*
+
+*   laptop Screen size
+
+*/
+
+@media only screen and (max-width: 1400px) {
