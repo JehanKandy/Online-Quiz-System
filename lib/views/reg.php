@@ -56,6 +56,7 @@
                 </tr>
             </table>    
         </form>
+        <br>
         Already Have Account ? <a href="login.php">Login</a>
     </div>
 </div>
