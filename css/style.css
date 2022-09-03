@@ -118,6 +118,12 @@ font-family: 'Teko', sans-serif;
     width: 500px;
 }
 
+.reg-content .title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
 
 /*
 
