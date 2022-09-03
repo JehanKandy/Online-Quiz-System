@@ -6,6 +6,7 @@
         <i class="fas fa-user-plus"></i> Register Here 
     </div>
     <div class="body">
+        <hr>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
             <table border="0">
                 <tr>
