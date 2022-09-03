@@ -31,6 +31,8 @@
                     <td>
                         Password :
                     </td>
+                </tr>
+                <tr>
                     <td>
                         <input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
                     </td>
