@@ -15,7 +15,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="username" id="username" class="login-input"><span id="usererrormsg"></span>
+                        <input type="text" name="username" id="username" class="login-input" placeholder="Username"><span id="usererrormsg"></span>
                     </td>
                 </tr>
                 <tr>
@@ -23,7 +23,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" name="password" id="password" class="login-input"><span id="passerrormsg"></span>
+                        <input type="password" name="password" id="password" class="login-input" placeholder="Password"><span id="passerrormsg"></span>
                     </td>
                 </tr>
                 <tr>
