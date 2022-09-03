@@ -137,18 +137,18 @@ font-family: 'Teko', sans-serif;
 }
 
 .reg-content .body form table .reg-clear-btn {
-    width: 100%;
+    width: 49%;
     margin-top: 15px;
     height: 50px;
-    border: 1px solid rgb(40, 40, 255);
-    color: rgb(40, 40, 255);
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
     border-radius: 2px;
     background-color: none;
     transition: 0.5s;
 }
 
 .reg-content .body form table .reg-btn {
-    width: 100%;
+    width: 49%;
     margin-top: 15px;
     height: 50px;
     border: 1px solid rgb(40, 40, 255);
