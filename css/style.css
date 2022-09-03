@@ -113,16 +113,7 @@ font-family: 'Teko', sans-serif;
 
 @media only screen and (max-width: 1400px) {
     .login-content {
-        margin-top: 75px;
-        margin-bottom: 75px;
-        margin-left: 300px;
-        margin-right: 300px;
-        border: 1px solid rgb(214, 214, 214);
-        border-radius: 5px;
-        padding-top: 50px;
-        padding-bottom: 40px;
-        padding-left: 60px;
-        padding-right: 60px;
-        width: 500px;
+        margin-left: 350px;
+        margin-right: 350px;
     }
 }
