@@ -7,7 +7,16 @@
     </div>
     <div class="body">
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-    
+            <table border="0">
+                <tr>
+                    <td>
+                        Username :
+                    </td>
+                    <td>
+                        <input type="text" name="username" id="username" class="reg-input"><span id="regusererr"></span>
+                    </td>
+                </tr>
+            </table>
     
         </form>
     </div>
