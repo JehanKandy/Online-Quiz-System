@@ -10,26 +10,29 @@
             <table border="0">
                 <tr>
                     <td>
-                        Username 
-                    </td>
-                    <td>
-                        :&nbsp;<input type="text" name="username" id="username" class="reg-input"><span id="regusererr"></span>
+                        Username : 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Email 
-                    </td>
-                    <td>
-                        :&nbsp;<input type="email" name="email" id="email" class="reg-input"><span id="regemailerr"></span>
+                        <input type="text" name="username" id="username" class="reg-input"><span id="regusererr"></span>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Password 
+                        Email :
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" id="email" class="reg-input"><span id="regemailerr"></span>
+                    </td>                
+                <tr>
+                    <td>
+                        Password :
                     </td>
                     <td>
-                        : &nbsp;<input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
+                        <input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
                     </td>
                 </tr>
             </table>
