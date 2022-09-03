@@ -16,6 +16,14 @@
                         <input type="text" name="username" id="username" class="reg-input"><span id="regusererr"></span>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" class="reg-input"><span id="regpasserr"></span>
+                    </td>
+                </tr>
             </table>
     
         </form>
