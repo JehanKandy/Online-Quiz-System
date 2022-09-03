@@ -141,7 +141,30 @@ font-family: 'Teko', sans-serif;
 
 @media screen and (min-width: 1023px) and (max-width: 1024px) {
     .login-content {
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+
+/*
+
+*   iphone X - portrait 
+
+*/
+
+@media screen and (max-width: 375px) {
+    .login-content {
+        margin-top: 75px;
+        margin-bottom: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 500px;
     }
 }
