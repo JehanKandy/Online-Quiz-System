@@ -3,7 +3,7 @@
 
 <div class="reg-content">
     <div class="title">
-        Register Here 
+        <i class="fas fa-user-plus"></i> Register Here 
     </div>
 </div>
 
