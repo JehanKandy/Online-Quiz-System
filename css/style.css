@@ -127,7 +127,7 @@ font-family: 'Teko', sans-serif;
 
 @media screen and (max-width: 768px) {
     .login-content {
-        margin-left: 350px;
-        margin-right: 350px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
