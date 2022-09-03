@@ -31,6 +31,7 @@ Online Quiz System
 1. DEVELOP
  - lib
  - - lib/views
+ - - - lib/views/reg.php
 2. UPDATE
  - css/style.css
  - lib/views/login.php
