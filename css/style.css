@@ -147,6 +147,11 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.reg-content .body form table .reg-clear-btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
 .reg-content .body form table .reg-btn {
     width: 49%;
     margin-top: 15px;
