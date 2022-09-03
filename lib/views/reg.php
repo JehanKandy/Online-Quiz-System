@@ -50,13 +50,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="reset" value="Clear" class="reg-clear-btn">
+                        <input type="reset" value="Clear" class="reg-clear-btn"> 
                         <input type="submit" value="Sign Up" name="register" class="reg-btn">
                     </td>
                 </tr>
-            </table>
-    
+            </table>    
         </form>
+        Already Have Account ? <a href="login.php">Login</a>
     </div>
 </div>
 
