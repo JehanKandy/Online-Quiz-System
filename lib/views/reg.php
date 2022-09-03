@@ -39,7 +39,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Password :
+                        Confirm Password :
                     </td>
                 </tr>
                 <tr>
