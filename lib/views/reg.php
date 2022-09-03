@@ -48,6 +48,12 @@
                         <input type="password" name="cpassword" id="cpassword" class="reg-input" placeholder="Confirm Password"><span id="regcpasserr"></span>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <input type="reset" value="Clear" class="reg-clear-btn">
+                        <input type="submit" value="Sign Up" name="register" class="reg-btn">
+                    </td>
+                </tr>
             </table>
     
         </form>
