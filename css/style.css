@@ -167,4 +167,24 @@ font-family: 'Teko', sans-serif;
         padding-right: 10px;
         width: 350px;
     }
+    .login-content .body form table .login-input {
+        width: 320px;
+        height: 50px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 2px;
+    }
+}
+
+
+/*
+
+*   iphone X - landscape 
+
+*/
+
+@media screen and (min-width: 811px) and (max-width: 812px) {
+    .login-content {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
