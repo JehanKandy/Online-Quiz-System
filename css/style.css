@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
 
 /*
 
@@ -112,3 +112,17 @@ font-family: 'Teko', sans-serif;
 */
 
 @media only screen and (max-width: 1400px) {
+    .login-content {
+        margin-top: 75px;
+        margin-bottom: 75px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 500px;
+    }
+}
