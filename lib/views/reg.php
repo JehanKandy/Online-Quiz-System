@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" name="password" id="password" class="reg-input"><span id="regpasserr"></span>
+                        <input type="password" name="cpassword" id="cpassword" class="reg-input"><span id="regcpasserr"></span>
                     </td>
                 </tr>
             </table>
