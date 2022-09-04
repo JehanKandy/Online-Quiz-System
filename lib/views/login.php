@@ -37,6 +37,8 @@
         <hr>
             <a href="pass_reset.php">Forget Password ?</a><br>
             Student SignUp ? <a href="reg_std.php">Student</a><br>
+            Teacher SignUp ? <a href="reg_teacher.php">Teacher</a><br>
+
     </div>
 </div>
 
