@@ -53,4 +53,7 @@ function validateform_reg() {
         document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
         return false;
     }
+
+    let count_pass = pass;
+
 }
