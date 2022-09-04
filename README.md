@@ -55,3 +55,4 @@ Online Quiz System
  - js/script.js
  - rename reg.php to reg_std.php
  - lib/views/login.php
+ - css/style.css
