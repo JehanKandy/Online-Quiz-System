@@ -45,3 +45,5 @@ Online Quiz System
  - - lib/function
  - - - lib/function/config.php
  - - - lib/function/function.php
+
+2.UPDATE
