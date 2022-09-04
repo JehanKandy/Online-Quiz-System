@@ -62,3 +62,5 @@
 </div>
 
 <?php include("../layouts/footer.php"); ?>
+
+<script src="../../js/script.js"></script>
