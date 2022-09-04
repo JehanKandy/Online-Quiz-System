@@ -23,25 +23,26 @@ function validateform_reg() {
         document.getElementById('username').style.borderColor = '#ff3f34';
         return false;
     }
-    var usern = document.forms["regform"]["email"].value
-    if (usern == "" || usern == null) {
+    var email = document.forms["regform"]["email"].value
+    if (email == "" || email == null) {
         document.getElementById('regemailerr').style.color = '#ff3f34';
         document.getElementById('regemailerr').innerHTML = '<span style="font-size:12px;">Email connot be empty</span>';
         document.getElementById('email').style.borderColor = '#ff3f34';
         return false;
     }
-    var usern = document.forms["regform"]["password"].value
-    if (usern == "" || usern == null) {
+    var pass = document.forms["regform"]["password"].value
+    if (pass == "" || pass == null) {
         document.getElementById('regpasserr').style.color = '#ff3f34';
         document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
-    var usern = document.forms["regform"]["cpassword"].value
-    if (usern == "" || usern == null) {
+    var cpass = document.forms["regform"]["cpassword"].value
+    if (cpass == "" || cpass == null) {
         document.getElementById('regcpasserr').style.color = '#ff3f34';
         document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Confirm Password connot be empty</span>';
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
         return false;
     }
+    if ()
 }
