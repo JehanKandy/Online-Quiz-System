@@ -29,7 +29,7 @@
         if($check_user_nor > 0){
             return "<span style='color:red;'>Teacher Already Exists</span>";
         }else{
-            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','student','1',NOW(),'0')";
+            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','teacher','0',NOW(),'1')";
             $user_insert_result = mysqli_query($con,$user_insert);
             header("location:../views/login.php");
         }
