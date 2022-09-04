@@ -49,7 +49,7 @@ function validateform_reg() {
         document.getElementById('regpasserr').style.color = '#ff3f34';
         document.getElementById('password').style.borderColor = '#ff3f34';
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
-        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
-        document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Confirm Password connot be empty</span>';
+        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
+        document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
     }
 }
