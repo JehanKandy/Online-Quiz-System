@@ -6,6 +6,13 @@
         <i class="fas fa-user-plus"></i> Register Teacher
     </div>
     <div class="body">
+        <?php 
+            include("../function/function.php");
+            if(isset($_POST['register'])){
+                $result = reg_std($_POST['username'], $_POST['email'], md5($_POST['password']));
+                echo $result;
+            }
+        ?>
         <hr>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="regform" onsubmit="return validateform_reg()">
             <table border="0">
