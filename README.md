@@ -43,3 +43,4 @@ Online Quiz System
 1. DEVELOP
  - lib
  - - lib/function
+ - - - lib/function/config.php
