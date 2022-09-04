@@ -35,3 +35,8 @@ Online Quiz System
 2. UPDATE
  - css/style.css
  - lib/views/login.php
+
+
+<br><hr><br>
+
+<b>03 September 2022</b>
