@@ -39,8 +39,8 @@ function validateform_reg() {
     }
     var usern = document.forms["regform"]["cpassword"].value
     if (usern == "" || usern == null) {
-        document.getElementById('regpasserr').style.color = '#ff3f34';
-        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
+        document.getElementById('regcpasserr').style.color = '#ff3f34';
+        document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
         return false;
     }
