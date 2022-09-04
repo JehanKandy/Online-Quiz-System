@@ -6,6 +6,9 @@
         <i class="fas fa-user-plus"></i> Register Stundent
     </div>
     <div class="body">
+        <?php 
+            include("../function/function.php");
+        ?>
         <hr>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="regform" onsubmit="return validateform_reg()">
             <table border="0">
