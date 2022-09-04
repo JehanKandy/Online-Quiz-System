@@ -39,4 +39,4 @@ Online Quiz System
 
 <br><hr><br>
 
-<b>03 September 2022</b>
+<b>04 September 2022</b>
