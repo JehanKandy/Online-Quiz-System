@@ -10,8 +10,8 @@
         $check_user_result = mysqli_query($con, $check_user);
         $check_user_nor = mysqli_num_rows($check_user_result);
         
-        if(){
-            
+        if($check_user_nor > 0){
+
         }
     }
 ?>
