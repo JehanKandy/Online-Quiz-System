@@ -3,7 +3,7 @@
 
 <div class="reg-content">
     <div class="title">
-        <i class="fas fa-user-plus"></i> Register Here 
+        <i class="fas fa-user-plus"></i> Register Stundent
     </div>
     <div class="body">
         <hr>
