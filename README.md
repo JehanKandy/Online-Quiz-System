@@ -47,6 +47,7 @@ Online Quiz System
  - - - lib/function/function.php
  - - lib/views
  - - - lib/views/reg_teacher.php
+ - - lib/views
  
 2.UPDATE
  - lib/views/reg.php
