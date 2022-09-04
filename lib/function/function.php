@@ -11,7 +11,10 @@
         $check_user_nor = mysqli_num_rows($check_user_result);
         
         if($check_user_nor > 0){
-
+            return "<span style='color:red;'>User Already Exists</span>";
+        }else{
+            
         }
+
     }
 ?>
