@@ -52,4 +52,4 @@ Online Quiz System
  - lib/views/reg.php
  - js/script.js
  - rename reg.php to reg_std.php
- - lib/views/
+ - lib/views/login.php
