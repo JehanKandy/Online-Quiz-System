@@ -51,5 +51,6 @@ function validateform_reg() {
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
         document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
         document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
+        return false;
     }
 }
