@@ -26,6 +26,7 @@
         $check_user_result = mysqli_query($con, $check_user);
         $check_user_nor = mysqli_num_rows($check_user_result);
         
+        $_SESSION['teacherID'] = $username;
         if($check_user_nor > 0){
             return "<span style='color:red;'>Teacher Already Exists</span>";
         }else{
@@ -34,4 +35,11 @@
             header("location:../views/login.php");
         }
     }
+    
+    function user_id(){
+        $con = Connection();
+        $userid = strval($_SESSION['userId']);
+        echo $userid;
+    }
+
 ?>
