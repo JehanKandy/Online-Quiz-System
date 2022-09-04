@@ -37,11 +37,11 @@ function validateform_reg() {
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
-    var usern = document.forms["regform"]["password"].value
+    var usern = document.forms["regform"]["cpassword"].value
     if (usern == "" || usern == null) {
         document.getElementById('regpasserr').style.color = '#ff3f34';
         document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
-        document.getElementById('password').style.borderColor = '#ff3f34';
+        document.getElementById('cpassword').style.borderColor = '#ff3f34';
         return false;
     }
 }
