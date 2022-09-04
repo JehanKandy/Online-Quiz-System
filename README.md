@@ -47,3 +47,4 @@ Online Quiz System
  - - - lib/function/function.php
  
 2.UPDATE
+ - lib/views/reg.php
