@@ -42,4 +42,7 @@
         echo $userid;
     }
 
+    function user_login($username, $password){
+        $con = Connection();
+    }
 ?>
