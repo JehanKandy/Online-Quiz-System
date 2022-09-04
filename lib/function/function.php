@@ -3,7 +3,7 @@
     use FTP\Connection;
     session_start();
 
-    function reg_user(){
+    function reg_user($username,$email,$password){
         $con = Connection();
     }
 ?>
