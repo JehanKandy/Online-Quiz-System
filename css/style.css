@@ -97,6 +97,7 @@ font-family: 'Teko', sans-serif;
     border-radius: 2px;
     background-color: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .login-content .body form table .login-btn:hover {
@@ -145,6 +146,7 @@ font-family: 'Teko', sans-serif;
     border-radius: 2px;
     background-color: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .reg-content .body form table .reg-clear-btn:hover {
@@ -161,6 +163,29 @@ font-family: 'Teko', sans-serif;
     border-radius: 2px;
     background-color: none;
     transition: 0.5s;
+    cursor: pointer;
+}
+
+.reg-content .body form table .reg-btn:hover {
+    background-color: rgb(63, 63, 243);
+    color: white;
+}
+
+.waiting-content {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.waiting-title {
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.waiting-body {
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 
