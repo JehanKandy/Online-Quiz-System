@@ -48,3 +48,4 @@ Online Quiz System
  
 2.UPDATE
  - lib/views/reg.php
+ - js/script.js
