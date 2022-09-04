@@ -57,5 +57,9 @@ function validateform_reg() {
     let count_pass = pass;
     let pass_length = count_pass.length;
 
+    if (pass_length >= 6 && pass_length <= 20) {
+
+    }
+
 
 }
