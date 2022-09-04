@@ -44,5 +44,7 @@ function validateform_reg() {
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
         return false;
     }
-    if ()
+    if (pass != cpass){
+        
+    }
 }
