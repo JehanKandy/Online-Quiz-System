@@ -37,6 +37,13 @@ function validateform_reg() {
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
+    var passlength = pass.length;
+    if (passlength < 6) {
+        document.getElementById('upwd').style.color = '#ff3f34';
+        document.getElementById('upwd').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
+        document.getElementById('password').style.borderColor = '#ff3f34';
+        return false;
+    }
     var cpass = document.forms["regform"]["cpassword"].value
     if (cpass == "" || cpass == null) {
         document.getElementById('regcpasserr').style.color = '#ff3f34';
@@ -53,16 +60,4 @@ function validateform_reg() {
         document.getElementById('regcpasserr').innerHTML = '<span style="font-size:12px;">Password Does not Match</span>';
         return false;
     }
-
-    let count_pass = pass;
-    let pass_length = count_pass.length;
-
-    if (pass_length >= 6 && pass_length <= 20) {
-        document.getElementById('regpasserr').style.color = '#ff3f34';
-        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password must be at least 6 characters</span>';
-        document.getElementById('password').style.borderColor = '#ff3f34';
-        return false;
-    }
-
-
 }
