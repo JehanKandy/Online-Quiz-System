@@ -1,4 +1,8 @@
-<?php include("../layouts/header.php"); ?>
+<?php
+
+use LDAP\Result;
+
+ include("../layouts/header.php"); ?>
 <?php include("../layouts/nav_login.php");?>
 
 <div class="reg-content">
@@ -8,6 +12,10 @@
     <div class="body">
         <?php 
             include("../function/function.php");
+            if(isset($_POST['register'])){
+                $result = reg_std($_POST['username'], $_POST['email'], md5($_POST['password']));
+                echo $result;
+            }
         ?>
         <hr>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="regform" onsubmit="return validateform_reg()">
