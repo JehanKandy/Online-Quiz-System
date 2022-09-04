@@ -38,7 +38,7 @@
 
     function user_id(){
         $con = Connection();
-        $userid = strval($_SESSION['userId']);
+        $userid = strval($_SESSION['teacherID']);
         echo $userid;
     }
 
