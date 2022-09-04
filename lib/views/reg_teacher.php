@@ -58,7 +58,7 @@
         </form>
         <br>
         Already Have Account ? <a href="login.php">Login</a><br>
-        Teacher Register ? <a href="reg_teacher.php">Teacher</a>
+        Stundent SignUp ? <a href="reg_teacher.php">Student</a>
     </div>
 </div>
 
