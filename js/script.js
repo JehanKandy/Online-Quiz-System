@@ -59,7 +59,7 @@ function validateform_reg() {
 
     if (pass_length >= 6 && pass_length <= 20) {
         document.getElementById('regpasserr').style.color = '#ff3f34';
-        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password connot be empty</span>';
+        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password must be more the 6 </span>';
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
