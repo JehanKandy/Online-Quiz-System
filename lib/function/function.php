@@ -53,7 +53,7 @@
         if($user_check_nor > 0){
             
         }else{
-            return ""
+            return "<span style='color:red;'></span>"
         }
     }
 
