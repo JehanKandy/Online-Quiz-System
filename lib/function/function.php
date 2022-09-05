@@ -53,7 +53,7 @@
         if($user_check_nor > 0){
             
         }else{
-            return "<span style='color:red;'></span>"
+            return "<span style='color:red;'>Recodes Not Found...!</span>";
         }
     }
 
