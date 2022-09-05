@@ -47,6 +47,7 @@
     
         $user_check = "SELECT * FROM user_tbl WHERE username = '$username' && pass1 = '$password' && user_status = '1' && is_pending = '0'";
         $user_check_result = mysqli_query($con, $user_check);
+        $user_check_nor = mysqli_num_rows($user_check_result);
     }
 
     
