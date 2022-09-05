@@ -49,6 +49,12 @@
         $user_check_result = mysqli_query($con, $user_check);
         $user_check_nor = mysqli_num_rows($user_check_result);
         $user_check_row = mysqli_fetch_assoc($user_check_result);
+
+        if($user_check_nor > 0){
+            
+        }else{
+            return ""
+        }
     }
 
     
