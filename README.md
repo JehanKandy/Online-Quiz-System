@@ -56,3 +56,9 @@ Online Quiz System
  - rename reg.php to reg_std.php
  - lib/views/login.php
  - css/style.css
+
+
+
+<br><hr><br>
+
+<b>04 September 2022</b>
