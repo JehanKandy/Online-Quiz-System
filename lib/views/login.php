@@ -8,6 +8,12 @@
     </div>
     <div class="body">
         <hr>
+        <?php 
+            include("../function/function.php");
+            if(isset($_POST['login'])){
+                $result = user_login($_POST['username'], )
+            }
+        ?>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="loginform" onsubmit="return validateform()">
             <table border="0">
                 <tr>
