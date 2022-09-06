@@ -11,7 +11,8 @@
         <?php 
             include("../function/function.php");
             if(isset($_POST['login'])){
-                $result = user_login($_POST['username'], )
+                $result = user_login($_POST['username'], md5($_POST['password']));
+                echo $result;
             }
         ?>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="loginform" onsubmit="return validateform()">
