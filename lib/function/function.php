@@ -54,7 +54,7 @@
             if($user_check_row['roll'] == 'admin'){
                 setcookie('login',$user_check_row['email'],time()+60*60,'/');
                 $_SESSION['LoginSession'] = $user_check_row['email'];
-                header("location:lib/routes/admin.php");
+                header("location:../routes/admin.php");
             }
         }else{
             return "<span style='color:red;'>Recodes Not Found...!</span>";
