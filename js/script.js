@@ -39,8 +39,8 @@ function validateform_reg() {
     }
     var passlength = pass.length;
     if (passlength < 6) {
-        document.getElementById('upwd').style.color = '#ff3f34';
-        document.getElementById('upwd').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
+        document.getElementById('regpasserr').style.color = '#ff3f34';
+        document.getElementById('regpasserr').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
@@ -61,3 +61,22 @@ function validateform_reg() {
         return false;
     }
 }
+const allSideMenu = document.querySelectorAll('#sidebar .side-menu.top li a');
+
+allSideMenu.forEach(item => {
+    const li = item.parentElement;
+
+    item.addEventListener('click', function() {
+        allSideMenu.forEach(i => {
+            i.parentElement.classList.remove('active');
+        })
+        li.classList.add('active');
+    })
+});
+
+const menuBar = document.querySelector('#content nav .bx.bx-menu');
+const sidebar = document.getElementById('sidebar');
+
+menuBar.addEventListener('click', function() {
+    sidebar.classList.toggle('hide');
+})
