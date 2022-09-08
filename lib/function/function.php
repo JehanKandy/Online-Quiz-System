@@ -57,6 +57,7 @@
                 header("location:../routes/admin.php");
 
                 if(isset($_SESSION['LoginSession'])){
+                    $session_start = time();
                     
                 }
             }
