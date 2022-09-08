@@ -58,7 +58,7 @@
 
                 if(isset($_SESSION['LoginSession'])){
                     $session_start = time();
-                    $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username','$session_start)";
+                    $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username','$session_start')";
                     $session_time_result = mysqli_query($con, $session_time);
                 }
             }
