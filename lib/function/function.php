@@ -58,7 +58,7 @@
 
                 if(isset($_SESSION['LoginSession'])){
                     $session_start = time();
-                    
+                    $session_time = "INSERT INTO "
                 }
             }
         }else{
