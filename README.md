@@ -78,4 +78,4 @@ Online Quiz System
 <b>10 September 2022</b> 
 1. DEVELOP
 2. UPDATE
- - lib/function.php
+ - lib/function/function.php
