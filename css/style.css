@@ -200,6 +200,10 @@ font-family: 'Teko', sans-serif;
     transition: 0.5;
 }
 
+.logout-btn-nav:hover {
+    background-color: red;
+}
+
 
 /*
 
