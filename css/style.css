@@ -187,9 +187,11 @@ font-family: 'Teko', sans-serif;
     font-size: 20px;
     font-family: 'Roboto Flex', sans-serif;
 }
-logout-btn-nav{
-    
+
+logout-btn-nav {
+    width: 100%;
 }
+
 
 /*
 
