@@ -19,7 +19,7 @@
 			<p class="profile-name"><?php user_id_loged(); ?></p>
 			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="admin/users.php" class="menu-item"><i class="fas fa-user-alt"></i>Students</a>
-			<a href="admin/admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Teachers</a>
+			<a href="admin/admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Teachers &nbsp; <span class="pending">15</span></a>
 			<a href="admin/staff.php" class="menu-item"><i class="fas fa-user-tag"></i>Quizzes</a>
 			<a href="admin/vehicles.php" class="menu-item"><i class="fas fa-car-alt"></i>Admin</a>
 			<a href="admin/my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
