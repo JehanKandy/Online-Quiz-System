@@ -34,7 +34,7 @@
 			<div class="grid">
 				<div class="admin-item1">
 					<div class="admin-title">
-						<i class="fas fa-users"></i> &nbsp;  Users<br>
+						<i class="fas fa-users"></i> &nbsp;  Students<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
@@ -43,7 +43,7 @@
 				</div>
 				<div class="admin-item2">
 					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
+						<i class="fas fa-user-tie"></i> &nbsp;  Teachers<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
@@ -52,7 +52,7 @@
 				</div>
 				<div class="admin-item3">
 					<div class="admin-title">
-						<i class="fas fa-car-alt"></i> &nbsp;  Vehicles<br>
+						<i class="fas fa-car-alt"></i> &nbsp;  Admins<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
@@ -61,7 +61,7 @@
 				</div>
 				<div class="admin-item4">
 					<div class="admin-title">
-						<i class="fas fa-user-tag"></i> &nbsp;  Staff<br>
+						<i class="fas fa-user-tag"></i> &nbsp;  Quizzes<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
