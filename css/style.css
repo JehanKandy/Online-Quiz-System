@@ -197,6 +197,7 @@ font-family: 'Teko', sans-serif;
     color: red;
     background: none;
     border: 1px solid red;
+    transition: 0.5;
 }
 
 
