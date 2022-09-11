@@ -202,6 +202,7 @@ font-family: 'Teko', sans-serif;
 
 .logout-btn-nav:hover {
     background-color: red;
+    color: white;
 }
 
 
