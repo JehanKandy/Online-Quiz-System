@@ -83,5 +83,6 @@ Online Quiz System
  - - lib/routes
  - - - lib/routes/admin.php
  - - lib/layouts
+ - - - lib/layout/nav_loged.php
 2. UPDATE
  - lib/function/function.php
