@@ -90,7 +90,7 @@ Online Quiz System
 
 <br><hr><br>
 
-<b>06 September 2022</b> 
+<b>11 September 2022</b> 
 1. DEVELOP
 2. UPDATE
  - lib/views/login.php
