@@ -190,7 +190,8 @@ font-family: 'Teko', sans-serif;
 
 .logout-btn-nav {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
