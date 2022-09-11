@@ -17,7 +17,7 @@
     </ul>
     <span class="navbar-text">
         <span> <?php //user_id(); ?>&nbsp;&nbsp;&nbsp;&nbsp;</span>   
-        <a href="../views/logout.php"><button class="logout-btn-nav">  &nbsp;Logout</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../views/logout.php"><button class="logout-btn-nav"><i class="fas fa-sign-out-alt"></i> &nbsp;Logout</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
     </span>
   </div>
 </nav>
