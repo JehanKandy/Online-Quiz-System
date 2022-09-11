@@ -61,7 +61,7 @@
 				</div>
 				<div class="admin-item4">
 					<div class="admin-title">
-						<i class="fas fa-user-tag"></i> &nbsp;  Quizzes<br>
+						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
