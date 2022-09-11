@@ -194,8 +194,8 @@ font-family: 'Teko', sans-serif;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
-    background-color: none;
+    color: red;
+    background: none;
     border: 1px solid red;
 }
 
