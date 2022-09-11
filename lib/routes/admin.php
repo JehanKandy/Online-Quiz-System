@@ -43,7 +43,7 @@
 				</div>
 				<div class="admin-item2">
 					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Teachers<br>
+						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teachers<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
