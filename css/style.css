@@ -198,6 +198,7 @@ font-family: 'Teko', sans-serif;
     background: none;
     border: 1px solid red;
     transition: 0.5;
+    border-radius: 5px;
 }
 
 .logout-btn-nav:hover {
