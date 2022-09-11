@@ -52,7 +52,7 @@
 				</div>
 				<div class="admin-item3">
 					<div class="admin-title">
-						<i class="fas fa-car-alt"></i> &nbsp;  Admins<br>
+						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
