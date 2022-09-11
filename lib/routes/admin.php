@@ -34,7 +34,7 @@
 			<div class="grid">
 				<div class="admin-item1">
 					<div class="admin-title">
-						<i class="fas fa-users"></i> &nbsp;  Students<br>
+						<i class="fas fa-user-graduate"></i> &nbsp;  Students<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
