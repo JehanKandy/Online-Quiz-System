@@ -189,7 +189,8 @@
     height: 200px;
     border: none;
     border-radius: 5px;
-    background: -webkit-linear-gradient(right, #f09712, #eca436);
+    background: none;
+    border: 1px solid #f09712;
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
