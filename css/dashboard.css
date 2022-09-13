@@ -235,6 +235,15 @@
     font-size: 30px;
 }
 
+.last-user {
+    width: 100%;
+}
+
+.last-user thead {
+    background-color: black;
+    color: white;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
