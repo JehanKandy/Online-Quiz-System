@@ -160,6 +160,10 @@
     grid-template-areas: "a b c d" "e f g h";
 }
 
+.std-hr {
+    border-top: 1px solid rgb(29, 152, 235);
+}
+
 .admin-item1 {
     grid-area: a;
     height: 200px;
@@ -187,6 +191,10 @@
     font-size: 25px;
     color: #50be50;
     font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.tea-hr {
+    border-top: 1px solid #50be50;
 }
 
 .admin-item3 {
