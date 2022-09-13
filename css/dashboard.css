@@ -208,50 +208,6 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.admin-item5 {
-    grid-area: e;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: rgb(252, 76, 76);
-    font-size: 25px;
-    color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.admin-item6 {
-    grid-area: f;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: rgb(252, 76, 76);
-    font-size: 25px;
-    color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.admin-item7 {
-    grid-area: g;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: rgb(252, 76, 76);
-    font-size: 25px;
-    color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.admin-item8 {
-    grid-area: h;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    background: rgb(252, 76, 76);
-    font-size: 25px;
-    color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
 .admin-title {
     padding-top: 20px;
     padding-left: 30px;
