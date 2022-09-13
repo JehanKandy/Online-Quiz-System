@@ -172,6 +172,11 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+.admin-item1:hover {
+    background-color: rgb(29, 152, 235);
+    color: white;
+}
+
 .admin-item2 {
     grid-area: b;
     height: 200px;
