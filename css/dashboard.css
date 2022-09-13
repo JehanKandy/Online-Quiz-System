@@ -177,7 +177,8 @@
     height: 200px;
     border: none;
     border-radius: 5px;
-    background: #50be50;
+    background: none;
+    border: 1px solid #50be50;
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
