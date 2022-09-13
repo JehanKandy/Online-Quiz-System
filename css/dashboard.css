@@ -160,10 +160,6 @@
     grid-template-areas: "a b c d" "e f g h";
 }
 
-.std-hr {
-    border-top: 1px solid rgb(29, 152, 235);
-}
-
 .admin-item1 {
     grid-area: a;
     height: 200px;
@@ -174,6 +170,14 @@
     font-size: 25px;
     color: rgb(29, 152, 235);
     font-family: 'Bebas Neue', cursive;
+}
+
+.std-hr {
+    border-top: 1px solid rgb(29, 152, 235);
+}
+
+.std-hr:hover {
+    border-top: 1px solid white;
 }
 
 .admin-item1:hover {
