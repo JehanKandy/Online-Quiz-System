@@ -69,6 +69,13 @@
 					</div>
 				</div>
 			</div>
+			<table>
+				<thead>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Last active time</th>
+				</thead>
+			</table>
 		</div>
 	</main>
 </div>
