@@ -71,9 +71,11 @@
 			</div>
 			<table class="last-user">
 				<thead>
-					<th>Name</th>
-					<th>Email</th>
-					<th>Last active time</th>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Last active time</th>
+					</tr>
 				</thead>
 			</table>
 		</div>
