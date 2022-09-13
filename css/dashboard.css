@@ -225,6 +225,10 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+.qui-hr {
+    border-top: 1px solid #50be50;
+}
+
 .admin-title {
     padding-top: 20px;
     padding-left: 30px;
