@@ -96,3 +96,11 @@ Online Quiz System
  - lib/layout/nav_loged.php
  - css/style.css
  
+
+<br><hr><br>
+
+<b>11 September 2022</b> 
+1. DEVELOP
+2. UPDATE
+ - lib/layout/nav_loged.php
+ - css/style.css 
