@@ -63,7 +63,7 @@
 					<div class="admin-title">
 						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
 					</div>
-					<hr class="qui-hr" style="border-top:1px solid #50be50;">
+					<hr class="qui-hr">
 					<div class="admin-body">
 						15
 					</div>
