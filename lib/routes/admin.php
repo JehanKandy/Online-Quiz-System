@@ -15,8 +15,8 @@
 
 	<aside class="sidebar">
 		<nav class="menu">
-			<?php profile_img(); ?>		
-			<p class="profile-name"><?php user_id_loged(); ?></p>
+			<?php profile_img();?>
+			<p class="profile-name"><?php user_id_loged();?></p>
 			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="admin/users.php" class="menu-item"><i class="fas fa-user-alt"></i>Students</a>
 			<a href="admin/admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Teachers &nbsp; <span class="pending">15</span></a>
@@ -62,42 +62,6 @@
 				<div class="admin-item4">
 					<div class="admin-title">
 						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
-					</div>
-					<hr style="border:1px solid white;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item5">
-					<div class="admin-title">
-						<i class="fas fa-user-slash"></i> &nbsp;  Deactive Users<br>
-					</div>
-					<hr style="border:1px solid white;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item6">
-					<div class="admin-title">
-						<i class="fas fa-user-slash"></i> &nbsp;  Deactive Admins<br>
-					</div>
-					<hr style="border:1px solid white;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item7">
-					<div class="admin-title">
-						<i class="fas fa-car-crash"></i> &nbsp;  Deactive Vehicles<br>
-					</div>
-					<hr style="border:1px solid white;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item8">
-					<div class="admin-title">
-						<i class="fas fa-user-slash"></i> &nbsp; Deactive Staff<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
