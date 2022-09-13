@@ -61,22 +61,18 @@ function validateform_reg() {
         return false;
     }
 }
-const allSideMenu = document.querySelectorAll('#sidebar .side-menu.top li a');
+const menu_toggle = document.querySelector('.menu-toggle');
+const sidebar = document.querySelector('.sidebar');
 
-allSideMenu.forEach(item => {
-    const li = item.parentElement;
-
-    item.addEventListener('click', function() {
-        allSideMenu.forEach(i => {
-            i.parentElement.classList.remove('active');
-        })
-        li.classList.add('active');
-    })
+menu_toggle.addEventListener('click', () => {
+    menu_toggle.classList.toggle('is-active');
+    sidebar.classList.toggle('is-active');
 });
 
-const menuBar = document.querySelector('#content nav .bx.bx-menu');
-const sidebar = document.getElementById('sidebar');
+$(document).ready(function() {
+    $('#myTable').DataTable();
+});
 
-menuBar.addEventListener('click', function() {
-    sidebar.classList.toggle('hide');
-})
+function togglemenu() {
+    document.getElementById('sidebar').classList.toggle('active');
+}
