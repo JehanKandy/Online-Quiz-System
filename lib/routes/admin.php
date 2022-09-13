@@ -36,7 +36,7 @@
 					<div class="admin-title">
 						<i class="fas fa-user-graduate"></i> &nbsp;  Students<br>
 					</div>
-					<hr style="border:1px solid white;">
+					<hr style="border-top: 1px solid rgb(29, 152, 235);">
 					<div class="admin-body">
 						15
 					</div>
