@@ -209,6 +209,10 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+.admin-hr {
+    border-top: 1px solid #f09712;
+}
+
 .admin-item4 {
     grid-area: d;
     height: 200px;
