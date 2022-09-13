@@ -1,76 +1,330 @@
-<link rel="stylesheet" href="../../css/dashboard.css">
-<link rel="stylesheet" href="../../css/style.css">
-<?php include "../layouts/header.php";?>
-<?php include "../layouts/nav_loged.php";?>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
+.app {
+    display: flex;
+    min-height: 100vh;
+}
 
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 99px;
+    background-color: #464646;
+    cursor: pointer;
+}
 
+.hamburger {
+    position: relative;
+    top: calc(50% - 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+}
 
-<div class="app">
-	<div class="menu-toggle">
-		<div class="hamburger">
-			<span></span>
-		</div>
-	</div>
+.hamburger>span,
+.hamburger>span::before,
+.hamburger>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 99px;
+    background-color: #FFF;
+    transition-duration: .25s;
+}
 
-	<aside class="sidebar">
-		<nav class="menu">
-			<?php profile_img();?>
-			<p class="profile-name"><?php user_id_loged();?></p>
-			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-			<a href="admin/users.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
-			<a href="admin/admins.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>Teachers &nbsp; <span class="pending">15</span></a>
-			<a href="admin/staff.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
-			<a href="admin/vehicles.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
-			<a href="admin/my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
-		</nav>
+.hamburger>span::before {
+    content: '';
+    top: -8px;
+}
 
-	</aside>
+.hamburger>span::after {
+    content: '';
+    top: 8px;
+}
 
-	<main class="content">
-		<h1>Welcome, To Admin Dashboard</h1>
-		<hr>
-		<div class="admin-content">
-			<div class="grid">
-				<div class="admin-item1">
-					<div class="admin-title">
-						<i class="fas fa-user-graduate"></i> &nbsp;  Students<br>
-					</div>
-					<hr style="border-top: 1px solid rgb(29, 152, 235);">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item2">
-					<div class="admin-title">
-						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teachers<br>
-					</div>
-					<hr style="border-top:1px solid #50be50;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item3">
-					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
-					</div>
-					<hr style="border-top:1px solid #f09712;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item4">
-					<div class="admin-title">
-						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
-					</div>
-					<hr style="border-top:1px solid #50be50;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-</div>
+.menu-toggle.is-active .hamburger>span {
+    transform: rotate(45deg);
+}
 
-<script src="../../js/script.js"></script>
+.menu-toggle.is-active .hamburger>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+.menu-toggle.is-active .hamburger>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.sidebar {
+    flex: 1 1 0;
+    max-width: 300px;
+    padding: 2rem 1rem;
+    background-color: #313131;
+    border-top: 1px solid white;
+}
+
+.sidebar h3 {
+    color: #707793;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.sidebar .menu {
+    margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+    display: block;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-size: 20px;
+}
+
+.sidebar .menu i {
+    margin-right: 15px;
+}
+
+.sidebar .menu .menu-item:hover {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(31, 21, 165, 0.678), 0 3px 10px 0 rgba(31, 21, 165, 0.678);
+}
+
+.sidebar .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    align-items: center;
+}
+
+.sidebar .profile-name {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.admin-content {
+    z-index: -1;
+}
+
+.content {
+    flex: 1 1 0;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: #3C3F58;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: #707793;
+}
+
+.admin-content {
+    margin-top: 15px
+}
+
+.admin-content .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+}
+
+.std-hr {
+    border-top: 1px solid rgb(29, 152, 235);
+}
+
+.admin-item1 {
+    grid-area: a;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid rgb(29, 152, 235);
+    font-size: 25px;
+    color: rgb(29, 152, 235);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.admin-item1:hover {
+    background-color: rgb(29, 152, 235);
+    color: white;
+}
+
+.admin-item2 {
+    grid-area: b;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.admin-item3 {
+    grid-area: c;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #f09712;
+    font-size: 25px;
+    color: #f09712;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.admin-item4 {
+    grid-area: d;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.admin-title {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.admin-body {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .menu-toggle {
+        display: block;
+    }
+    .content {
+        padding-top: 8rem;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
+    }
+    .sidebar.is-active {
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .content {
+        padding-top: 8rem;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
+    }
+    .sidebar.is-active {
+        left: 0;
+    }
+    .admin-content .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
+    }
+    .admin-item1,
+    .admin-item2,
+    .admin-item3,
+    .admin-item4,
+    .admin-item5,
+    .admin-item6,
+    .admin-item7,
+    .admin-item8 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu-toggle {
+        display: block;
+    }
+    .content {
+        padding-top: 8rem;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
+    }
+    .sidebar.is-active {
+        left: 0;
+    }
+    .admin-content .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
+    }
+    .admin-item1,
+    .admin-item2,
+    .admin-item3,
+    .admin-item4,
+    .admin-item5,
+    .admin-item6,
+    .admin-item7,
+    .admin-item8 {
+        width: 300px;
+    }
+}
