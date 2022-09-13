@@ -69,7 +69,7 @@
 					</div>
 				</div>
 			</div>
-			<table>
+			<table class="last-user">
 				<thead>
 					<th>Name</th>
 					<th>Email</th>
