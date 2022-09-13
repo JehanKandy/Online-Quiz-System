@@ -45,7 +45,7 @@
 					<div class="admin-title">
 						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teachers<br>
 					</div>
-					<hr class="tea-hr" style="border-top:1px solid #50be50;">
+					<hr class="tea-hr">
 					<div class="admin-body">
 						15
 					</div>
@@ -54,7 +54,7 @@
 					<div class="admin-title">
 						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
 					</div>
-					<hr class="admin-hr" style="border-top:1px solid #f09712;">
+					<hr class="admin-hr">
 					<div class="admin-body">
 						15
 					</div>
