@@ -112,6 +112,7 @@ Online Quiz System
 1. DEVELOP
  - lib
  - - lib/layouts
+ - - - lib/layouts/home_footer.php
 2. UPDATE
 
 
