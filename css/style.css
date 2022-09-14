@@ -212,6 +212,11 @@ font-family: 'Teko', sans-serif;
     background-color: red;
 }
 
+.home-img {
+    background-image: url("../images/675928.png");
+    width: 100%;
+}
+
 
 /*
 
