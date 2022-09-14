@@ -316,7 +316,7 @@ font-family: 'Teko', sans-serif;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: minmax(350px, auto);
         grid-gap: 1rem;
-        grid-template-areas: "a b c d" "e f g h";
+        grid-template-areas: "a b" "c d" "e f" "g h";
         padding: 45 45 45 45;
     }
 }
