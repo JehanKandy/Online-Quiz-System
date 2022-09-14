@@ -106,5 +106,12 @@ Online Quiz System
  - css/dashboard.css
  - js/script.js
 
+<br><hr><br>
 
+<b>13 September 2022</b> 
+1. DEVELOP
+2. UPDATE
+ - lib/routes/admin.php
+ - css/dashboard.css
+ - js/script.js
 
