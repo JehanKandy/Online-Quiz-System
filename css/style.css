@@ -224,6 +224,7 @@ font-family: 'Teko', sans-serif;
     padding-top: 50px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    font-size: 30px;
 }
 
 .home-grid {
@@ -307,6 +308,16 @@ font-family: 'Teko', sans-serif;
     .login-content {
         margin-left: 120px;
         margin-right: 120px;
+    }
+    .home-grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b c d" "e f g h";
+        padding: 45 45 45 45;
     }
 }
 
