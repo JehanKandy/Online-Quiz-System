@@ -3,6 +3,9 @@
 <?php include("lib/layouts/nav.php"); ?>
 
 <div class="home-img"></div>
+<div class="home-title">
+    Quizzes in following Topics
+</div>
 <div class="home-grid">
     <div class="grid-item1">hi1</div>
     <div class="grid-item2">hi1</div>
