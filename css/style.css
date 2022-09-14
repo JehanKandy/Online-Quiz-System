@@ -228,7 +228,7 @@ font-family: 'Teko', sans-serif;
     grid-auto-rows: minmax(350px, auto);
     grid-gap: 1rem;
     grid-template-areas: "a b c d" "e f g h";
-    padding-top: 45px;
+    padding: 45 45 45 45;
 }
 
 
