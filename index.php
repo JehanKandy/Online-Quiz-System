@@ -4,7 +4,7 @@
 
 <div class="home-img"></div>
 <div class="home-title">
-    Quizzes in following Topics
+    Quizzes are in following Topics
 </div>
 <div class="home-grid">
     <div class="grid-item1"></div>
