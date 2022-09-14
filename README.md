@@ -108,7 +108,7 @@ Online Quiz System
 
 <br><hr><br>
 
-<b>13 September 2022</b> 
+<b>14 September 2022</b> 
 1. DEVELOP
 2. UPDATE
  - lib/routes/admin.php
