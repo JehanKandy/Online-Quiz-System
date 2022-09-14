@@ -7,14 +7,14 @@
     Quizzes in following Topics
 </div>
 <div class="home-grid">
-    <div class="grid-item1">hi1</div>
-    <div class="grid-item2">hi1</div>
-    <div class="grid-item3">hi1</div>
-    <div class="grid-item4">hi1</div>
-    <div class="grid-item5">hi1</div>
-    <div class="grid-item6">hi1</div>
-    <div class="grid-item7">hi1</div>
-    <div class="grid-item8">hi1</div>
+    <div class="grid-item1"></div>
+    <div class="grid-item2"></div>
+    <div class="grid-item3"></div>
+    <div class="grid-item4"></div>
+    <div class="grid-item5"></div>
+    <div class="grid-item6"></div>
+    <div class="grid-item7"></div>
+    <div class="grid-item8"></div>
 </div>
 
 
