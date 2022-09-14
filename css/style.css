@@ -282,6 +282,16 @@ font-family: 'Teko', sans-serif;
 
 .grid-item8 {
     background-image: url("../images/outside.jpg");
+}
+
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6,
+.grid-item7,
+.grid-item8 {
     background-position: center;
     background-size: cover;
     border-radius: 15px;
