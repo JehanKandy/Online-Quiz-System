@@ -231,6 +231,10 @@ font-family: 'Teko', sans-serif;
     padding: 45 45 45 45;
 }
 
+.grid-item1 {
+    background-image: url("../images/outside.jpg");
+}
+
 
 /*
 
