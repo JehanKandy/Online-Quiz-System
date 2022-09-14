@@ -115,5 +115,6 @@ Online Quiz System
  - - - lib/layouts/home_footer.php
 2. UPDATE
  - css/style.css
+ - index.php
 
 
