@@ -220,6 +220,10 @@ font-family: 'Teko', sans-serif;
     background-size: cover;
 }
 
+.home-title {
+    padding-top: 50px;
+}
+
 .home-grid {
     display: grid;
     width: 100%;
