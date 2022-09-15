@@ -240,6 +240,7 @@ font-family: 'Teko', sans-serif;
 
 .grid-item1 {
     background-image: url("../images/outside.jpg");
+    transition: 0.5s;
 }
 
 .grid-item2 {
@@ -268,6 +269,14 @@ font-family: 'Teko', sans-serif;
 
 .grid-item8 {
     background-image: url("../images/it.jpg");
+}
+
+.grid-item1:hover {
+    text-align: center;
+    padding-top: 40%;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 .grid-item1,
