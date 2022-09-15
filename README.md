@@ -119,9 +119,6 @@ Online Quiz System
 
 <b>15 September 2022</b> 
 1. DEVELOP
- - lib
- - - lib/layouts
- - - - lib/layouts/home_footer.php
 2. UPDATE
  - css/style.css
  - index.php
