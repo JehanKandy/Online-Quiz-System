@@ -266,9 +266,16 @@
 }
 
 .lastuser-tbl thead tr {
-    height: 50px;
-    border-radius: 0 10px 10px 0;
-    border: none;
+    background-color: rgb(0, 128, 202);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    height: 40px;
+}
+
+.lastuser-tbl th,
+td {
+    padding: 12px 15px;
 }
 
 @media only screen and (max-width: 1400px) {
