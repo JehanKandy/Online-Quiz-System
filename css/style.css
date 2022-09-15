@@ -363,6 +363,12 @@ font-family: 'Teko', sans-serif;
     border-radius: 15px;
 }
 
+.comment {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(243, 243, 243);
+}
+
 
 /*
 
