@@ -259,6 +259,10 @@
     color: white;
 }
 
+.lastuser-tbl thead tr {
+    height: 50px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
