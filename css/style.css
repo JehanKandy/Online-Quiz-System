@@ -284,6 +284,7 @@ font-family: 'Teko', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 35px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .grid-item2:hover {
