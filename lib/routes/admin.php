@@ -72,10 +72,15 @@
 			<div class="last-title">Last Access Users</div>
 			<table class="lastuser-tbl">
 				<thead>
-					<th>Name</th>
-					<th>Email</th>
-					<th>Access Time</th>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Access Time</th>
+					</tr>
 				</thead>
+				<tbody>
+					
+				</tbody>
 			</table>
 		</div>
 	</main>
