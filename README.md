@@ -123,3 +123,4 @@ Online Quiz System
 2. UPDATE
  - css/style.css
  - index.php
+ - css/dashboard.css
