@@ -245,6 +245,7 @@ font-family: 'Teko', sans-serif;
 
 .grid-item2 {
     background-image: url("../images/engine.jpg");
+    transition: 0.5s;
 }
 
 .grid-item3 {
