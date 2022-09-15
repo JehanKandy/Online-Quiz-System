@@ -14,7 +14,7 @@
     <div class="grid-item5">In Sports</div>
     <div class="grid-item6">In Pollution </div>
     <div class="grid-item7">In IQ</div>
-    <div class="grid-item8">IT</div>
+    <div class="grid-item8">In IT</div>
 </div>
 
 
