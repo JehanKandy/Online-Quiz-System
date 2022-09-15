@@ -123,4 +123,4 @@ Online Quiz System
  - css/style.css
  - index.php
  - css/dashboard.css
- - lib
+ - lib/routes
