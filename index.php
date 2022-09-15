@@ -9,7 +9,7 @@
 <div class="home-grid">
     <div class="grid-item1">In Environment</div>
     <div class="grid-item2">In Automobile </div>
-    <div class="grid-item3">Maths</div>
+    <div class="grid-item3">In Maths</div>
     <div class="grid-item4">Robotics</div>
     <div class="grid-item5">Sports</div>
     <div class="grid-item6">Pollution </div>
