@@ -367,6 +367,12 @@ font-family: 'Teko', sans-serif;
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+.comment .title {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 45px;
 }
 
 
