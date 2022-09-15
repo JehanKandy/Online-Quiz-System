@@ -13,8 +13,8 @@
     <div class="grid-item4">Robotics</div>
     <div class="grid-item5">Sports</div>
     <div class="grid-item6">Pollution </div>
-    <div class="grid-item7"></div>
-    <div class="grid-item8"></div>
+    <div class="grid-item7">IQ</div>
+    <div class="grid-item8">IT</div>
 </div>
 
 
