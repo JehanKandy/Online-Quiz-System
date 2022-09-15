@@ -250,26 +250,32 @@ font-family: 'Teko', sans-serif;
 
 .grid-item3 {
     background-image: url("../images/maths.jpg");
+    transition: 0.5s;
 }
 
 .grid-item4 {
     background-image: url("../images/robot.jpg");
+    transition: 0.5s;
 }
 
 .grid-item5 {
     background-image: url("../images/sport.jpg");
+    transition: 0.5s;
 }
 
 .grid-item6 {
     background-image: url("../images/poliution.jpg");
+    transition: 0.5s;
 }
 
 .grid-item7 {
     background-image: url("../images/mind.jpg");
+    transition: 0.5s;
 }
 
 .grid-item8 {
     background-image: url("../images/it.jpg");
+    transition: 0.5s;
 }
 
 .grid-item1:hover {
