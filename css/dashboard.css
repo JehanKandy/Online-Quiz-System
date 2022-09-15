@@ -254,6 +254,10 @@
     width: 100%;
 }
 
+.lastuser-tbl thead {
+    background-color: rgb(29, 152, 235);
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
