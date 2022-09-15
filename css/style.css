@@ -341,6 +341,15 @@ font-family: 'Teko', sans-serif;
     cursor: pointer;
 }
 
+.grid-item8:hover {
+    text-align: center;
+    padding-top: 40%;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
 .grid-item1,
 .grid-item2,
 .grid-item3,
