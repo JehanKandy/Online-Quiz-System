@@ -278,6 +278,10 @@ td {
     padding: 12px 15px;
 }
 
+.lastuser-tbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
