@@ -8,11 +8,11 @@
 </div>
 <div class="home-grid">
     <div class="grid-item1">Environment</div>
-    <div class="grid-item2"></div>
-    <div class="grid-item3"></div>
-    <div class="grid-item4"></div>
-    <div class="grid-item5"></div>
-    <div class="grid-item6"></div>
+    <div class="grid-item2">Automobile </div>
+    <div class="grid-item3">Maths</div>
+    <div class="grid-item4">Robotics</div>
+    <div class="grid-item5">Sports</div>
+    <div class="grid-item6">Pollution </div>
     <div class="grid-item7"></div>
     <div class="grid-item8"></div>
 </div>
