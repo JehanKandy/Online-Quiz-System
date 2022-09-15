@@ -11,7 +11,6 @@
     min-height: 100vh;
 }
 
-
 .menu-toggle {
     display: none;
     position: fixed;
@@ -244,6 +243,11 @@
     background-color: black;
     color: white;
     height: 40px;
+}
+
+.last-title {
+    padding-bottom: 20px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 1400px) {
