@@ -69,13 +69,12 @@
 					</div>
 				</div>
 			</div>
-			<table class="last-user">
+			<div class="last-title">Last Access Users</div>
+			<table class="lastuser-tbl">
 				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Last active time</th>
-					</tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Access Time</th>
 				</thead>
 			</table>
 		</div>
