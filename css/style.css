@@ -293,6 +293,7 @@ font-family: 'Teko', sans-serif;
     color: white;
     font-size: 35px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .grid-item3:hover {
@@ -301,6 +302,7 @@ font-family: 'Teko', sans-serif;
     color: white;
     font-size: 35px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .grid-item4:hover {
@@ -309,6 +311,16 @@ font-family: 'Teko', sans-serif;
     color: white;
     font-size: 35px;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+.grid-item5:hover {
+    text-align: center;
+    padding-top: 40%;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 .grid-item1,
