@@ -12,7 +12,7 @@
     <div class="grid-item3">In Maths</div>
     <div class="grid-item4">In Robotics</div>
     <div class="grid-item5">In Sports</div>
-    <div class="grid-item6">Pollution </div>
+    <div class="grid-item6">In Pollution </div>
     <div class="grid-item7">IQ</div>
     <div class="grid-item8">IT</div>
 </div>
