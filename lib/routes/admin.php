@@ -97,9 +97,11 @@
 				</tbody>
 			</table>
 			<div class="user-active">
-				<div class="title-active">User Participation</div>
-				<div class="circle">
-					50%
+				<div class="persentage-grid">
+					<div class="title-active">User Participation</div>				
+					<div class="circle">
+						50%
+					</div>
 				</div>
 			</div>
 		</div>
