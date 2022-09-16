@@ -292,9 +292,17 @@ td {
     width: 100%;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(350px, auto);
+    grid-auto-rows: minmax(100%, auto);
     grid-gap: 1rem;
     grid-template-areas: "a b c";
+}
+
+.comment1 {
+    width: 100%;
+    height: 100%;
+    background-color: #50be50;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
