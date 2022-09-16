@@ -300,6 +300,22 @@ td {
     grid-template-areas: "a b c d";
 }
 
+.item1 {
+    text-align: center;
+}
+
+.item2 {
+    text-align: center;
+}
+
+.item3 {
+    text-align: center;
+}
+
+.item4 {
+    text-align: center;
+}
+
 .user-active .circle {
     margin-top: 20px;
     width: 250px;
