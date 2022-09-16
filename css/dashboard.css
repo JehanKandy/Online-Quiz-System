@@ -282,6 +282,17 @@ td {
     border-bottom: 1px solid #dddddd;
 }
 
+.admin-comment-grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
+    padding: 45 45 45 45;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
