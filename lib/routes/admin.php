@@ -111,7 +111,7 @@
 						</div>
 					</div>
 					<div class="item3">
-						<div class="title-active">Student Participation</div>				
+						<div class="title-active">Teacher Participation</div>				
 						<div class="circle">
 							50%
 						</div>
