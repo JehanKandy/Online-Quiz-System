@@ -117,7 +117,7 @@
 						</div>
 					</div>
 					<div class="item4">
-						<div class="title-active">Student Participation</div>				
+						<div class="title-active">Student Join</div>				
 						<div class="circle">
 							50%
 						</div>
