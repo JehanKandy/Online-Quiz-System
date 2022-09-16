@@ -301,8 +301,8 @@ td {
     width: 100%;
     height: 100%;
     background-color: #50be50;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 @media only screen and (max-width: 1400px) {
