@@ -433,4 +433,14 @@ td {
     .admin-item8 {
         width: 300px;
     }
+    .admin-comment-grid {
+        display: grid;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100%, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
 }
