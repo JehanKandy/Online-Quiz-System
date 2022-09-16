@@ -98,9 +98,23 @@
 			</table>
 			<div class="user-active">
 				<div class="persentage-grid">
-					<div class="title-active">User Participation</div>				
-					<div class="circle">
-						50%
+					<div class="item1">
+						<div class="title-active">User Participation</div>				
+						<div class="circle">
+							50%
+						</div>
+					</div>
+					<div class="item2">
+						<div class="title-active">User Participation</div>				
+						<div class="circle">
+							50%
+						</div>
+					</div>
+					<div class="item3">
+						<div class="title-active">User Participation</div>				
+						<div class="circle">
+							50%
+						</div>
 					</div>
 				</div>
 			</div>
