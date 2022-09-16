@@ -330,6 +330,10 @@ td {
     font-size: 13px;
 }
 
+.commet-body {
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
