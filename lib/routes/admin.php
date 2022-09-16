@@ -97,6 +97,7 @@
 				</tbody>
 			</table>
 			<div class="admin-comment">
+				<div class="title">User Comments</div>
 				<div class="admin-comment-grid">
 					<div class="comment1"></div>
 					<div class="comment2"></div>
