@@ -96,18 +96,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="user-active">
-				<div class="persentage-grid">
-					<div class="item1">
-					</div>
-					<div class="item2">
-					</div>
-					<div class="item3">
-					</div>
-					<div class="item4">
-					</div>
-				</div>
-			</div>
+
 		</div>
 	</main>
 </div>
