@@ -96,7 +96,13 @@
 					</tr>
 				</tbody>
 			</table>
-
+			<div class="admin-comment">
+				<div class="admin-comment-grid">
+					<div class="comment1"></div>
+					<div class="comment2"></div>
+					<div class="comment3"></div>
+				</div>
+			</div>
 		</div>
 	</main>
 </div>
