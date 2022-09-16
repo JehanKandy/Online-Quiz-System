@@ -292,9 +292,12 @@ td {
 
 .user-active .circle {
     margin-top: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #50be50;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 90px;
 }
 
 @media only screen and (max-width: 1400px) {
