@@ -455,11 +455,20 @@ td {
     .admin-comment-grid {
         display: grid;
         margin-top: 25px;
-        width: 100%;
+        width: 50%;
         height: auto;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(40px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c";
+    }
+    .lastuser-tbl {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 70%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     }
 }
