@@ -99,19 +99,25 @@
 			<div class="user-active">
 				<div class="persentage-grid">
 					<div class="item1">
-						<div class="title-active">User Participation</div>				
+						<div class="title-active">Student Participation</div>				
 						<div class="circle">
 							50%
 						</div>
 					</div>
 					<div class="item2">
-						<div class="title-active">User Participation</div>				
+						<div class="title-active">Quizzes Adding</div>				
 						<div class="circle">
 							50%
 						</div>
 					</div>
 					<div class="item3">
-						<div class="title-active">User Participation</div>				
+						<div class="title-active">Student Participation</div>				
+						<div class="circle">
+							50%
+						</div>
+					</div>
+					<div class="item4">
+						<div class="title-active">Student Participation</div>				
 						<div class="circle">
 							50%
 						</div>
