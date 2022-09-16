@@ -289,8 +289,15 @@ td {
 .user-active .title-active {
     font-size: 25px;
 }
-.persentage-grid{
-    
+
+.persentage-grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d";
 }
 
 .user-active .circle {
