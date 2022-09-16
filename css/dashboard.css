@@ -300,9 +300,10 @@ td {
 .comment1 {
     width: 100%;
     height: 100%;
-    background-color: #50be50;
+    background: none;
     padding-top: 15px;
     padding-bottom: 25px;
+    padding-left: 25px;
 }
 
 @media only screen and (max-width: 1400px) {
