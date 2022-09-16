@@ -152,7 +152,7 @@
 
 .admin-content .grid {
     display: grid;
-    width: 100%;
+    min-width: 100%;
     height: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -376,9 +376,9 @@ td {
     }
     .admin-content .grid {
         display: grid;
-        width: 100%;
+        min-width: 80%;
         height: auto;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: minmax(50px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a b" "c d" "e f" "g h";
@@ -396,12 +396,21 @@ td {
     .admin-comment-grid {
         display: grid;
         margin-top: 25px;
-        width: 80%;
+        width: 100%;
         height: auto;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(100px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c";
+    }
+    .lastuser-tbl {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 100%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     }
 }
 
