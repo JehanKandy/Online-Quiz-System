@@ -286,6 +286,10 @@ td {
     padding-top: 25px;
 }
 
+.admin-comment .title {
+    font-size: 30px;
+}
+
 .admin-comment-grid {
     display: grid;
     width: 100%;
