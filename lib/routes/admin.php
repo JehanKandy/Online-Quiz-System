@@ -99,7 +99,10 @@
 			<div class="admin-comment">
 				<div class="title">User Comments</div>
 				<div class="admin-comment-grid">
-					<div class="comment1"></div>
+					<div class="comment1">
+						<div class="usern">JehanKandy</div>
+						<div class="user-roll">Admin</div>
+					</div>
 					<div class="comment2"></div>
 					<div class="comment3"></div>
 				</div>
