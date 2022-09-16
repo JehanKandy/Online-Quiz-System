@@ -326,6 +326,10 @@ td {
     font-weight: bold;
 }
 
+.user-roll {
+    font-size: 10px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
