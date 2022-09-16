@@ -289,6 +289,9 @@ td {
 .user-active .title-active {
     font-size: 25px;
 }
+.persentage-grid{
+    
+}
 
 .user-active .circle {
     margin-top: 20px;
@@ -301,6 +304,7 @@ td {
     font-size: 50px;
     color: white;
     border: 1px solid #50be50;
+    background-size: 50%;
 }
 
 @media only screen and (max-width: 1400px) {
