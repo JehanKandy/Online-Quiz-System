@@ -555,6 +555,18 @@ td {
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c";
     }
+    .student-tbl {
+        min-width: 700px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 375px) {
