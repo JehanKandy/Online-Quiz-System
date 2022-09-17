@@ -433,6 +433,7 @@ font-family: 'Teko', sans-serif;
 
 .scorller {
     max-height: 120px;
+    display: flex;
 }
 
 .scroll-img .scorller .item1,
