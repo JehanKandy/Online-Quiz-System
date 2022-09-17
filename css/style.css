@@ -421,7 +421,11 @@ font-family: 'Teko', sans-serif;
 }
 
 .scroll-img {
-    padding-top: 50px;
+    padding: 50px;
+}
+
+.scroll-img .title {
+    text-align: center;
 }
 
 
