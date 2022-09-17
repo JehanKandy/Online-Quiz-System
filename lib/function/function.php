@@ -54,19 +54,19 @@
             if($user_check_row['roll'] == 'admin'){
                 setcookie('login',$user_check_row['email'],time()+60*60,'/');
                 $_SESSION['LoginSession'] = $user_check_row['email'];
-                header("location:../routes/admin.php");
+                header("location:../routes/admin.php");                
             }
             if($user_check_row['roll'] == 'teacher'){
                 setcookie('login',$user_check_row['email'],time()+60*60,'/');
                 $_SESSION['LoginSession'] = $user_check_row['email'];
                 header("location:../routes/teacher.php");
             }
-
             if(isset($_SESSION['LoginSession'])){
                 $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username',NOW())";
-                $session_time_result = mysqli_query($con, $session_time);
-            }            
-        }else{
+                $session_time_result = mysqli_query($con, $session_time);                 
+            }
+        }         
+        if($user_check_nor == 0){
             return "<span style='color:red;'>Recodes Not Found...!</span>";
         }
     }
