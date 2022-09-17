@@ -52,32 +52,43 @@
 				</div>
 			</div>
 			<div class="last-title">Last Access Users</div>
-			<table class="student-tbl">
-				<thead>
-					<tr>
-						<th>Username</th>
-						<th>Status</th>
-						<th>Infor</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Jehankandy</td>
-						<td><span class="active">Active</span></td>
-						<td><button>Infor</button></td>
-					</tr>
-					<tr>
-						<td>Jehankandy</td>
-						<td><span class="active">Active</span></td>
-						<td><button>Infor</button></td>
-					</tr>
-					<tr>
-						<td>Jehankandy</td>
-						<td><span class="deactive">Dective</span></td>
-						<td><button>Infor</button></td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="tbl-scorll">
+				<table class="student-tbl">
+					<thead>
+						<tr>
+							<th>Email</th>
+							<th>Username</th>
+							<td>Mobile</td>
+							<td>country</td>
+							<th>Status</th>
+							<th>Infor</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>jehna@123</td>
+							<td>Jehankandy</td>
+							<td>+94 711758851</td>
+							<td><span class="active">Active</span></td>
+							<td><button class="infor-btn">Infor</button></td>
+						</tr>
+						<tr>
+							<td>jehna@123</td>
+							<td>Jehankandy</td>
+							<td>+94 711758851</td>
+							<td><span class="active">Active</span></td>
+							<td><button class="infor-btn">Infor</button></td>
+						</tr>
+						<tr>
+							<td>jehna@123</td>
+							<td>Jehankandy</td>
+							<td>+94 711758851</td>
+							<td><span class="deactive">Dective</span></td>
+							<td><button class="infor-btn">Infor</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</main>
 </div>
