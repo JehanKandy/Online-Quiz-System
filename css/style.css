@@ -443,11 +443,14 @@ font-family: 'Teko', sans-serif;
 .item6,
 .item7,
 .item8 {
-    background-image: url("../images/logo1.png");
     width: 200px;
     height: 200px;
     background-position: center;
     background-size: cover;
+}
+
+.scroll-img .scorller .item1 {
+    background-image: url("../images/logo1.png");
 }
 
 
