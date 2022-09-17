@@ -451,6 +451,30 @@ font-family: 'Teko', sans-serif;
     background-size: cover;
 }
 
+.partner-grid .p-item1 {
+    background-image: url("../images/logo1.png");
+}
+
+.partner-grid .p-item2 {
+    background-image: url("../images/logo3.png");
+}
+
+.partner-grid .p-item3 {
+    background-image: url("../images/logo4.png");
+}
+
+.partner-grid .p-item4 {
+    background-image: url("../images/logo5.png");
+}
+
+.partner-grid .p-item5 {
+    background-image: url("../images/logo6.png");
+}
+
+.partner-grid .p-item6 {
+    background-image: url("../images/logo7.png");
+}
+
 
 /*
 
