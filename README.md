@@ -149,6 +149,7 @@ Online Quiz System
  - - - - lib/routes/admin/teachers.php
  - - - - lib/routes/admin/admins.php
  - - - lib/routes/teacher.php
+ - - - lib/routes/teacher
 2. UPDATE
  - index.php
  - css/style.css
