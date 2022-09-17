@@ -40,18 +40,9 @@
 						15
 					</div>
 				</div>
-				<div class="admin-item2">
-					<div class="admin-title">
-						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teachers<br>
-					</div>
-					<hr class="tea-hr">
-					<div class="admin-body">
-						15
-					</div>
-				</div>				
 				</div>
 			</div>
-			<div class="last-title">Last Access Users</div>
+			<div class="last-title">All Students</div>
 			<div class="tbl-scorll">
 				<table class="student-tbl">
 					<thead>
