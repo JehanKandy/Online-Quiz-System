@@ -421,7 +421,9 @@ font-family: 'Teko', sans-serif;
 }
 
 .partner {
-    padding: 50px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .partner .title {
@@ -436,7 +438,6 @@ font-family: 'Teko', sans-serif;
     grid-auto-rows: minmax(350px, auto);
     grid-gap: 1rem;
     grid-template-areas: "a b c d e f";
-    padding: 45 45 45 45;
 }
 
 .partner-grid .p-item1,
