@@ -47,5 +47,5 @@
     </div>
 </div>
 
-
+<script src="js/script.js"></script>
 <?php include "lib/layouts/home_footer.php";?>
