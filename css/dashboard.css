@@ -451,6 +451,13 @@ td {
     border-radius: 5px;
 }
 
+.pending-tea {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .infor-btn {
     width: 50%;
     border: 1px solid rgb(29, 152, 235);
