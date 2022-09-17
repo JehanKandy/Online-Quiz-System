@@ -438,6 +438,9 @@ td {
     padding: 5px;
     border-radius: 5px;
 }
+.infor-btn{
+    
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
