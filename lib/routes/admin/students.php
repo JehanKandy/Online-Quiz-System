@@ -27,7 +27,7 @@
 	</aside>
 
 	<main class="content">
-		<h1>Welcome, To Admin Dashboard</h1>
+		<h1>Student Management</h1>
 		<hr>
 		<div class="admin-content">
 			<div class="grid">
@@ -48,24 +48,7 @@
 					<div class="admin-body">
 						15
 					</div>
-				</div>
-				<div class="admin-item3">
-					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
-					</div>
-					<hr class="admin-hr">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-				<div class="admin-item4">
-					<div class="admin-title">
-						<i class="fas fa-question-circle"></i> &nbsp;  Quizzes<br>
-					</div>
-					<hr class="qui-hr">
-					<div class="admin-body">
-						15
-					</div>
+				</div>				
 				</div>
 			</div>
 			<div class="last-title">Last Access Users</div>
@@ -95,58 +78,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="admin-comment">
-				<div class="title">User Comments</div>
-				<div class="admin-comment-grid">
-					<div class="comment1">
-						<div class="usern">JehanKandy</div>
-						<div class="user-roll">Admin</div>
-						<div class="commet-body">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
-						</div>
-					</div>
-					<div class="comment2">
-						<div class="usern">JehanKandy</div>
-						<div class="user-roll">Admin</div>
-						<div class="commet-body">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
-						</div>
-					</div>
-					<div class="comment3">
-						<div class="usern">JehanKandy</div>
-						<div class="user-roll">Admin</div>
-						<div class="commet-body">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="admin-msg">
-				<div class="title">Messages From Users</div>
-				<div class="msg-grid">
-					<div class="msg-item1">											
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-					<div class="msg-item2">
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-					<div class="msg-item3">
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</main>
 </div>
