@@ -3,7 +3,11 @@
 <?php include "../../layouts/header.php";?>
 <?php include "../../layouts/nav_loged_user.php";?>
 
-
+<?php 
+	if(empty($_SESSION['LoginSession'])){
+		header("location:../../views/login.php");
+	}
+?>
 
 <div class="app">
 	<div class="menu-toggle">
@@ -19,10 +23,11 @@
 			<a href="../admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
 			<a href="teachers.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>Teachers &nbsp; <span class="pending">15</span></a>
-			<a href="staff.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
-			<a href="vehicles.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
+			<a href="quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
+			<a href="admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
 			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
+
 	</aside>
 
 	<main class="content">
@@ -77,7 +82,7 @@
 							<td>Jehankandy</td>
 							<td>+94 711758851</td>
 							<td>Sri Lanka</td>
-							<td><span class="active">Active</span></td>
+							<td><span class="pending-tea">Pending</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
 						<tr>
