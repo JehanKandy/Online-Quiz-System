@@ -65,6 +65,45 @@
             return "<span style='color:red;'>Recodes Not Found...!</span>";
         }
     }
+    function user_id_loged(){
+        $con = Connection();
 
+        $email = strval($_SESSION['LoginSession']);
+
+        $user_id_get = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $user_id_get_result = mysqli_query($con, $user_id_get);
+
+        $user_id_row = mysqli_fetch_assoc($user_id_get_result);
+
+        echo ($user_id_row['username']);
+                
+    }
+
+
+    function profile_img(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
+        $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
+
+        echo "
+            <img src='../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+        ";
+    }
     
+    
+    function profile_img_user(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
+        $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
+
+        echo "
+            <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+        ";
+    }
 ?>
