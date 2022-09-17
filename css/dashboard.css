@@ -453,6 +453,7 @@ td {
 .infor-btn:hover {
     background-color: rgb(29, 152, 235);
     color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
