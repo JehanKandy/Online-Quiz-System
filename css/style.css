@@ -59,8 +59,8 @@ font-family: 'Teko', sans-serif;
 .login-content {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 680px;
-    margin-right: 680px;
+    margin-left: 600px;
+    margin-right: 600px;
     border: 1px solid rgb(214, 214, 214);
     border-radius: 5px;
     padding-top: 50px;
@@ -108,8 +108,8 @@ font-family: 'Teko', sans-serif;
 .reg-content {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 680px;
-    margin-right: 680px;
+    margin-left: 600px;
+    margin-right: 600px;
     border: 1px solid rgb(214, 214, 214);
     border-radius: 5px;
     padding-top: 50px;
@@ -483,10 +483,18 @@ font-family: 'Teko', sans-serif;
 
 */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
     .login-content {
         margin-left: 440px;
         margin-right: 440px;
+    }
+    .partner-grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b c" "d e f";
     }
 }
 
@@ -522,7 +530,6 @@ font-family: 'Teko', sans-serif;
         padding: 45 45 45 45;
     }
     .partner-grid {
-        padding-left: 50px;
         padding-left: 40px;
         display: grid;
         width: 100%;
