@@ -386,6 +386,19 @@ font-family: 'Teko', sans-serif;
     padding: 45 45 45 45;
 }
 
+.comment1,
+.comment2,
+.comment3 {
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
 .comment1 {
     border: 1px solid rgb(29, 152, 235);
 }
