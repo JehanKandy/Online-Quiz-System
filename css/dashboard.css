@@ -662,4 +662,7 @@ td {
     .lastuser-tbl {
         min-width: 300px;
     }
+    .lastuser-tbl thead {
+        display: none;
+    }
 }
