@@ -47,17 +47,15 @@
         </div>
     </div>
 </div>
-<div class="scroll-img">
+<div class="partner">
     <div class="title">PARTNERSHIP</div>
-    <div class="scorller">
-        <div class="item1"></div>
-        <div class="item2"></div>
-        <div class="item3"></div>
-        <div class="item4"></div>
-        <div class="item5"></div>
-        <div class="item6"></div>
-        <div class="item7"></div>
-        <div class="item8"></div>
+    <div class="partner-grid">
+        <div class="p-item1"></div>
+        <div class="p-item2"></div>
+        <div class="p-item3"></div>
+        <div class="p-item4"></div>
+        <div class="p-item5"></div>
+        <div class="p-item6"></div>
     </div>
 </div>
 
