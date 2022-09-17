@@ -422,12 +422,32 @@ font-family: 'Teko', sans-serif;
 
 .scroll-img {
     padding: 50px;
+    padding-bottom: 150px;
 }
 
 .scroll-img .title {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
+}
+
+.scorller {
+    max-height: 120px;
+}
+
+.scroll-img .scorller .item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
+    background-image: url("../images/logo1.png");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
 }
 
 
