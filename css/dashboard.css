@@ -665,4 +665,10 @@ td {
     .lastuser-tbl thead {
         display: none;
     }
+    .lastuser-tbl,
+    .lastuser-tbl tbody .lastuser-tbl tbody tr,
+    .lastuser-tbl tbody td {
+        display: block;
+        width: 300px;
+    }
 }
