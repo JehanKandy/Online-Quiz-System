@@ -52,29 +52,29 @@
 				</div>
 			</div>
 			<div class="last-title">Last Access Users</div>
-			<table class="lastuser-tbl">
+			<table class="student-tbl">
 				<thead>
 					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Access Time</th>
+						<th>Username</th>
+						<th>Status</th>
+						<th>Infor</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
+						<td><span class="active">Active</span></td>
+						<td><button>Infor</button></td>
 					</tr>
 					<tr>
 						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
+						<td><span class="active">Active</span></td>
+						<td><button>Infor</button></td>
 					</tr>
 					<tr>
 						<td>Jehankandy</td>
-						<td>jehan@123123123</td>
-						<td>2022/05/22 10:13:45</td>
+						<td><span class="deactive">Dective</span></td>
+						<td><button>Infor</button></td>
 					</tr>
 				</tbody>
 			</table>
