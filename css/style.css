@@ -367,13 +367,24 @@ font-family: 'Teko', sans-serif;
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: rgb(243, 243, 243);
-    text-align: center;
 }
 
 .comment .title {
     font-family: 'Roboto Flex', sans-serif;
     font-size: 45px;
     padding-bottom: 15px;
+    text-align: center;
+}
+
+.comment-grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c";
+    padding: 45 45 45 45;
 }
 
 
