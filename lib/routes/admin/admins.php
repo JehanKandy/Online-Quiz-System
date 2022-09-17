@@ -42,7 +42,7 @@
 				</div>
 				</div>
 			</div>
-			<div class="last-title">All Teachers</div>
+			<div class="last-title">All Admins</div>
 			<div class="tbl-scorll">
 				<table class="student-tbl">
 					<thead>
