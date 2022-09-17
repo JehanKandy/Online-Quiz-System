@@ -439,7 +439,12 @@ font-family: 'Teko', sans-serif;
     padding: 45 45 45 45;
 }
 
-.partner-grid .p-item1 {
+.partner-grid .p-item1,
+.p-item2,
+.p-item3,
+.p-item4,
+.p-item5,
+.p-item6 {
     background-image: url("../images/logo1.png");
     width: 100%;
     height: 100%;
