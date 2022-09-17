@@ -33,7 +33,7 @@
 			<div class="grid">
 				<div class="admin-item1">
 					<div class="admin-title">
-						<i class="fas fa-user-graduate"></i> &nbsp;  Teacher<br>
+						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Teacher<br>
 					</div>
 					<hr class="std-hr">
 					<div class="admin-body">
@@ -42,7 +42,7 @@
 				</div>
 				<div class="admin-item2">
 					<div class="admin-title">
-						<i class="fas fa-chalkboard-teacher"></i> &nbsp;  Pending Teachers<br>
+						<i class="fas fa-user-clock"></i> &nbsp;  Pending Teachers<br>
 					</div>
 					<hr class="tea-hr">
 					<div class="admin-body">
