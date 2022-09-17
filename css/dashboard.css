@@ -446,6 +446,7 @@ td {
     height: 30px;
     border-radius: 5px;
     background: none;
+    color: rgb(29, 152, 235);
 }
 
 @media only screen and (max-width: 1400px) {
