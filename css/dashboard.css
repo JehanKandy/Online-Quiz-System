@@ -413,7 +413,7 @@ td {
     color: white;
     text-align: left;
     font-weight: bold;
-    height: 40px;
+    height: 50px;
 }
 
 .student-tbl th,
@@ -423,6 +423,7 @@ td {
 
 .student-tbl tbody tr {
     border-bottom: 1px solid #dddddd;
+    height: 55px;
 }
 
 .active {
@@ -438,8 +439,10 @@ td {
     padding: 5px;
     border-radius: 5px;
 }
-.infor-btn{
-    
+
+.infor-btn {
+    width: 50%;
+    border: 1px solid rgb(29, 152, 235);
 }
 
 @media only screen and (max-width: 1400px) {
