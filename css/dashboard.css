@@ -432,6 +432,13 @@ td {
     border-radius: 5px;
 }
 
+.deactive {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
