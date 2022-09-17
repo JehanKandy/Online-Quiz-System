@@ -59,7 +59,7 @@
 							<th>Email</th>
 							<th>Username</th>
 							<td>Mobile</td>
-							<td>country</td>
+							<td>Country</td>
 							<th>Status</th>
 							<th>Infor</th>
 						</tr>
@@ -69,6 +69,7 @@
 							<td>jehna@123</td>
 							<td>Jehankandy</td>
 							<td>+94 711758851</td>
+							<td>Sri Lanka</td>
 							<td><span class="active">Active</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
@@ -76,6 +77,7 @@
 							<td>jehna@123</td>
 							<td>Jehankandy</td>
 							<td>+94 711758851</td>
+							<td>Sri Lanka</td>
 							<td><span class="active">Active</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
@@ -83,6 +85,7 @@
 							<td>jehna@123</td>
 							<td>Jehankandy</td>
 							<td>+94 711758851</td>
+							<td>Sri Lanka</td>
 							<td><span class="deactive">Dective</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
