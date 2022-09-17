@@ -69,7 +69,7 @@
 							<td>Jehankandy</td>
 							<td>+94 711758851</td>
 							<td>Sri Lanka</td>
-							<td><span class="pending-tea">Pending</span></td>
+							<td><span class="active">Active</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
 						<tr>
