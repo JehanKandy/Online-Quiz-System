@@ -428,6 +428,8 @@ td {
 .active {
     background-color: #50be50;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
