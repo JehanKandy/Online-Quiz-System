@@ -16,7 +16,36 @@
     <div class="grid-item7">In IQ</div>
     <div class="grid-item8">In IT</div>
 </div>
-
+<div class="comment">
+    <div class="title">
+        Comments from users
+    </div>
+    <div class="body">
+        <div class="comment-grid">
+            <div class="comment1">
+                <div class="usern">JehanKandy</div>
+                <div class="user-roll">Admin</div>
+                <div class="comment-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+            <div class="comment2">
+                <div class="usern">JehanKandy</div>
+                <div class="user-roll">Admin</div>
+                <div class="comment-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+            <div class="comment3">
+                <div class="usern">JehanKandy</div>
+                <div class="user-roll">Admin</div>
+                <div class="comment-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php include "lib/layouts/home_footer.php";?>
