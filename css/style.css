@@ -429,6 +429,16 @@ font-family: 'Teko', sans-serif;
     font-size: 40px;
 }
 
+.partner-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d e f";
+    padding: 45 45 45 45;
+}
+
 
 /*
 
