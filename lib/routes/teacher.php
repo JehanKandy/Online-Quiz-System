@@ -54,7 +54,7 @@
 				</div>
 				<div class="admin-item3">
 					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Added Quizzes<br>
+						<i class="fas fa-plus"></i> &nbsp;  Added Quizzes<br>
 					</div>
 					<hr class="admin-hr">
 					<div class="admin-body">
