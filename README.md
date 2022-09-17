@@ -148,7 +148,7 @@ Online Quiz System
  - - - - lib/routes/admin/students.php
  - - - - lib/routes/admin/teachers.php
  - - - - lib/routes/admin/admins.php
- - - - - lib/routes/admin.
+ - - - - lib/routes/admin/
  - - - lib/routes/teacher.php
  - - - lib/routes/teacher
  - - - - lib/routes/teacher/tea_students.php
