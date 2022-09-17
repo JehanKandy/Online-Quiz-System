@@ -397,10 +397,17 @@ td {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    min-width: 100%;
+    width: 100%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.tbl-scorll {
+    overflow-x: auto;
 }
 
 .student-tbl thead {
@@ -414,6 +421,10 @@ td {
     text-align: left;
     font-weight: bold;
     height: 50px;
+}
+
+.student-tbl tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
 }
 
 .student-tbl th,
@@ -616,5 +627,17 @@ td {
         grid-auto-rows: minmax(50px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c";
+    }
+    .student-tbl {
+        min-width: 300px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 300px;
     }
 }
