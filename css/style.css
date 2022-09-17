@@ -386,6 +386,27 @@ font-family: 'Teko', sans-serif;
     padding: 45 45 45 45;
 }
 
+.comment1 {
+    border: 1px solid rgb(29, 152, 235);
+}
+
+.comment2 {
+    border: 1px solid #50be50;
+}
+
+.comment3 {
+    border: 1px solid #f09712;
+}
+
+.usern {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-roll {
+    font-size: 13px;
+}
+
 
 /*
 
