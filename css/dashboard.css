@@ -452,7 +452,7 @@ td {
 }
 
 .pending-tea {
-    background-color: red;
+    background-color: rgb(29, 152, 235);
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -658,5 +658,8 @@ td {
     .student-tbl tbody td {
         display: block;
         width: 300px;
+    }
+    .lastuser-tbl {
+        min-width: 300px;
     }
 }
