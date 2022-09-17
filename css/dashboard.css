@@ -368,6 +368,10 @@ td {
     border-radius: 5px;
 }
 
+.msg-item1 {
+    border: 1px solid #f09712;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
