@@ -23,7 +23,6 @@
 			<a href="vehicles.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
 			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
-
 	</aside>
 
 	<main class="content">
