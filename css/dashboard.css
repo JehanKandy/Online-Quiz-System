@@ -355,6 +355,19 @@ td {
     grid-template-areas: "a b c";
 }
 
+.msg-item1,
+.msg-item2,
+.msg-item3 {
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
