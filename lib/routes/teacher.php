@@ -125,7 +125,7 @@
 				</div>
 			</div>
 			<div class="admin-msg">
-				<div class="title">Messages From Users</div>
+				<div class="title">Messages From Students</div>
 				<div class="msg-grid">
 					<div class="msg-item1">											
 						<div class="msg-user">Kamal Perera</div>
