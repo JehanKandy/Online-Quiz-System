@@ -422,7 +422,6 @@ font-family: 'Teko', sans-serif;
 
 .scroll-img {
     padding: 50px;
-    padding-bottom: 150px;
 }
 
 .scroll-img .title {
@@ -432,8 +431,9 @@ font-family: 'Teko', sans-serif;
 }
 
 .scorller {
-    max-height: 120px;
+    max-height: 250px;
     display: flex;
+    overflow-x: auto;
 }
 
 .scroll-img .scorller .item1,
@@ -449,6 +449,7 @@ font-family: 'Teko', sans-serif;
     background-position: center;
     background-size: cover;
     border-radius: 5px;
+    max-width: 110px;
 }
 
 .scroll-img .scorller .item1 {
