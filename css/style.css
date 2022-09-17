@@ -447,6 +447,7 @@ font-family: 'Teko', sans-serif;
     height: 200px;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .scroll-img .scorller .item1 {
@@ -454,31 +455,31 @@ font-family: 'Teko', sans-serif;
 }
 
 .scroll-img .scorller .item2 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/logo3.png");
 }
 
 .scroll-img .scorller .item3 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/logo4.png");
 }
 
 .scroll-img .scorller .item4 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/logo5.png");
 }
 
 .scroll-img .scorller .item5 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/logo6.png");
 }
 
 .scroll-img .scorller .item6 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/logo7.png");
 }
 
 .scroll-img .scorller .item7 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/car1.jpg");
 }
 
 .scroll-img .scorller .item8 {
-    background-image: url("../images/logo1.png");
+    background-image: url("../images/car2.jpg");
 }
 
 
