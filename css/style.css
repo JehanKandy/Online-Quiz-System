@@ -522,6 +522,7 @@ font-family: 'Teko', sans-serif;
         padding: 45 45 45 45;
     }
     .partner-grid {
+        padding-left: 50px;
         padding-left: 40px;
         display: grid;
         width: 100%;
