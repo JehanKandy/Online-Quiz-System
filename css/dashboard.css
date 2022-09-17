@@ -450,6 +450,11 @@ td {
     transition: 0.5s;
 }
 
+.infor-btn:hover {
+    background-color: rgb(29, 152, 235);
+    color: white;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
