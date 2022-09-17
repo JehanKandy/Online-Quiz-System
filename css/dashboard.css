@@ -443,6 +443,7 @@ td {
 .infor-btn {
     width: 50%;
     border: 1px solid rgb(29, 152, 235);
+    height: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
