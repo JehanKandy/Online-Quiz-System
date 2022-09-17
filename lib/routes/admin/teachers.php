@@ -27,13 +27,13 @@
 	</aside>
 
 	<main class="content">
-		<h1>Student Management</h1>
+		<h1>Teacher Management</h1>
 		<hr>
 		<div class="admin-content">
 			<div class="grid">
 				<div class="admin-item1">
 					<div class="admin-title">
-						<i class="fas fa-user-graduate"></i> &nbsp;  Students<br>
+						<i class="fas fa-user-graduate"></i> &nbsp;  Teacher<br>
 					</div>
 					<hr class="std-hr">
 					<div class="admin-body">
