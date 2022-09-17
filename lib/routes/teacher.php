@@ -27,7 +27,6 @@
 			<a href="admin/quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
 			<a href="admin/my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
-
 	</aside>
 
 	<main class="content">
@@ -55,7 +54,7 @@
 				</div>
 				<div class="admin-item3">
 					<div class="admin-title">
-						<i class="fas fa-user-tie"></i> &nbsp;  Admins<br>
+						<i class="fas fa-user-tie"></i> &nbsp;  Added Quizzes<br>
 					</div>
 					<hr class="admin-hr">
 					<div class="admin-body">
