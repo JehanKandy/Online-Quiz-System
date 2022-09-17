@@ -574,6 +574,18 @@ td {
         display: block;
         width: 700px;
     }
+    .lastuser-tbl {
+        min-width: 700px;
+    }
+    .lastuser-tbl thead {
+        display: none;
+    }
+    .lastuser-tbl,
+    .lastuser-tbl tbody .lastuser-tbl tbody tr,
+    .lastuser-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 375px) {
