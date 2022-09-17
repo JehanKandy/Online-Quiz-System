@@ -335,6 +335,15 @@ td {
     padding-top: 10px;
 }
 
+.admin-msg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.admin-msg .title {
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
