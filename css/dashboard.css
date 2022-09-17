@@ -260,6 +260,10 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
+.lastuser-tbl tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
 .lastuser-tbl thead {
     background-color: rgb(29, 152, 235);
     color: white;
