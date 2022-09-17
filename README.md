@@ -150,7 +150,7 @@ Online Quiz System
  - - - lib/routes/teacher.php
  - - - lib/routes/teacher
  - - - - lib/routes/teacher/tea_students.php
- - - - - lib/routes/teacher/my_account_admin
+ - - - - lib/routes/teacher/my_account_teacher
 2. UPDATE
  - index.php
  - css/style.css
