@@ -111,9 +111,10 @@
             <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
         ";
     }
-    function std_data(){
+    function teacher_data(){
         $con = Connection();
+        $user_email
+        $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
 
-        
     }
 ?>
