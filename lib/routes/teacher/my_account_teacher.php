@@ -29,7 +29,9 @@
 	</aside>
 
 	<main class="content">
-		<h1>Student Management</h1>
+		<h1>My Information</h1>
+		<hr>
+		<?php teacher_data(); ?>
 		<hr>
 
 	</main>
