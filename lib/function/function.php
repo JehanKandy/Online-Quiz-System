@@ -113,7 +113,8 @@
     }
     function teacher_data(){
         $con = Connection();
-        $user_email
+        $user_email = strval($_SESSION['LoginSession']);
+
         $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
 
     }
