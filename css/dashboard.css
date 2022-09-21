@@ -502,6 +502,7 @@ form .profile-btn {
     border: 1px solid blue;
     background: none;
     color: blue;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
