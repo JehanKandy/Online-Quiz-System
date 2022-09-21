@@ -119,10 +119,10 @@
         $check_teacher_result = mysqli_query($con, $check_teacher);
         $teacher_row = mysqli_fetch_assoc($check_teacher_result);
 
-        $teacher_data_view = "
+        $teacher_profile_update = "
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                <form action='' mathod='POST'>
+                <form action='' mathod='POST' class='profile-update'>
                     Update Profile Image : <input type='file' name='profile_img' class='profile-update-img' accept='image/*'>
                     <br>
                     <input type='submit' name='update-img' class='profile-btn' value='Update'>
@@ -130,7 +130,7 @@
             </div>
         ";
 
-        echo $teacher_data_view;
+        echo $teacher_profile_update;
 
     }
 ?>
