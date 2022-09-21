@@ -122,7 +122,6 @@
         $teacher_profile_update = "
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                <form action='' mathod='POST'>
                     <table>
                         <tr>
                             <td>Username : </td>
@@ -169,10 +168,14 @@
                             $teacher_profile_update = "<td><span class='deactive'>Deactive</span></td>";
                         }
                         
-                $teacher_profile_update ="</table>
+                $teacher_profile_update ="
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>    
+                </table>
                     
                     <input type='submit' name='update-img' class='profile-btn' value='Update'>
-                </form>
             </div>
         ";
 
