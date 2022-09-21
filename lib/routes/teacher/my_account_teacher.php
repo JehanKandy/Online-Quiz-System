@@ -34,9 +34,9 @@
 		<?php teacher_data(); ?>
 		<?php 
 			if(isset($_POST['update-img'])){
-				
-			}
-		
+				$result = update_teacher_profile_img($_FILES['profile_img']);
+				echo $result;
+			}		
 		?>
 		<hr>
 
