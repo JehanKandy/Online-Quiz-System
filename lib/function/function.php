@@ -129,9 +129,14 @@
                             <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
                         </tr>
                         <tr>
-                            <td>Email : </td>
-                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
+                            <td>First Name : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
                         </tr>
+                        <tr>
+                            <td>Last Name : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                        </tr>
+                        
                     </table>
                     
                     <input type='submit' name='update-img' class='profile-btn' value='Update'>
