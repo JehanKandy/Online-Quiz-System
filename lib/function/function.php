@@ -160,6 +160,8 @@
                             <td>User Roll : </td>
                             <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
                         </tr>
+                        <tr>
+                            <td>
                         
                     </table>
                     
