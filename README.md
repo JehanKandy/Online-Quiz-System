@@ -167,6 +167,6 @@ Online Quiz System
 2. UPDATE
  - lib/function/function.php
  - css/dashboard.css
- - lib/routes/teacher/my_account_teacher
+ - lib/routes/teacher/my_account_teacher.php
 
  
