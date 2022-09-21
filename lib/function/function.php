@@ -122,9 +122,8 @@
         $teacher_data_view = "
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                <br>
                 <form action='' mathod='POST'>
-                    Update Profile Image :
+                    Update Profile Image : <input type='file' name='profile_img'>
                 </form>
             </div>
         ";
