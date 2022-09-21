@@ -162,7 +162,9 @@
                         </tr>
                         <tr>
                             <td>User Status</td>";
-
+                        if($teacher_row['user_status'] == 1){
+                            $teacher_profile_update = "<td><span class='active'></span></td>";
+                        }
                         
                 $teacher_profile_update ="</table>
                     
