@@ -485,7 +485,10 @@ td {
     margin-bottom: 15px;
 }
 
-.proflie_update {}
+.proflie_update {
+    width: 100%;
+    height: 35px;
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
