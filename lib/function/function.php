@@ -160,24 +160,23 @@
                             <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
                         </tr>
                         <tr>
-                            <td>User Status</td>";
+                            <td>User Status : </td>";
                         if($teacher_row['user_status'] == 1){
-                            $teacher_profile_update = "<td><span class='active'>Active</span></td>";
+                            $teacher_profile_update .= "<td><span class='active'>Active</span></td>";
                         }
                         elseif($teacher_row['user_status'] == 0){
-                            $teacher_profile_update = "<td><span class='deactive'>Deactive</span></td>";
+                            $teacher_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
                         }
                         
-                $teacher_profile_update ="
+                $teacher_profile_update .="
                         </tr>
                         <tr>
                             <td><a href='../routes/reset_pass.php'><button class='pass-reset_btn'>Password Reset</button></td>
-                            <td><a href='../routes/update_account.php?id=".$user_email."'><button class='pass-reset_btn'>Update Account</button></td>
+                            <td><a href='../routes/update_account.php?id=".$user_email."'><button class='pass-reset_btn'>Update</button></td>
                         </tr>    
                 </table>
-                    
-                    <input type='submit' name='update-img' class='profile-btn' value='Update'>
-            </div>
+                   
+               </div>
         ";
 
         echo $teacher_profile_update;
