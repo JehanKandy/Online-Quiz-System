@@ -130,15 +130,27 @@
                         </tr>
                         <tr>
                             <td>First Name : </td>
-                            <td><input type='fn' name='update_email' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
+                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
                         </tr>
                         <tr>
                             <td>Last Name : </td>
-                            <td><input type='ln' name='update_email' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
                         </tr>
                         <tr>
                             <td>Email : </td>
                             <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><textarea class='address'disabled>".$teacher_row['address']."</textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
                         </tr>
                         
                     </table>
