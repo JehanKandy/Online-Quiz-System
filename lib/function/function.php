@@ -161,9 +161,10 @@
                             <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
                         </tr>
                         <tr>
-                            <td>
+                            <td>User Status</td>";
+
                         
-                    </table>
+                $teacher_profile_update ="</table>
                     
                     <input type='submit' name='update-img' class='profile-btn' value='Update'>
                 </form>
