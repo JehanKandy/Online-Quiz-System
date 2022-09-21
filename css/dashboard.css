@@ -498,6 +498,7 @@ form .profile-btn {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
