@@ -149,8 +149,16 @@
                             <td><textarea class='address'disabled>".$teacher_row['address']."</textarea></td>
                         </tr>
                         <tr>
-                            <td>Mobile Number : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['city']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['country']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
                         </tr>
                         
                     </table>
