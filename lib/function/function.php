@@ -130,11 +130,15 @@
                         </tr>
                         <tr>
                             <td>First Name : </td>
-                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
+                            <td><input type='fn' name='update_email' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
                         </tr>
                         <tr>
                             <td>Last Name : </td>
-                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                            <td><input type='ln' name='update_email' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Email : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
                         </tr>
                         
                     </table>
