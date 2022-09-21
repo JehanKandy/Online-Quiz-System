@@ -123,7 +123,7 @@
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
                 <form action='' mathod='POST'>
-                    Update Profile Image : <input type='file' name='profile_img'>
+                    Update Profile Image : <input type='file' name='profile_img' class='profile-update-img' accept='image/*'>
                 </form>
             </div>
         ";
