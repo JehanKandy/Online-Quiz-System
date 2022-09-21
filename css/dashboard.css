@@ -479,8 +479,9 @@ td {
 }
 
 .profile-img-data {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
