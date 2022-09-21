@@ -120,8 +120,10 @@
         $teacher_row = mysqli_fetch_assoc($check_teacher_result);
 
         $teacher_data_view = "
-            <div class='teacher_data'>
-                <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img'>
+            <div class='teacher_data'>                
+                <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+                <form action='' mathod='POST'>
+                </form>
             </div>
         ";
 
