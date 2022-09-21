@@ -133,9 +133,10 @@
         echo $teacher_profile_update;
 
     }
-    function update_teacher_profile_img(){
+    function update_teacher_profile_img($profile_teacher_img){
         $con = Connection();
-
-        
+            
+        $teacher_email = strval($_SESSION['LoginSession']);
+        $update_teacher_pimg = 
     }
 ?>
