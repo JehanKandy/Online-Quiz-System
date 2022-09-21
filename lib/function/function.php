@@ -122,9 +122,15 @@
         $teacher_profile_update = "
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                <form action='' mathod='POST' class='profile-update'>
-                    Update Profile Image : <input type='file' name='profile_img' class='profile-update-img' accept='image/*'>
-                    <br>
+                <form action='' mathod='POST'>
+                    <table>
+                        <tr>
+                            <td>Username : </td>
+                            <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
+                        </tr>
+                        
+                    </table>
+                    
                     <input type='submit' name='update-img' class='profile-btn' value='Update'>
                 </form>
             </div>
@@ -132,13 +138,5 @@
 
         echo $teacher_profile_update;
 
-    }
-    function update_teacher_profile_img($profile_teacher_img){
-        $con = Connection();
-            
-        $teacher_email = strval($_SESSION['LoginSession']);
-        
-        $update_teacher_pimg = "UPDATE user_tbl SET profile_img = '$profile_teacher_img' WHERE email ='$teacher_email'";
-        $update_teacher_pimg_rseult = mysqli_query($con, $update_teacher_pimg);
     }
 ?>
