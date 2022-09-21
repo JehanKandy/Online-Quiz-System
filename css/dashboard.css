@@ -485,6 +485,10 @@ td {
     margin-bottom: 15px;
 }
 
+::-webkit-file-upload-button {
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
