@@ -488,7 +488,8 @@ td {
 ::-webkit-file-upload-button {
     border-radius: 5px;
     border: 1px solid blue;
-    background: none;
+    background: rgb(0, 89, 255);
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 1400px) {
