@@ -137,6 +137,8 @@
         $con = Connection();
             
         $teacher_email = strval($_SESSION['LoginSession']);
+        
         $update_teacher_pimg = "UPDATE user_tbl SET profile_img = '$profile_teacher_img' WHERE email ='$teacher_email'";
+        $update_teacher_pimg_rseult = mysqli_query($con, $update_teacher_pimg);
     }
 ?>
