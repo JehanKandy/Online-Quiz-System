@@ -507,7 +507,8 @@ form .profile-btn {
 
 form .profile-btn:hover {
     background-color: rgb(0, 132, 255);
-    border: 1px solid rgb(0, 132, 255);
+    color: white;
+    border: none;
 }
 
 @media only screen and (max-width: 1400px) {
