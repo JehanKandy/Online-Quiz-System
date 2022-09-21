@@ -487,7 +487,7 @@ td {
 
 ::-webkit-file-upload-button {
     border-radius: 5px;
-    border: none;
+    border: 1px solid blue;
 }
 
 @media only screen and (max-width: 1400px) {
