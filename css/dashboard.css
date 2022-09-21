@@ -492,6 +492,10 @@ td {
     color: rgb(255, 255, 255);
 }
 
+form .profile-btn {
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
