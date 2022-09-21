@@ -137,6 +137,6 @@
         $con = Connection();
             
         $teacher_email = strval($_SESSION['LoginSession']);
-        $update_teacher_pimg = "UPDATE user_tbl SET "
+        $update_teacher_pimg = "UPDATE user_tbl SET profile_img = '$profile_teacher_img' WHERE "
     }
 ?>
