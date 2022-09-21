@@ -117,5 +117,7 @@
 
         $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
 
+        $teacher_data_view = "";
+
     }
 ?>
