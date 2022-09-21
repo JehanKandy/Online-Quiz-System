@@ -163,7 +163,10 @@
                         <tr>
                             <td>User Status</td>";
                         if($teacher_row['user_status'] == 1){
-                            $teacher_profile_update = "<td><span class='active'></span></td>";
+                            $teacher_profile_update = "<td><span class='active'>Active</span></td>";
+                        }
+                        elseif($teacher_row['user_status'] == 0){
+                            $teacher_profile_update = "<td><span class='deactive'>Deactive</span></td>";
                         }
                         
                 $teacher_profile_update ="</table>
