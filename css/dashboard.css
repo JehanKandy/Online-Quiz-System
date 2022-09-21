@@ -499,6 +499,8 @@ form .profile-btn {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+    border: 1px solid blue;
+    background: none;
 }
 
 @media only screen and (max-width: 1400px) {
