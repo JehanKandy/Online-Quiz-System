@@ -478,6 +478,11 @@ td {
     cursor: pointer;
 }
 
+.profile-img-data {
+    width: 100px;
+    height: 100px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
