@@ -133,4 +133,9 @@
         echo $teacher_profile_update;
 
     }
+    function update_teacher_profile_img(){
+        $con = Connection();
+
+        
+    }
 ?>
