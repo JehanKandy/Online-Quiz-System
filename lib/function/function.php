@@ -171,7 +171,7 @@
                 $teacher_profile_update ="
                         </tr>
                         <tr>
-                            <td><a href='../routes/reset_pass.php'><button></button></td>
+                            <td><a href='../routes/reset_pass.php'><button class='pass-reset_btn'>Password Reset</button></td>
                         </tr>    
                 </table>
                     
