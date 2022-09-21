@@ -172,6 +172,7 @@
                         </tr>
                         <tr>
                             <td><a href='../routes/reset_pass.php'><button class='pass-reset_btn'>Password Reset</button></td>
+                            <td><a href='../routes/update_account.php?id=".$user_email."'><button class='pass-reset_btn'>Update Account</button></td>
                         </tr>    
                 </table>
                     
