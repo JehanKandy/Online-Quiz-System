@@ -32,7 +32,14 @@
 		<h1>My Information</h1>
 		<hr>
 		<?php teacher_data(); ?>
+		<?php 
+			if(isset($_POST['update-img'])){
+				
+			}
+		
+		?>
 		<hr>
+
 
 	</main>
 </div>
