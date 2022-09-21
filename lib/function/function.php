@@ -144,7 +144,7 @@
                             <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
                         </tr>
                         <tr>
-                            <td>Address</td>
+                            <td style='vertical-align: top;'>Address</td>
                             <td><textarea class='address'disabled>".$teacher_row['address']."</textarea></td>
                         </tr>
                         <tr>
