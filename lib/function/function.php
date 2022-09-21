@@ -116,8 +116,14 @@
         $user_email = strval($_SESSION['LoginSession']);
 
         $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
-
-        $teacher_data_view = "";
+        $check_teacher_result = mysqli_query($con, $check_teacher);
+        $teacher_row = mysqli_fetch_assoc($check_teacher_result);
+        
+        $teacher_data_view = "
+            <div class='teacher_data'>
+                <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+            </div>
+        ";
 
     }
 ?>
