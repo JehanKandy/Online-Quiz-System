@@ -283,6 +283,10 @@
                             <td>Last Name </td>
                             <td>: <input type='text' name='update_ln' value='".$user_data_row['lname']."' ></td>
                         </tr>
+                        <tr>
+                            <td>Email </td>
+                            <td>: <input type='email' name='update_email' value='".$user_data_row['email']."' ></td>
+                        </tr>
                     </table>
                 </form>
             </div>
