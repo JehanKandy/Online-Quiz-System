@@ -268,8 +268,8 @@
                 <form action='' method='POST'>
                     <table>
                         <tr>
-                            <td>Username </td>
-                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' ></td>
+                            <td>Profile Image </td>
+                            <td>: <input type='file' name='update_pimg'></td>
                         </tr>
                         <tr>
                             <td>Username </td>
@@ -277,7 +277,7 @@
                         </tr>
                         <tr>
                             <td>Email </td>
-                            <td>: <input type='text' name='update_username' value='".$user_data_row['email']."' ></td>
+                            <td>: <input type='text' name='update_email' value='".$user_data_row['email']."' ></td>
                         </tr>
                     </table>
                 </form>
