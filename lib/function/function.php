@@ -1,307 +1,763 @@
-<?php 
-    include("config.php");
-    use FTP\Connection;
-    session_start();
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
-    function reg_std($username,$email,$password){
-        $con = Connection();
+.app {
+    display: flex;
+    min-height: 100vh;
+}
 
-        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email' && roll = 'student'";
-        $check_user_result = mysqli_query($con, $check_user);
-        $check_user_nor = mysqli_num_rows($check_user_result);
-        
-        if($check_user_nor > 0){
-            return "<span style='color:red;'>Teacher Already Exists</span>";
-        }else{
-            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','student','1',NOW(),'0')";
-            $user_insert_result = mysqli_query($con,$user_insert);
-            header("location:../views/login.php");
-        }
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 99px;
+    background-color: #464646;
+    cursor: pointer;
+}
+
+.hamburger {
+    position: relative;
+    top: calc(50% - 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+}
+
+.hamburger>span,
+.hamburger>span::before,
+.hamburger>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 99px;
+    background-color: #FFF;
+    transition-duration: .25s;
+}
+
+.hamburger>span::before {
+    content: '';
+    top: -8px;
+}
+
+.hamburger>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu-toggle.is-active .hamburger>span {
+    transform: rotate(45deg);
+}
+
+.menu-toggle.is-active .hamburger>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+.menu-toggle.is-active .hamburger>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.sidebar {
+    flex: 1 1 0;
+    max-width: 300px;
+    padding: 2rem 1rem;
+    background-color: #313131;
+    border-top: 1px solid white;
+}
+
+.sidebar h3 {
+    color: #707793;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.sidebar .menu {
+    margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+    display: block;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-size: 20px;
+}
+
+.sidebar .menu i {
+    margin-right: 15px;
+}
+
+.sidebar .menu .menu-item:hover {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(31, 21, 165, 0.678), 0 3px 10px 0 rgba(31, 21, 165, 0.678);
+}
+
+.sidebar .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    align-items: center;
+}
+
+.sidebar .profile-name {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.admin-content {
+    z-index: -1;
+}
+
+.content {
+    flex: 1 1 0;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: #3C3F58;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: #707793;
+}
+
+.admin-content {
+    margin-top: 15px
+}
+
+.admin-content .grid {
+    display: grid;
+    min-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+}
+
+.admin-item1 {
+    grid-area: a;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid rgb(29, 152, 235);
+    font-size: 25px;
+    color: rgb(29, 152, 235);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.std-hr {
+    border-top: 1px solid rgb(29, 152, 235);
+}
+
+.admin-item2 {
+    grid-area: b;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.tea-hr {
+    border-top: 1px solid #50be50;
+}
+
+.admin-item3 {
+    grid-area: c;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #f09712;
+    font-size: 25px;
+    color: #f09712;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.admin-hr {
+    border-top: 1px solid #f09712;
+}
+
+.admin-item4 {
+    grid-area: d;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.qui-hr {
+    border-top: 1px solid #50be50;
+}
+
+.admin-title {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.admin-body {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.last-user {
+    width: 100%;
+}
+
+.last-user thead {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.last-title {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.lastuser-tbl {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.lastuser-tbl tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.lastuser-tbl thead {
+    background-color: rgb(29, 152, 235);
+    color: white;
+}
+
+.lastuser-tbl thead tr {
+    background-color: rgb(0, 128, 202);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    height: 40px;
+}
+
+.lastuser-tbl th,
+td {
+    padding: 12px 15px;
+}
+
+.lastuser-tbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.admin-comment .title {
+    font-size: 30px;
+}
+
+.admin-comment-grid {
+    display: grid;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100%, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c";
+}
+
+.comment1,
+.comment2,
+.comment3 {
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.comment1 {
+    border: 1px solid rgb(29, 152, 235);
+}
+
+.comment2 {
+    border: 1px solid #50be50;
+}
+
+.comment3 {
+    border: 1px solid #f09712;
+}
+
+.usern {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-roll {
+    font-size: 13px;
+}
+
+.commet-body {
+    padding-top: 10px;
+}
+
+.admin-msg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.admin-msg .title {
+    font-size: 30px;
+}
+
+.msg-grid {
+    display: grid;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100%, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c";
+}
+
+.msg-item1,
+.msg-item2,
+.msg-item3 {
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.msg-item1 {
+    border: 1px solid red;
+}
+
+.msg-item2 {
+    border: 1px solid red;
+}
+
+.msg-item3 {
+    border: 1px solid red;
+}
+
+.msg-user {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.msg-roll {
+    font-size: 13px;
+}
+
+.msg-body {
+    padding-top: 10px;
+}
+
+.student-tbl {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.tbl-scorll {
+    overflow-x: auto;
+}
+
+.student-tbl thead {
+    background-color: #f09712;
+    color: white;
+}
+
+.student-tbl thead tr {
+    background-color: #f09712;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    height: 50px;
+}
+
+.student-tbl tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.student-tbl th,
+td {
+    padding: 12px 15px;
+}
+
+.student-tbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+    height: 55px;
+}
+
+.active {
+    background-color: #50be50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.deactive {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pending-tea {
+    background-color: rgb(29, 152, 235);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.infor-btn {
+    width: 50%;
+    border: 1px solid rgb(29, 152, 235);
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    color: rgb(29, 152, 235);
+    transition: 0.5s;
+}
+
+.infor-btn:hover {
+    background-color: rgb(29, 152, 235);
+    color: white;
+    cursor: pointer;
+}
+
+.profile-img-data {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.teacher_data {
+    width: 500px;
+}
+
+.proflie_update {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.address_user {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.pass-reset-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: none;
+    transition: 0.5s;
+    color: red;
+}
+
+.pass-reset-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.account-update-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: none;
+    transition: 0.5s;
+    color: blue;
+}
+
+.account-update-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.update-user-data {
+    padding: 30px;
+}
+
+::-webkit-file-upload-button {
+    border: none;
+    padding: 5px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+    .menu-toggle {
+        display: block;
     }
-
-    function reg_teacher($username,$email,$password){
-        $con = Connection();
-
-        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email' && roll = 'teacher'";
-        $check_user_result = mysqli_query($con, $check_user);
-        $check_user_nor = mysqli_num_rows($check_user_result);
-        
-        $_SESSION['teacherID'] = $username;
-        if($check_user_nor > 0){
-            return "<span style='color:red;'>Teacher Already Exists</span>";
-        }else{
-            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','teacher','0',NOW(),'1')";
-            $user_insert_result = mysqli_query($con,$user_insert);
-            header("location:../views/teacher_wait.php");
-        }
+    .content {
+        padding-top: 8rem;
     }
-
-    function user_id(){
-        $con = Connection();
-        $userid = strval($_SESSION['teacherID']);
-        echo $userid;
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
     }
-
-    function user_login($username, $password){
-        $con = Connection();
-    
-        $user_check = "SELECT * FROM user_tbl WHERE username = '$username' && pass1 = '$password' && user_status = '1' && is_pending = '0'";
-        $user_check_result = mysqli_query($con, $user_check);
-        $user_check_nor = mysqli_num_rows($user_check_result);
-        $user_check_row = mysqli_fetch_assoc($user_check_result);
-
-        if($user_check_nor > 0){
-            if($user_check_row['roll'] == 'admin'){
-                setcookie('login',$user_check_row['email'],time()+60*60,'/');
-                $_SESSION['LoginSession'] = $user_check_row['email'];
-                header("location:../routes/admin.php");                
-            }
-            if($user_check_row['roll'] == 'teacher'){
-                setcookie('login',$user_check_row['email'],time()+60*60,'/');
-                $_SESSION['LoginSession'] = $user_check_row['email'];
-                header("location:../routes/teacher.php");
-            }
-            if(isset($_SESSION['LoginSession'])){
-                $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username',NOW())";
-                $session_time_result = mysqli_query($con, $session_time);                 
-            }
-        }         
-        if($user_check_nor == 0){
-            return "<span style='color:red;'>Recodes Not Found...!</span>";
-        }
+    .sidebar.is-active {
+        left: 0;
     }
-    function user_id_loged(){
-        $con = Connection();
+}
 
-        $email = strval($_SESSION['LoginSession']);
-
-        $user_id_get = "SELECT * FROM user_tbl WHERE email = '$email'";
-        $user_id_get_result = mysqli_query($con, $user_id_get);
-
-        $user_id_row = mysqli_fetch_assoc($user_id_get_result);
-
-        echo ($user_id_row['username']);
-                
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
     }
-
-
-    function profile_img(){
-        $con = Connection();
-        $email = strval($_SESSION['LoginSession']);
-
-        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
-        $check_user_img_result = mysqli_query($con, $check_user_img);
-        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
-
-        echo "
-            <img src='../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
-        ";
+    .content {
+        padding-top: 8rem;
     }
-    
-    
-    function profile_img_user(){
-        $con = Connection();
-        $email = strval($_SESSION['LoginSession']);
-
-        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
-        $check_user_img_result = mysqli_query($con, $check_user_img);
-        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
-
-        echo "
-            <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
-        ";
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
     }
-    function teacher_data(){
-        $con = Connection();
-        $user_email = strval($_SESSION['LoginSession']);
-
-        $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
-        $check_teacher_result = mysqli_query($con, $check_teacher);
-        $teacher_row = mysqli_fetch_assoc($check_teacher_result);
-
-        $teacher_profile_update = "
-            <div class='teacher_data'>                
-                <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                    <table class='teacher_data'>
-                        <tr>
-                            <td>Username : </td>
-                            <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>First Name : </td>
-                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Last Name : </td>
-                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Email : </td>
-                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Mobile Number : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td style='vertical-align: top;'>Address</td>
-                            <td><textarea class='address_user'disabled>".$teacher_row['address']."</textarea></td>
-                        </tr>
-                        <tr>
-                            <td>City : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['city']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Country : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['country']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>User Roll : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>User Status : </td>";
-                        if($teacher_row['user_status'] == 1){
-                            $teacher_profile_update .= "<td><span class='active'>Active</span></td>";
-                        }
-                        elseif($teacher_row['user_status'] == 0){
-                            $teacher_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
-                        }
-                        
-                $teacher_profile_update .="
-                        </tr>
-                        <tr>
-                            <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
-                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
-                        </tr>    
-                </table>
-                   
-               </div>
-        ";
-
-        echo $teacher_profile_update;
-
+    .sidebar.is-active {
+        left: 0;
     }
-    function admin_data(){
-        $con = Connection();
-        $user_email = strval($_SESSION['LoginSession']);
-
-        $check_admin= "SELECT * FROM user_tbl WHERE email = '$user_email'";
-        $check_admin_result = mysqli_query($con, $check_admin);
-        $admin_row = mysqli_fetch_assoc($check_admin_result);
-
-        $admin_profile_update = "
-            <div class='teacher_data'>                
-                <img src='../../../upload/".$admin_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                    <table class='teacher_data'>
-                        <tr>
-                            <td>Username : </td>
-                            <td><input type='text' name='update_username' class='proflie_update' value='".$admin_row['username']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>First Name : </td>
-                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$admin_row['fname']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Last Name : </td>
-                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$admin_row['lname']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Email : </td>
-                            <td><input type='email' name='update_email' class='proflie_update' value='".$admin_row['email']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Mobile Number : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['mobile_no']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td style='vertical-align: top;'>Address</td>
-                            <td><textarea class='address_user'disabled>".$admin_row['address']."</textarea></td>
-                        </tr>
-                        <tr>
-                            <td>City : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['city']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>Country : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['country']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>User Roll : </td>
-                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['roll']."' disabled></td>
-                        </tr>
-                        <tr>
-                            <td>User Status : </td>";
-                        if($admin_row['user_status'] == 1){
-                            $admin_profile_update .= "<td><span class='active'>Active</span></td>";
-                        }
-                        elseif($admin_row['user_status'] == 0){
-                            $admin_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
-                        }
-                        
-                $admin_profile_update .="
-                        </tr>
-                        <tr>
-                            <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
-                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
-                        </tr>    
-                </table>
-                   
-               </div>
-        ";
-
-        echo $admin_profile_update;
+    .admin-content .grid {
+        display: grid;
+        min-width: 80%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
     }
-
-    function account_update(){
-        $con = Connection();
-
-        $user_email = $_GET['id'];
-
-        $get_user_data = "SELECT * FROM user_tbl WHERE email = '$user_email'";
-        $get_user_data_result = mysqli_query($con, $get_user_data);
-        $user_data_row = mysqli_fetch_assoc($get_user_data_result);
-
-        $user_update_data = "
-            <div class='update-user-data'>
-            <img src='../../upload/".$user_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                <form action='' method='POST'>
-                    <table>
-                        <tr>
-                            <td>Profile Image </td>
-                            <td><input type='file' name='update_pimg' accept='image/*'></td>
-                        </tr>
-                        <tr>
-                            <td>Username </td>
-                            <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'></td>
-                        </tr>
-                        <tr>
-                            <td>First Name </td>
-                            <td><input type='text' name='update_fn' value='".$user_data_row['fname']."' class='proflie_update'></td>
-                        </tr>
-                        <tr>
-                            <td>Last Name </td>
-                            <td><input type='text' name='update_ln' value='".$user_data_row['lname']."' class='proflie_update'></td>
-                        </tr>
-                        <tr>
-                            <td>Email </td>
-                            <td><input type='email' name='update_email' value='".$user_data_row['email']."' class='proflie_update'></td>
-                        </tr>
-                        <tr>
-                            <td>Mobile Number </td>
-                            <td><input type='email' name='update_email' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
-                        </tr>
-                        <tr>
-                            <td style='vertical-align: top;'>Address</td>
-                            <td><textarea class='address_user'>".$user_data_row['address']."</textarea></td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-        ";
-
-        echo $user_update_data;
-        
-        
+    .admin-item1,
+    .admin-item2,
+    .admin-item3,
+    .admin-item4,
+    .admin-item5,
+    .admin-item6,
+    .admin-item7,
+    .admin-item8 {
+        width: 300px;
     }
-?>
+    .admin-comment-grid {
+        display: grid;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
+    .lastuser-tbl {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 100%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    }
+    .msg-grid {
+        display: grid;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
+    .student-tbl {
+        min-width: 700px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
+    .lastuser-tbl {
+        min-width: 700px;
+    }
+    .lastuser-tbl thead {
+        display: none;
+    }
+    .lastuser-tbl,
+    .lastuser-tbl tbody .lastuser-tbl tbody tr,
+    .lastuser-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu-toggle {
+        display: block;
+    }
+    .content {
+        padding-top: 8rem;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        transition: 0.2s linear;
+    }
+    .sidebar.is-active {
+        left: 0;
+    }
+    .admin-content .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
+    }
+    .admin-item1,
+    .admin-item2,
+    .admin-item3,
+    .admin-item4,
+    .admin-item5,
+    .admin-item6,
+    .admin-item7,
+    .admin-item8 {
+        width: 300px;
+    }
+    .admin-comment-grid {
+        display: grid;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(40px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
+    .lastuser-tbl {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 100%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    }
+    .lastuser-tbl th,
+    td {
+        padding: 6px 5px;
+    }
+    .msg-grid {
+        display: grid;
+        margin-top: 25px;
+        min-width: 50%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
+    .student-tbl {
+        min-width: 300px;
+    }
+    .student-tbl thead {
+        display: none;
+    }
+    .student-tbl,
+    .student-tbl tbody .student-tbl tbody tr,
+    .student-tbl tbody td {
+        display: block;
+        width: 300px;
+    }
+    .lastuser-tbl {
+        min-width: 300px;
+    }
+    .lastuser-tbl thead {
+        display: none;
+    }
+    .lastuser-tbl,
+    .lastuser-tbl tbody .lastuser-tbl tbody tr,
+    .lastuser-tbl tbody td {
+        display: block;
+        width: 300px;
+    }
+    .teacher_data {
+        width: 300px;
+    }
+}
