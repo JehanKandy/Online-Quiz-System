@@ -347,7 +347,10 @@
         $image_types = array('jpg','png','jpeg','gif','PNG');
 
         if(in_array($filetype, $image_types)){
-            
+            if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
+                
+            }
+
         }
 
     }
