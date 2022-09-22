@@ -340,6 +340,10 @@
 
         $image_dir = "../../upload";
 
-        
+        $filename = basename($_FILES["file"]["name"]);
+        $image_target_path = $image_dir . $filename;
+        $filetype = pathinfo($image_target_path, PATHINFO_EXTENSION);
+
+
     }
 ?>
