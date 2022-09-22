@@ -6,7 +6,7 @@
 
 <?php 
     if(isset($_POST['update_user_data'])){
-        $result = 
+        $result = update_data_user($_FILES['image']['name'], $_POST['user_id'], $_POST['update_username'])
     }
 
 ?>
