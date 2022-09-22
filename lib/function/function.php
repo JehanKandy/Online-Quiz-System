@@ -264,7 +264,9 @@
         $user_data_row = mysqli_fetch_assoc($get_user_data_result);
 
         $user_update_data = "
-        
+            <div class='update-user-data'>
+            
+            </div>
         ";
 
         echo $user_update_data;
