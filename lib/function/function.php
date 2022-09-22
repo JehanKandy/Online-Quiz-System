@@ -266,8 +266,11 @@
             <div class='update-user-data'>
             <img src='../../upload/".$user_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
                 <form action='' method='POST'>
-
                     <table>
+                        <tr>
+                            <td>Username </td>
+                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' ></td>
+                        </tr>
                         <tr>
                             <td>Username </td>
                             <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' ></td>
