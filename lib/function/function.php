@@ -172,7 +172,7 @@
                         </tr>
                         <tr>
                             <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
-                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Update</button></td>
+                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
                         </tr>    
                 </table>
                    
@@ -243,7 +243,7 @@
                         </tr>
                         <tr>
                             <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
-                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Update</button></td>
+                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
                         </tr>    
                 </table>
                    
