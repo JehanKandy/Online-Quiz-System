@@ -295,6 +295,18 @@
                             <td style='vertical-align: top;'>Address</td>
                             <td><textarea class='address_user'>".$user_data_row['address']."</textarea></td>
                         </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_mobile'  value='".$user_data_row['city']."'  class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_mobile'  value='".$user_data_row['country']."'  class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' name='update_mobile' value='".$user_data_row['roll']."'  class='proflie_update'></td>
+                        </tr>
                     </table>
                 </form>
             </div>
