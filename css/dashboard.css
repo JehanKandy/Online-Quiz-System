@@ -511,6 +511,7 @@ td {
 .account-update-btn {
     width: 100%;
     height: 40px;
+    border: 1px solid blue;
 }
 
 @media only screen and (max-width: 1400px) {
