@@ -5,7 +5,9 @@
 <?php account_update(); ?>
 
 <?php 
-    if(isset($_POST['']))
+    if(isset($_POST['update_user_data'])){
+        $result = 
+    }
 
 ?>
 
