@@ -534,6 +534,10 @@ td {
     cursor: pointer;
 }
 
+.update-user-data {
+    padding: 15px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
