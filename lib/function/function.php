@@ -273,7 +273,10 @@
                         </tr>
                         <tr>
                             <td>Username </td>
-                            <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'></td>
+                            <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'>
+                                <input type='hidden' name='user_id' value='".$user_email."'>
+                            </td>
+
                         </tr>
                         <tr>
                             <td>First Name </td>
