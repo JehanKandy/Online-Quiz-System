@@ -268,11 +268,11 @@
                     <table>
                         <tr>
                             <td>Username </td>
-                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' disabled></td>
+                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' ></td>
                         </tr>
                         <tr>
                             <td>Email </td>
-                            <td>: <input type='text' name='update_username' value='".$user_data_row['email']."' disabled></td>
+                            <td>: <input type='text' name='update_username' value='".$user_data_row['email']."' ></td>
                         </tr>
                     </table>
                 </form>
