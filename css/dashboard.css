@@ -515,6 +515,7 @@ td {
 .pass-reset-btn:hover {
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 .account-update-btn {
