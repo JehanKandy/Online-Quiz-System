@@ -320,9 +320,9 @@
 
 
             if($user_data_row['roll'] == 'admin'){
-                $user_update_data .= "<td><a herf='teacher/my_account_admin.php'><button>Bcak</button></a></td>";
+                $user_update_data .= "<td><a href='teacher/my_account_admin.php'><button>Bcak</button></a></td>";
             }elseif($user_data_row['roll'] == 'teacher'){
-                $user_update_data .= "<td><a herf='teacher/my_account_teacher.php'><button>Bcak</button></a></td>";
+                $user_update_data .= "<td><a href='teacher/my_account_teacher.php'><button>Bcak</button></a></td>";
             }
 
             $user_update_data .= "
