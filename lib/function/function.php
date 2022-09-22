@@ -305,7 +305,7 @@
                         </tr>
                         <tr>
                             <td>User Roll : </td>
-                            <td><input type='mobile' name='update_mobile' value='".$user_data_row['roll']."'  class='proflie_update'></td>
+                            <td><input type='mobile' name='update_mobile' value='".$user_data_row['roll']."'  class='proflie_update' disabled></td>
                         </tr>
                     </table>
                 </form>
