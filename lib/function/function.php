@@ -269,7 +269,7 @@
                     <table>
                         <tr>
                             <td>Profile Image </td>
-                            <td>: <input type='file' name='update_pimg'></td>
+                            <td>: <input type='file' name='update_pimg' accept='image/*'></td>
                         </tr>
                         <tr>
                             <td>Username </td>
