@@ -1,14 +1,13 @@
-<link rel="stylesheet" href="../../css/dashboard.css">
-<link rel="stylesheet" href="../../css/style.css">
-<?php include "../layouts/header.php";?>
-<?php include "../layouts/nav_loged.php";?>
+<link rel="stylesheet" href="../../../css/dashboard.css">
+<link rel="stylesheet" href="../.././css/style.css">
+<?php include "../../layouts/header.php";?>
+<?php include "../../layouts/nav_loged_user.php";?>
 
 <?php 
 	if(empty($_SESSION['LoginSession'])){
-		header("location:../views/login.php");
+		header("location:../../views/login.php");
 	}
 ?>
-
 
 
 <div class="app">
@@ -20,7 +19,7 @@
 
 	<aside class="sidebar">
 		<nav class="menu">
-			<?php profile_img();?>
+			<?php profile_img_user();?>
 			<p class="profile-name"><?php user_id_loged();?></p>
 			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="admin/students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
