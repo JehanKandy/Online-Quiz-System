@@ -175,7 +175,7 @@ Online Quiz System
 1. DEVELOP
  - lib
  - - lib/routes
- - - - lib/routes/
+ - - - lib/routes/update_account.php
 2. UPDATE
  - lib/function/function.php
  - lib/routes/admin/my_account_admin.php
