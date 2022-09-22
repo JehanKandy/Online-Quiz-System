@@ -501,6 +501,9 @@ td {
     height: 100px;
     resize: none;
 }
+.pass-reset-btn{
+    
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
