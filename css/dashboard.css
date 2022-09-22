@@ -508,6 +508,7 @@ td {
     border: 1px solid red;
     border-radius: 5px;
     background: none;
+    transition: 0.5s;
 }
 
 .account-update-btn {
@@ -516,6 +517,7 @@ td {
     border: 1px solid blue;
     border-radius: 5px;
     background: none;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
