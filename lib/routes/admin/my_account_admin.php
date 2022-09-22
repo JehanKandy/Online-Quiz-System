@@ -34,7 +34,7 @@
 	<main class="content">
 		<h1>My Information</h1>
 		<hr>
-
+		<?php admin_data(); ?>
 	</main>
 </div>
 
