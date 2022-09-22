@@ -548,6 +548,14 @@ td {
     cursor: pointer;
 }
 
+.update-user-data-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid blue;
+    color: blue;
+    background: none;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
