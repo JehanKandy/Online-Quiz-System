@@ -344,6 +344,7 @@
         $image_target_path = $image_dir . $filename;
         $filetype = pathinfo($image_target_path, PATHINFO_EXTENSION);
 
+        $image_types = array('jpg','png','jpeg','gif','PNG');
 
     }
 ?>
