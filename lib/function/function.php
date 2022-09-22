@@ -335,7 +335,7 @@
                
     }
 
-    function update_data_user(){
+    function update_data_user($profile_img,$user_id,$username,$fn,$ln,$email,$mobile_no,$user_address,$city,$country){
         $con = Connection();
     }
 ?>
