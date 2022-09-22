@@ -509,6 +509,7 @@ td {
     border-radius: 5px;
     background: none;
     transition: 0.5s;
+    color: red;
 }
 
 .pass-reset-btn:hover {
@@ -523,6 +524,7 @@ td {
     border-radius: 5px;
     background: none;
     transition: 0.5s;
+    color: blue;
 }
 
 .account-update-btn:hover {
