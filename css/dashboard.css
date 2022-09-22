@@ -525,6 +525,11 @@ td {
     transition: 0.5s;
 }
 
+.account-update-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
