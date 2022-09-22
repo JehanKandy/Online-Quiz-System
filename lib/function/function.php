@@ -122,7 +122,7 @@
         $teacher_profile_update = "
             <div class='teacher_data'>                
                 <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
-                    <table>
+                    <table class='teacher_data'>
                         <tr>
                             <td>Username : </td>
                             <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
@@ -145,7 +145,7 @@
                         </tr>
                         <tr>
                             <td style='vertical-align: top;'>Address</td>
-                            <td><textarea class='address'disabled>".$teacher_row['address']."</textarea></td>
+                            <td><textarea class='address_user'disabled>".$teacher_row['address']."</textarea></td>
                         </tr>
                         <tr>
                             <td>City : </td>
