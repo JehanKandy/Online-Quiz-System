@@ -313,11 +313,19 @@
                         </tr>
                         <tr>
                             <td colspan='2'><input type='submit' name='update_user_data' class='update-user-data-btn' value='Update'></td>
-                        </tr>
-                    
+                        </tr>                    
                 </form>
-            </table>
+                <tr>
+                ";
 
+
+            if($user_data_row['roll'] == 'admin'){
+                $user_update_data = "<td><a herf='teacher/my_account_teacher.php'><button>Bcak</button></a></td>";
+            }elseif()
+
+            $user_update_data .= "
+            </tr>
+            </table>            
             </div>
         ";
 
