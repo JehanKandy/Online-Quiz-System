@@ -252,4 +252,8 @@
 
         echo $admin_profile_update;
     }
+
+    function account_update(){
+        $con = Connection();
+    }
 ?>
