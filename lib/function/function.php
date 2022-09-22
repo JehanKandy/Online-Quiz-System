@@ -308,7 +308,7 @@
                             <td><input type='mobile' name='update_mobile' value='".$user_data_row['roll']."'  class='proflie_update' disabled></td>
                         </tr>
                         <tr>
-                            <td colspan='2'></td>
+                            <td colspan='2'><input type='submit' name='update_user_data' class='update-user-data-btn' value='Update'></td>
                         </tr>
                     </table>
                 </form>
