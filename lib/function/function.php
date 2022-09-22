@@ -348,10 +348,8 @@
 
         if(in_array($filetype, $image_types)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
-                
+                $data_update = "UPDATE user_tbl SET "
             }
-
         }
-
     }
 ?>
