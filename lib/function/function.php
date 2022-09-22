@@ -242,8 +242,8 @@
                 $admin_profile_update .="
                         </tr>
                         <tr>
-                            <td><a href='../routes/reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
-                            <td><a href='../routes/update_account.php?id=".$user_email."'><button class='account-update-btn'>Update</button></td>
+                            <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
+                            <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Update</button></td>
                         </tr>    
                 </table>
                    
