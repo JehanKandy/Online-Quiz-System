@@ -174,5 +174,5 @@ Online Quiz System
 1. DEVELOP
 2. UPDATE
  - lib/function/function.php
- - lib/routes/admin/
+ - lib/routes/admin/my_account_teacher.php
 
