@@ -265,8 +265,9 @@
         $user_update_data = "
             <div class='update-user-data'>
             <img src='../../upload/".$user_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+            <table>
                 <form action='' method='POST'>
-                    <table>
+
                         <tr>
                             <td>Profile Image </td>
                             <td><input type='file' name='update_pimg' accept='image/*'></td>
@@ -313,8 +314,10 @@
                         <tr>
                             <td colspan='2'><input type='submit' name='update_user_data' class='update-user-data-btn' value='Update'></td>
                         </tr>
-                    </table>
+                    
                 </form>
+            </table>
+
             </div>
         ";
 
