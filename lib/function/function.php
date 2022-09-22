@@ -279,6 +279,10 @@
                             <td>Email </td>
                             <td>: <input type='text' name='update_email' value='".$user_data_row['email']."' ></td>
                         </tr>
+                        <tr>
+                            <td>Email </td>
+                            <td>: <input type='text' name='update_email' value='".$user_data_row['email']."' ></td>
+                        </tr>
                     </table>
                 </form>
             </div>
