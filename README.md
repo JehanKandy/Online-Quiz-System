@@ -173,6 +173,4 @@ Online Quiz System
 <b>21 September 2022</b> 
 1. DEVELOP
 2. UPDATE
- - lib/function/function.php
- - css/dashboard.css
- - lib/routes/teacher/my_account_teacher.php
+
