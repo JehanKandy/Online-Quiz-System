@@ -265,7 +265,11 @@
         $user_update_data = "
             <div class='update-user-data'>
                 <form action='' method='POST'>
-                
+                    <table>
+                        <tr>
+                            <td>Username : </td>
+                        </tr>
+                    </table>
                 </form>
             </div>
         ";
