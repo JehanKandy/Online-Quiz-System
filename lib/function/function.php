@@ -289,7 +289,7 @@
                         </tr>
                         <tr>
                             <td>Email </td>
-                            <td><input type='email' name='update_email' value='".$user_data_row['email']."' class='proflie_update'></td>
+                            <td><input type='email' name='update_email' value='".$user_data_row['email']."' class='proflie_update' disabled></td>
                         </tr>
                         <tr>
                             <td>Mobile Number </td>
@@ -335,7 +335,7 @@
                
     }
 
-    function update_data_user($profile_img,$user_id,$username,$fn,$ln,$email,$mobile_no,$user_address,$city,$country){
+    function update_data_user($profile_img,$user_id,$username,$fn,$ln,$mobile_no,$user_address,$city,$country){
         $con = Connection();
 
         $image_dir = "../../upload";
@@ -348,7 +348,7 @@
 
         if(in_array($filetype, $image_types)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
-                $data_update = "UPDATE user_tbl SET "
+                $data_update = "UPDATE user_tbl SET profile_img = '$filename', username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  "
             }
         }
     }
