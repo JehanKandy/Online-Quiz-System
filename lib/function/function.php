@@ -346,5 +346,9 @@
 
         $image_types = array('jpg','png','jpeg','gif','PNG');
 
+        if(in_array($filetype, $image_types)){
+            
+        }
+
     }
 ?>
