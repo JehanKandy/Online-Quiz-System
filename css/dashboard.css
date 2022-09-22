@@ -501,8 +501,9 @@ td {
     height: 100px;
     resize: none;
 }
-.pass-reset-btn{
-    
+
+.pass-reset-btn {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1400px) {
