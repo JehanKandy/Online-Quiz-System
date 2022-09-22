@@ -182,4 +182,74 @@
         echo $teacher_profile_update;
 
     }
+    function teacher_data(){
+        $con = Connection();
+        $user_email = strval($_SESSION['LoginSession']);
+
+        $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $check_teacher_result = mysqli_query($con, $check_teacher);
+        $teacher_row = mysqli_fetch_assoc($check_teacher_result);
+
+        $teacher_profile_update = "
+            <div class='teacher_data'>                
+                <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+                    <table class='teacher_data'>
+                        <tr>
+                            <td>Username : </td>
+                            <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>First Name : </td>
+                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name : </td>
+                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Email : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td style='vertical-align: top;'>Address</td>
+                            <td><textarea class='address_user'disabled>".$teacher_row['address']."</textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['city']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['country']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Status : </td>";
+                        if($teacher_row['user_status'] == 1){
+                            $teacher_profile_update .= "<td><span class='active'>Active</span></td>";
+                        }
+                        elseif($teacher_row['user_status'] == 0){
+                            $teacher_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
+                        }
+                        
+                $teacher_profile_update .="
+                        </tr>
+                        <tr>
+                            <td><a href='../routes/reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
+                            <td><a href='../routes/update_account.php?id=".$user_email."'><button class='account-update-btn'>Update</button></td>
+                        </tr>    
+                </table>
+                   
+               </div>
+        ";
+
+        echo $teacher_profile_update;
+
 ?>
