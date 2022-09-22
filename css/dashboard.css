@@ -506,12 +506,14 @@ td {
     width: 100%;
     height: 40px;
     border: 1px solid red;
+    border-radius: 5px;
 }
 
 .account-update-btn {
     width: 100%;
     height: 40px;
     border: 1px solid blue;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
