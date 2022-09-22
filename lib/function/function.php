@@ -182,13 +182,13 @@
         echo $teacher_profile_update;
 
     }
-    function teacher_data(){
+    function admin_data(){
         $con = Connection();
         $user_email = strval($_SESSION['LoginSession']);
 
-        $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
-        $check_teacher_result = mysqli_query($con, $check_teacher);
-        $teacher_row = mysqli_fetch_assoc($check_teacher_result);
+        $check_admin= "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $check_admin_result = mysqli_query($con, $check_admin);
+        $admin_row = mysqli_fetch_assoc($check_admin_result);
 
         $teacher_profile_update = "
             <div class='teacher_data'>                
@@ -251,5 +251,5 @@
         ";
 
         echo $teacher_profile_update;
-
+    }
 ?>
