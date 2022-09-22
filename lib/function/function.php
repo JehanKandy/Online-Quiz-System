@@ -289,23 +289,23 @@
                         </tr>
                         <tr>
                             <td>Mobile Number </td>
-                            <td><input type='email' name='update_email' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
+                            <td><input type='text' name='update_mobile' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td style='vertical-align: top;'>Address</td>
-                            <td><textarea class='address_user'>".$user_data_row['address']."</textarea></td>
+                            <td><textarea class='address_user' name='update_address'>".$user_data_row['address']."</textarea></td>
                         </tr>
                         <tr>
                             <td>City : </td>
-                            <td><input type='mobile' name='update_mobile'  value='".$user_data_row['city']."'  class='proflie_update'></td>
+                            <td><input type='mobile' name='update_city'  value='".$user_data_row['city']."'  class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>Country : </td>
-                            <td><input type='mobile' name='update_mobile'  value='".$user_data_row['country']."'  class='proflie_update'></td>
+                            <td><input type='mobile' name='update_country'  value='".$user_data_row['country']."'  class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>User Roll : </td>
-                            <td><input type='mobile' name='update_mobile' value='".$user_data_row['roll']."'  class='proflie_update' disabled></td>
+                            <td><input type='mobile' value='".$user_data_row['roll']."'  class='proflie_update' disabled></td>
                         </tr>
                         <tr>
                             <td colspan='2'><input type='submit' name='update_user_data' class='update-user-data-btn' value='Update'></td>
