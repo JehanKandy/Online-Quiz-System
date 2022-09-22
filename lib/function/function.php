@@ -292,7 +292,7 @@
                             <td><input type='email' name='update_email' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
                         </tr>
                         <tr>
-                            <td>Address :</td>
+                            <td style='vertical-align: top;'>Address</td>
                             <td><textarea class='address_user'>".$user_data_row['address']."</textarea></td>
                         </tr>
                     </table>
