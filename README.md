@@ -176,4 +176,5 @@ Online Quiz System
 2. UPDATE
  - lib/function/function.php
  - lib/routes/admin/my_account_admin.php
+ - lib/routes/teacher/
 
