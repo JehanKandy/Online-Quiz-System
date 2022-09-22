@@ -505,6 +505,7 @@ td {
 .pass-reset-btn {
     width: 100%;
     height: 40px;
+    border: 1px solid red;
 }
 
 .account-update-btn {
