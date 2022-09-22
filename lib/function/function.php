@@ -267,7 +267,8 @@
                 <form action='' method='POST'>
                     <table>
                         <tr>
-                            <td>Username : </td>
+                            <td>Username </td>
+                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' disabled></td>
                         </tr>
                     </table>
                 </form>
