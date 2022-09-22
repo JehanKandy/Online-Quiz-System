@@ -257,7 +257,6 @@
         $con = Connection();
 
         $user_email = $_GET['id'];
-        echo $user_email;
 
         $get_user_data = "SELECT * FROM user_tbl WHERE email = '$user_email'";
         $get_user_data_result = mysqli_query($con, $get_user_data);
@@ -265,7 +264,9 @@
 
         $user_update_data = "
             <div class='update-user-data'>
-            
+                <form action='' method='POST'>
+                
+                </form>
             </div>
         ";
 
