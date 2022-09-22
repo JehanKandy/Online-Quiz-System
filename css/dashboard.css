@@ -555,6 +555,7 @@ td {
     color: blue;
     background: none;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .update-user-data-btn:hover {
