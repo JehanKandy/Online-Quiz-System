@@ -269,27 +269,31 @@
                     <table>
                         <tr>
                             <td>Profile Image </td>
-                            <td>: <input type='file' name='update_pimg' accept='image/*'></td>
+                            <td><input type='file' name='update_pimg' accept='image/*'></td>
                         </tr>
                         <tr>
                             <td>Username </td>
-                            <td>: <input type='text' name='update_username' value='".$user_data_row['username']."' ></td>
+                            <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>First Name </td>
-                            <td>: <input type='text' name='update_fn' value='".$user_data_row['fname']."' ></td>
+                            <td><input type='text' name='update_fn' value='".$user_data_row['fname']."' class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>Last Name </td>
-                            <td>: <input type='text' name='update_ln' value='".$user_data_row['lname']."' ></td>
+                            <td><input type='text' name='update_ln' value='".$user_data_row['lname']."' class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>Email </td>
-                            <td>: <input type='email' name='update_email' value='".$user_data_row['email']."' ></td>
+                            <td><input type='email' name='update_email' value='".$user_data_row['email']."' class='proflie_update'></td>
                         </tr>
                         <tr>
                             <td>Mobile Number </td>
-                            <td>: <input type='email' name='update_email' value='".$user_data_row['email']."' ></td>
+                            <td><input type='email' name='update_email' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td><textarea class='address_user'>".$user_data_row['address']."</textarea></td>
                         </tr>
                     </table>
                 </form>
