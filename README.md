@@ -205,6 +205,7 @@ Online Quiz System
 1. DEVELOP
  - lib
  - - lib/views
+ - - - lib/views/verify_otp.php
 2. UPDATE
  - lib/views/pass_reset.php
  - lib/function/function.php
