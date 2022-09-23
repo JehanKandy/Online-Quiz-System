@@ -587,6 +587,7 @@ td {
     color: blue;
     border-radius: 5px;
     background: none;
+    transition: 0.5s;
 }
 
 .pimg-update-btn:hover {
