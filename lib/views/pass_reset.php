@@ -14,7 +14,7 @@
             <input type="submit" value="Get OTP" name="get_otp" class="otp-btn">
         </form>
 
-        <p>This OTP send to the above you given email Address</p>
+        <p style="color: red;">This OTP send to the above you given email Address</p>
     </div>
 </div>
 
