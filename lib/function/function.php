@@ -362,7 +362,7 @@
         $update_pimg_row = mysqli_fetch_assoc($update_pimg_result);
 
         $update_pimg_data = "
-            <img src='../../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+            <img src='../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
         ";
 
         echo $update_pimg_data;
