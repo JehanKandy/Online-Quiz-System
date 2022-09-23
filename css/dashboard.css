@@ -648,6 +648,7 @@ td {
     border: 1px solid red;
     color: red;
     transition: 0.5s;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
