@@ -8,6 +8,13 @@
     }
 ?>
 
+<?php 
+    if(isset($_POST['get_otp'])){
+        $result = 
+
+    }
+?>
+
 <div class="container">
     <div class="pass-reset-content">
         <h3 style="padding-bottom: 20px;">Reset Password</h3>
