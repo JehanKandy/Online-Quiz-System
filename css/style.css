@@ -476,6 +476,11 @@ font-family: 'Teko', sans-serif;
     background-image: url("../images/logo7.png");
 }
 
+.pass-reset-email {
+    width: 500px;
+    border: 1px solid gray;
+}
+
 
 /*
 
