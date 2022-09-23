@@ -203,11 +203,6 @@ Online Quiz System
  
 <b>23 September 2022</b> 
 1. DEVELOP
- - lib/
- - - lib/routes/
- - - - lib/routes/update_pimg.php
- - - - lib/routes/reset_pass.php (remove the file)
- - - lib/views/
- - - - lib/views/pass_reset.php
+
 2. UPDATE
 
