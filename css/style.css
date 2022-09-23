@@ -526,6 +526,10 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 50px;
     width: 600px;
     border: 1px solid rgb(206, 206, 206);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
