@@ -3,8 +3,8 @@
 <?php include("../function/function.php"); ?>
 
 <?php 
-    if(empty($_SERVER['LoginSession'])){
-        header("location:../views/logout.php");
+    if(empty($_SESSION['LoginSession'])){
+        header("location:../views/login.php");
     }
 ?>
 
