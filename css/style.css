@@ -508,6 +508,9 @@ font-family: 'Teko', sans-serif;
 .pass-reset-email form .otp-btn {
     width: 100%;
     height: 40px;
+    color: red;
+    background: none;
+    border: 1px solid red;
 }
 
 
