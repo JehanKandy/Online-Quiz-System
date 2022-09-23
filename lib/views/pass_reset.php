@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="../../css/style.css">
 <?php include("../layouts/header.php"); ?>
 <?php include("../layouts/nav_login.php"); ?>
+<?php include("../function/function.php"); ?>
 
 <div class="container">
     <div class="pass-reset-email">
