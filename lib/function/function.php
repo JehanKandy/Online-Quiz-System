@@ -413,6 +413,7 @@
         $user_check = "
             <div class='check-pass'>
                 <form action='' method='POST'>
+                    <p>Email : </p>
                     <input type='email' name='check_email' class='proflie_update' value='".$email."' disabled>
             </div>
         ";
