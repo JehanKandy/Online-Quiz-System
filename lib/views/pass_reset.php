@@ -13,6 +13,8 @@
             <input type="email" name="pass_email" id="passemail" class="pass-reset" placeholder="Email"><br>
             <input type="submit" value="Get OTP" name="get_otp" class="otp-btn">
         </form>
+
+        <p>This OTP send to the above you given email Address</p>
     </div>
 </div>
 
