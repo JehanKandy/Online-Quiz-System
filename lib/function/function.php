@@ -374,6 +374,8 @@
 
                 if($update_pimg_row['roll'] == 'admin'){
                     $update_pimg_data .="";
+                }elseif($update_pimg_row['roll'] == 'teacher'){
+                    $update_pimg_data .="";
                 }
 
             $update_pimg_data .="
