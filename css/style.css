@@ -496,6 +496,10 @@ font-family: 'Teko', sans-serif;
     font-size: 20px;
 }
 
+.pass-reset-email form .pass-reset {
+    margin-top: 5px;
+}
+
 
 /*
 
