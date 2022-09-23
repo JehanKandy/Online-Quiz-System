@@ -4,7 +4,8 @@
 
 
 <div class="pass-reset-email">
-    <form action="<?php echo($SERVER['PHP_SELF'])?>" method="POST">
+    <form action="<?php echo($SERVER['PHP_SELF'])?>" method="POST">    
+        Email :<br>
         <input type="email" name="pass_email" id="passemail" class="pass-reset">
     </form>
 </div>
