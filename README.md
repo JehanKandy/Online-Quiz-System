@@ -190,5 +190,5 @@ Online Quiz System
 2. UPDATE
  - lib/function/function.php
  - lib/routes/update_account.php
- - css
+ - css/dashboard.css
 
