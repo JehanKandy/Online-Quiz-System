@@ -190,6 +190,7 @@ Online Quiz System
  - - - lib/routes/update_pimg.php
  - - - lib/routes/reset_pass.php (remove the file)
  - - lib/views/
+ - - - lib/views/pass_reset.php
 2. UPDATE
  - lib/function/function.php
  - lib/routes/update_account.php
