@@ -340,7 +340,7 @@
             header("location:../views/logout.php");
 
             $update_tbl = "INSERT INTO acc_update_tbl(email,update_date)VALUES('$user_id',NOW())";
-            
+            $update_tbl_result = mysqli_query($con, $update_tbl);
         }
     }
 ?>
