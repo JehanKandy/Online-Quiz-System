@@ -348,7 +348,8 @@
 
         if(in_array($filetype, $image_types)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
-                $data_update = "UPDATE user_tbl SET profile_img = '$filename', username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  "
+                $data_update = "UPDATE user_tbl SET profile_img = '$filename', username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  email = '$user_id'";
+                $data_update_result = mysqli_query($con, $data_update);
             }
         }
     }
