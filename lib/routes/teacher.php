@@ -5,7 +5,7 @@
 
 <?php 
 	if(empty($_SESSION['LoginSession'])){
-		header("../views/login.php");
+		header("location:../views/login.php");
 	}
 ?>
 
@@ -25,7 +25,7 @@
 			<a href="teacher.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="teacher/tea_students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
 			<a href="teacher/quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
-			<a href="teacher/my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
+			<a href="teacher/my_account_teacher.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 	</aside>
 
