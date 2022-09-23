@@ -603,7 +603,8 @@ td {
 
 .profileimg-update-btn {
     margin-top: 15px;
-    width: 50%;
+    width: 25%;
+    height: 40px;
 }
 
 @media only screen and (max-width: 1400px) {
