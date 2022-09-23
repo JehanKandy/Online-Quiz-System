@@ -586,6 +586,7 @@ td {
     border: 1px solid blue;
     color: blue;
     border-radius: 5px;
+    background: none;
 }
 
 @media only screen and (max-width: 1400px) {
