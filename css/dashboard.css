@@ -559,7 +559,7 @@ td {
 }
 
 .update-user-data-btn:hover {
-    background-color: blue;
+    background-color: red;
     color: white;
     cursor: pointer;
 }
@@ -570,6 +570,9 @@ td {
     border-radius: 5px;
     border: 1px solid blue;
     color: blue;
+    background: none;
+    transition: 0.5s;
+    
 }
 
 @media only screen and (max-width: 1400px) {
