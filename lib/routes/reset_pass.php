@@ -21,7 +21,7 @@
 
         <?php pass_check_email(); ?>
 
-        <p style="color: red;">the OTP send to the above email addree</p>
+        <p style="color: red;">the OTP send to the above email address</p>
     </div>
 </div>
 
