@@ -375,7 +375,7 @@
                 if($update_pimg_row['roll'] == 'admin'){
                     $update_pimg_data .="<a href='admin/my_account_admin.php'><button class='back-btn'>Back</button></a>";
                 }elseif($update_pimg_row['roll'] == 'teacher'){
-                    $update_pimg_data .="";
+                    $update_pimg_data .="<a href='teacher/my_account_teacher.php'><button class='back-btn'>Back</button></a>";
                 }
 
             $update_pimg_data .="
