@@ -209,8 +209,4 @@ Online Quiz System
  - - lib/views/
  - - - lib/views/pass_reset.php
 2. UPDATE
- - lib/function/function.php
- - lib/routes/update_account.php
- - css/dashboard.css
- - lib/routes/admin/my_account_admin.php
- - lib/routes/teacher.php
+
