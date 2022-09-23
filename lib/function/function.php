@@ -415,10 +415,14 @@
                 <form action='' method='POST'>
                     <p>Email : </p>
                     <input type='email' name='check_email' class='proflie_update' value='".$email."' disabled>
+                    <input type='submit' name='get_otp' class='pass-email-btn' value='Get OTP'>
             </div>
         ";
 
         echo $user_check;
     }
     
+    function get_email_opt(){
+        $con = Connection();
+    }
 ?>
