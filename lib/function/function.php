@@ -366,7 +366,7 @@
                 <img src='../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
 
                 <form action='' method='POST' enctype='multipart/form-data'>
-                    <input type='file' name='p_img' accept='image/*'>
+                    <input type='file' name='file' accept='image/*'>
                     <input type='hidden' name='login_id' value='".$user_email."'><br>
 
                     <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image' required>
@@ -387,9 +387,9 @@
 
     function update_img($image, $login_id){
         $con = Connection();
-        $email_id = $_GET['id'];
+        $email = strval($_SESSION['LoginSession']);
 
-        $image_dir = "../../upload";
+        $image_dir = "../../upload/";
         
         $filename = basename($_FILES["file"]["name"]);
         $image_target_path = $image_dir . $filename;
@@ -399,7 +399,7 @@
 
         if(in_array($filetype, $image_types)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
-                $update_img = "UPDATE user_tbl SET profile_img = '$filename' WHERE email = '$email_id'";
+                $update_img = "UPDATE user_tbl SET profile_img = '$filename' WHERE email = '$email'";
                 $update_img_result = mysqli_query($con, $update_img); 
             }
         }
