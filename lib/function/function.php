@@ -409,20 +409,34 @@
         $con = Connection();
 
         $email = $_GET['id'];
-
         $user_check = "
             <div class='check-pass'>
-                <form action='' method='POST'>
+                <form action='#' method='POST'>
                     <p>Email : </p>
                     <input type='email' name='check_email' class='proflie_update' value='".$email."' disabled>
-                    <input type='submit' name='get_otp' class='pass-email-btn' value='Get OTP'>
+                    
+                    <input type='submit' name='verify_otp' class='pass-email-btn' value='Verify OTP'>
+                </form>
             </div>
         ";
 
         echo $user_check;
+
+        $otp = rand(10000,99999);
+
+        $to = $email;
+        $subject = "Password Reset OTP";
+        $txt = "Your Password Reset OTP".$otp;
+        $headers = "From: jehankandy@gmail.com";
+
+        mail($to,$subject,$txt,$headers);
+
+        $insert_opt = "INSERT INTO user_tbl(email,otp)VALUES('$email','$otp')";
+        $insert_opt_result = mysqli_query($con, $insert_opt);
+
     }
     
-    function get_email_opt(){
+    function get_email_opt($email){
         $con = Connection();
     }
 ?>
