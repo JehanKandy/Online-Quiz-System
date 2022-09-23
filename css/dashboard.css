@@ -605,14 +605,14 @@ td {
     margin-top: 15px;
     width: 25%;
     height: 40px;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid red;
+    color: red;
     border-radius: 5px;
     transition: 0.5s;
 }
 
 .profileimg-update-btn:hover {
-    background-color: blue;
+    background-color: red;
     color: white;
     cursor: pointer;
 }
