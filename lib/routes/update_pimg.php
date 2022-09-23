@@ -4,7 +4,7 @@
     include("../function/function.php");
 
     if(empty($_SESSION['LoginSession'])){
-        header("../views/login.php");
+        header("location:../views/login.php");
     }
 ?>
 
