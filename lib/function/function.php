@@ -355,6 +355,10 @@
     function update_to_view_img(){
         $con = Connection();
 
-        
+        $user_email = strval($_SESSION['LoginSession']);
+
+        $update_pimg = "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $update_pimg_result = mysqli_query($con,$update_pimg);
+
     }
 ?>
