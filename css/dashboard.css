@@ -621,6 +621,9 @@ td {
     margin-top: 15px;
     width: 25%;
     height: 40px;
+    background: none;
+    border: 1px solid blue;
+    color: blue;
 }
 
 @media only screen and (max-width: 1400px) {
