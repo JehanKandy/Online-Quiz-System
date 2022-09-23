@@ -364,6 +364,11 @@
         $update_pimg_data = "
             <div class='profile-img-update'>
                 <img src='../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+
+                <form action=''>
+                    <input type='file' name='p_img' accept='image/*'>
+
+                </form>
             </div>
         ";
 
