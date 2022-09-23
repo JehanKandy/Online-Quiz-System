@@ -664,6 +664,16 @@ font-family: 'Teko', sans-serif;
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c" "d" "e" "f";
     }
+    .pass-reset-email {
+        width: 600px;
+        border: 1px solid rgb(214, 214, 214);
+        margin-left: 250px;
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
 
 
