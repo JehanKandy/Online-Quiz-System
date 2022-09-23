@@ -3,6 +3,11 @@
 <?php include("../layouts/nav_login.php"); ?>
 <?php include("../function/function.php"); ?>
 
+<?php 
+    if(empty($_SESSION['']))
+
+?>
+
 <div class="verify-otp">
     <div class="title">
         Verify OTP
