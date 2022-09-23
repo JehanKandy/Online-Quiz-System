@@ -405,5 +405,8 @@
 
     function check_email($email){
         $con = Connection();
+
+        $otp = rand(10000,99999);
+        
     }
 ?>
