@@ -644,6 +644,10 @@ td {
     margin-top: 20px;
     width: 40%;
     height: 40px;
+    background: none;
+    border: 1px solid red;
+    color: red;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
