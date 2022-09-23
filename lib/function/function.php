@@ -407,6 +407,9 @@
 
     function pass_check_email(){
         $con = Connection();
+
+        $email = $_GET['id'];
+        echo $email;
     }
     
 ?>
