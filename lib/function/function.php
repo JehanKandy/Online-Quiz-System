@@ -365,7 +365,7 @@
             <div class='profile-img-update'>
                 <img src='../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
 
-                <form action=''>
+                <form action='' method='POST' enctype='multipart/form-data'>
                     <input type='file' name='p_img' accept='image/*'>
                     <input type='hidden' name='login_id' value='".$user_email."'><br>
 
