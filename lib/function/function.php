@@ -410,6 +410,14 @@
 
         $email = $_GET['id'];
         echo $email;
+
+        $user_check = "
+            <div class='check-pass'>
+                <form action='' method='POST'>
+                    <input type='email' name='check_email' class='proflie_update' disabled>
+            </div>
+
+        ";
     }
     
 ?>
