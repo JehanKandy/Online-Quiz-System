@@ -315,9 +315,9 @@
 
 
             if($user_data_row['roll'] == 'admin'){
-                $user_update_data .= "<td><a href='admin/my_account_admin.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
+                $user_update_data .= "<td colspan='2'><a href='admin/my_account_admin.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
             }elseif($user_data_row['roll'] == 'teacher'){
-                $user_update_data .= "<td><a href='teacher/my_account_teacher.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
+                $user_update_data .= "<td colspan='2'><a href='teacher/my_account_teacher.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
             }
 
             $user_update_data .= "
