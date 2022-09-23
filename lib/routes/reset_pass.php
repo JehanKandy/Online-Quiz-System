@@ -10,8 +10,8 @@
 
 <?php 
     if(isset($_POST['get_otp'])){
-        $result = 
-
+        $result = get_email_opt($_POST['check_email']);
+        echo $result;
     }
 ?>
 
