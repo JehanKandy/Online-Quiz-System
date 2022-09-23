@@ -477,8 +477,9 @@ font-family: 'Teko', sans-serif;
 }
 
 .pass-reset-email {
-    width: 500px;
-    border: 1px solid gray;
+    width: 600px;
+    border: 1px solid rgb(214, 214, 214);
+    margin-left: 250px;
 }
 
 
