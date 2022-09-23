@@ -267,11 +267,6 @@
             <img src='../../upload/".$user_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
             <table>
                 <form action='' method='POST'>
-
-                        <tr>
-                            <td>Profile Image </td>
-                            <td><input type='file' name='update_pimg' accept='image/*'></td>
-                        </tr>
                         <tr>
                             <td>Username </td>
                             <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'>
@@ -320,9 +315,9 @@
 
 
             if($user_data_row['roll'] == 'admin'){
-                $user_update_data .= "<td><a href='admin/my_account_admin.php'><button>Bcak</button></a></td>";
+                $user_update_data .= "<td><a href='admin/my_account_admin.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
             }elseif($user_data_row['roll'] == 'teacher'){
-                $user_update_data .= "<td><a href='teacher/my_account_teacher.php'><button>Bcak</button></a></td>";
+                $user_update_data .= "<td><a href='teacher/my_account_teacher.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
             }
 
             $user_update_data .= "
@@ -335,29 +330,14 @@
                
     }
 
-    function update_data_user($profile_img,$user_id,$username,$fn,$ln,$mobile_no,$user_address,$city,$country){
+    function update_data_user($user_id,$username,$fn,$ln,$mobile_no,$user_address,$city,$country){
         $con = Connection();
 
-        $image_dir = "../../upload";
+        $data_update = "UPDATE user_tbl SET username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  email = '$user_id'";
+        $data_update_result = mysqli_query($con, $data_update);
 
-        $filename = basename($_FILES["image"]["name"]);
-        $image_target_path = $image_dir . $filename;
-        $filetype = pathinfo($image_target_path, PATHINFO_EXTENSION);
-
-        $image_types = array('jpg','png','jpeg','gif','PNG');
-
-        if(in_array($filetype, $image_types)){
-            if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
-                $data_update = "UPDATE user_tbl SET profile_img = '$filename', username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  email = '$user_id'";
-                $data_update_result = mysqli_query($con, $data_update);
-
-                if($data_update_result){
-                    echo ("Data Update");
-                }
-                else{
-                    echo ("No");
-                }
-            }
+        if($data_update_result){
+            header("location:../views/logout.php");
         }
     }
 ?>
