@@ -359,6 +359,9 @@
 
         $update_pimg = "SELECT * FROM user_tbl WHERE email = '$user_email'";
         $update_pimg_result = mysqli_query($con,$update_pimg);
+        $update_pimg_row = mysqli_fetch_assoc($update_pimg_result);
+
+        
 
     }
 ?>
