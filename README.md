@@ -204,4 +204,4 @@ Online Quiz System
 1. DEVELOP
 
 2. UPDATE
- - lib
+ - lib/views/pass_reset.php
