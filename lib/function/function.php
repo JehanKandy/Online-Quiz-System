@@ -192,7 +192,8 @@
 
         $admin_profile_update = "
             <div class='teacher_data'>                
-                <img src='../../../upload/".$admin_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+                <img src='../../../upload/".$admin_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+                <a href='update_pimg.php?id=".$user_email."'><button class='pimg-update-btn'>Profile Image Update</button></a>
                     <table class='teacher_data'>
                         <tr>
                             <td>Username : </td>
