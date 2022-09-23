@@ -9,7 +9,7 @@
             <hr>
         </div>
         <form action="<?php echo($SERVER['PHP_SELF'])?>" method="POST">    
-            Email :<br>
+            <span class="form-topics">Email :</span><br>
             <input type="email" name="pass_email" id="passemail" class="pass-reset" placeholder="Email"><br>
             <input type="submit" value="Get OTP" name="get_otp" class="otp-btn">
         </form>
