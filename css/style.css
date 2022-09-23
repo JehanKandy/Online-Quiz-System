@@ -505,6 +505,10 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 15px;
 }
 
+.pass-reset-email form .otp-btn {
+    width: 100%;
+}
+
 
 /*
 
