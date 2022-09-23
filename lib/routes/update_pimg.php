@@ -11,7 +11,7 @@
 
 <?php 
     if(isset($_POST['update_pimg'])){
-        $result = update_img($_POST['login_id'], $_FILES['p_img']['name']);
+        $result = update_img($_POST['login_id'], $_FILES['file']['name']);
         echo $result;
     }
 ?>
