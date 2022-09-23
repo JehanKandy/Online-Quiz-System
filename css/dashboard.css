@@ -572,7 +572,12 @@ td {
     color: blue;
     background: none;
     transition: 0.5s;
-    
+}
+
+.update-acc-back-btn :hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
