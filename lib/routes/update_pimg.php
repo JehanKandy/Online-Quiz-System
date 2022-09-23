@@ -7,6 +7,7 @@
         header("location:../views/login.php");
     }
 ?>
+<h2 style="padding: 20px;">Update Profile Image</h2>
 
 
 <?php include("../layouts/footer.php"); ?>
