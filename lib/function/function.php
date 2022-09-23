@@ -407,7 +407,9 @@
         $con = Connection();
 
         $otp = rand(10000,99999);
-        echo $otp;
+        
+        $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
+        $opt_insert_result = mysqli_query($con, $opt_insert);
 
     }
 ?>
