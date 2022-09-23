@@ -551,8 +551,8 @@ td {
 .update-user-data-btn {
     width: 100%;
     height: 40px;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid red;
+    color: red;
     background: none;
     border-radius: 5px;
     transition: 0.5s;
@@ -567,6 +567,9 @@ td {
 .update-acc-back-btn {
     width: 100%;
     height: 40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: blue;
 }
 
 @media only screen and (max-width: 1400px) {
