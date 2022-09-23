@@ -605,6 +605,9 @@ td {
     margin-top: 15px;
     width: 25%;
     height: 40px;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
