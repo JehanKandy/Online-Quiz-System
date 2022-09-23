@@ -411,7 +411,7 @@
         $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
         $opt_insert_result = mysqli_query($con, $opt_insert);
 
-        
+        $check_pwd_user = "SELECT * FROM pwd_reset_tbl WHERE email = $email";
 
         setcookie('login',$user_check_row['email'],time()+60*60,'/');
         $_SESSION['LoginSession'] = $user_check_row['email'];
