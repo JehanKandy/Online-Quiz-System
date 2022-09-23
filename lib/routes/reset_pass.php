@@ -10,7 +10,7 @@
 
 <div class="container">
     <div class="pass-reset-content">
-        <h3>Reset Password</h3>
+        <h3 style="padding-bottom: 20px;">Reset Password</h3>
 
         <?php pass_check_email(); ?>
     </div>
