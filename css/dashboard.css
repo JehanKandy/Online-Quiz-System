@@ -640,6 +640,11 @@ td {
     margin-bottom: 35px;
 }
 
+.pass-email-btn {
+    width: 40%;
+    height: 40px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
