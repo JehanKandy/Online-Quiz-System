@@ -2,9 +2,17 @@
 <?php include("../layouts/header.php"); ?>
 <?php include("../function/function.php"); ?>
 
+<?php 
+    if(empty($_SERVER['LoginSession'])){
+        header("location:../views/logout.php");
+    }
+?>
+
 <div class="container">
     <div class="pass-reset-content">
         <h3>Reset Password</h3>
+
+        <?php pass_check_email(); ?>
     </div>
 </div>
 
