@@ -6,6 +6,7 @@
     <div class="pass-reset-email">
         <div class="title">
             Password Reset
+            <hr>
         </div>
         <form action="<?php echo($SERVER['PHP_SELF'])?>" method="POST">    
             Email :<br>
