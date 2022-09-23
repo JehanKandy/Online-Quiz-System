@@ -521,6 +521,11 @@ font-family: 'Teko', sans-serif;
     cursor: pointer;
 }
 
+.verify-otp {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 /*
 
@@ -704,5 +709,15 @@ font-family: 'Teko', sans-serif;
         grid-auto-rows: minmax(50px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c" "d" "e" "f";
+    }
+    .pass-reset-email {
+        width: 300px;
+        border: 1px solid rgb(214, 214, 214);
+        margin-left: 60px;
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 45px;
+        padding-bottom: 45px;
     }
 }
