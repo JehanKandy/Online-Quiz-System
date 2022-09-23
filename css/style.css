@@ -525,6 +525,7 @@ font-family: 'Teko', sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 600px;
+    border: 1px solid rgb(206, 206, 206);
 }
 
 
