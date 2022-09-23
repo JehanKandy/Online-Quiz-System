@@ -10,7 +10,7 @@
         </div>
         <?php 
             if(isset($_POST['get_otp'])){
-                $result = check_email();
+                $result = check_email($_POST['pass_email']);
                 echo $result; 
             }
         ?>
