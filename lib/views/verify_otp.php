@@ -4,8 +4,9 @@
 <?php include("../function/function.php"); ?>
 
 <?php 
-    if(empty($_SESSION['']))
-
+    if(empty($_SESSION['OTPVerify'])){
+        header("location:login.php");
+    }
 ?>
 
 <div class="verify-otp">
