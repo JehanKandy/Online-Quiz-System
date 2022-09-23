@@ -203,6 +203,7 @@ Online Quiz System
 <b>24 September 2022</b> 
 1. DEVELOP
  - lib
+ - - lib/views
 2. UPDATE
  - lib/views/pass_reset.php
  - lib/function/function.php
