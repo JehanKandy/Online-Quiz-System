@@ -172,7 +172,7 @@
                 $teacher_profile_update .="
                         </tr>
                         <tr>
-                            <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
+                            <td><a href='../reset_pass.php?id=".$user_email."'><button class='pass-reset-btn'>Password Reset</button></td>
                             <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
                         </tr>    
                 </table>
@@ -244,7 +244,7 @@
                 $admin_profile_update .="
                         </tr>
                         <tr>
-                            <td><a href='../reset_pass.php'><button class='pass-reset-btn'>Password Reset</button></td>
+                            <td><a href='../reset_pass.php?id=".$user_email."'><button class='pass-reset-btn'>Password Reset</button></td>
                             <td><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
                         </tr>    
                 </table>
@@ -403,6 +403,10 @@
                 $update_img_result = mysqli_query($con, $update_img); 
             }
         }
+    }
+
+    function pass_check_email(){
+        $con = Connection();
     }
     
 ?>
