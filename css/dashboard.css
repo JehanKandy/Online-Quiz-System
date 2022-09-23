@@ -609,6 +609,7 @@ td {
     color: red;
     border-radius: 5px;
     transition: 0.5s;
+    background: none;
 }
 
 .profileimg-update-btn:hover {
