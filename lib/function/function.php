@@ -416,8 +416,9 @@
                 <form action='' method='POST'>
                     <input type='email' name='check_email' class='proflie_update' disabled>
             </div>
-
         ";
+
+        echo $user_check;
     }
     
 ?>
