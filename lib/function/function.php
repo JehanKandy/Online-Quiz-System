@@ -415,8 +415,8 @@
         $check_pwd_user_result = mysqli_query($con, $check_pwd_user);
         $check_pwd_user_row = mysqli_fetch_assoc($check_pwd_user_result);
 
-        setcookie('login',$user_check_row['email'],time()+60*60,'/');
-        $_SESSION['LoginSession'] = $user_check_row['email'];
+        setcookie('OTP',$check_pwd_user_row['email'],time()+60*60,'/');
+        $_SESSION['OTPVerify'] = $check_pwd_user_row['email'];
         
         $to = $email;
         $subject = "Password Reset";
