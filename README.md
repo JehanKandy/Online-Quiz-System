@@ -199,3 +199,19 @@ Online Quiz System
  - lib/routes/admin/my_account_admin.php
  - lib/routes/teacher.php
 
+  <br><hr><br>
+ 
+<b>23 September 2022</b> 
+1. DEVELOP
+ - lib/
+ - - lib/routes/
+ - - - lib/routes/update_pimg.php
+ - - - lib/routes/reset_pass.php (remove the file)
+ - - lib/views/
+ - - - lib/views/pass_reset.php
+2. UPDATE
+ - lib/function/function.php
+ - lib/routes/update_account.php
+ - css/dashboard.css
+ - lib/routes/admin/my_account_admin.php
+ - lib/routes/teacher.php
