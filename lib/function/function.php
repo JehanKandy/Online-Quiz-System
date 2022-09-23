@@ -341,6 +341,13 @@
 
             $update_tbl = "INSERT INTO acc_update_tbl(email,update_date)VALUES('$user_id',NOW())";
             $update_tbl_result = mysqli_query($con, $update_tbl);
+
+            $to = $user_id;
+            $subject = "Update Account in E-Quize";
+            $txt = "Your Updated Data in The System";
+            $headers = "From: jehankandy@gmail.com";
+
+            mail($to,$subject,$txt,$headers);
         }
     }
 ?>
