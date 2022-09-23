@@ -3,16 +3,13 @@
 <?php include("../layouts/nav_login.php"); ?>
 <?php include("../function/function.php"); ?>
 
-<?php 
-    if(empty($_SESSION['OTPVerify'])){
-        header("location:login.php");
-    }
-?>
-
 <div class="verify-otp">
     <div class="title">
         Verify OTP
     </div>
+    <form action="<?php echo($_SERVER['PHP_SELF'])?>">
+
+    </form>
 </div>
 
 <?php include("../layouts/footer.php"); ?>
