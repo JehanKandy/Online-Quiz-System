@@ -188,5 +188,5 @@ Online Quiz System
 
 2. UPDATE
  - lib/function/function.php
- - lib/routes/
+ - lib/routes/update_account.php
 
