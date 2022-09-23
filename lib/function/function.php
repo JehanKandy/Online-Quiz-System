@@ -371,7 +371,11 @@
 
                     <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image'>
                 </form>";
-                
+
+                if($update_pimg_row['roll'] == 'admin'){
+                    $update_pimg_data .="";
+                }
+
             $update_pimg_data .="
             </div>
         ";
