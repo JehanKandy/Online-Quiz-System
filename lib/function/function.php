@@ -369,7 +369,7 @@
                     <input type='file' name='p_img' accept='image/*'>
                     <input type='hidden' name='login_id' value='".$user_email."'><br>
 
-                    <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image'>
+                    <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image' required>
                 </form>";
 
                 if($update_pimg_row['roll'] == 'admin'){
@@ -385,5 +385,8 @@
         echo $update_pimg_data;
     }
 
+    function update_img($image, $login_id){
+        $con = Connection();
+    }
     
 ?>
