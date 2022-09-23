@@ -403,4 +403,7 @@
         }
     }
 
+    function check_email($email){
+        $con = Connection();
+    }
 ?>
