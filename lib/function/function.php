@@ -412,6 +412,10 @@
         $opt_insert_result = mysqli_query($con, $opt_insert);
 
         
+
+        setcookie('login',$user_check_row['email'],time()+60*60,'/');
+        $_SESSION['LoginSession'] = $user_check_row['email'];
+        
         $to = $email;
         $subject = "Password Reset";
         $txt = "Your Password Reset OTP is : ".$otp;
