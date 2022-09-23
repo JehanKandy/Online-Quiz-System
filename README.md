@@ -189,7 +189,7 @@ Online Quiz System
  - lib/
  - - lib/routes/
  - - - lib/routes/update_pimg.php
- - - - lib/
+ - - - lib/routes
 2. UPDATE
  - lib/function/function.php
  - lib/routes/update_account.php
