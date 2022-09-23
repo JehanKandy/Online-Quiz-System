@@ -596,6 +596,11 @@ td {
     cursor: pointer;
 }
 
+.profile-img-update {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
