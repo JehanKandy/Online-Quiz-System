@@ -9,5 +9,6 @@
 ?>
 <h2 style="padding: 20px;">Update Profile Image</h2>
 
+<?php update_to_view_img(); ?>
 
 <?php include("../layouts/footer.php"); ?>
