@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="pass-reset-content">
-        hi
+        <h3>Reset Password</h3>
     </div>
 </div>
 
