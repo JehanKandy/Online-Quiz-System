@@ -13,6 +13,8 @@
         <h3 style="padding-bottom: 20px;">Reset Password</h3>
 
         <?php pass_check_email(); ?>
+
+        <p style="color: red;">the OTP send to the above email addree</p>
     </div>
 </div>
 
