@@ -498,6 +498,8 @@ font-family: 'Teko', sans-serif;
 
 .pass-reset-email form .pass-reset {
     margin-top: 5px;
+    width: 100%;
+    height: 40px;
 }
 
 
