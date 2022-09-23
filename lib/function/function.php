@@ -414,10 +414,7 @@
         $check_pwd_user = "SELECT * FROM pwd_reset_tbl WHERE email = $email";
         $check_pwd_user_result = mysqli_query($con, $check_pwd_user);
         $check_pwd_user_row = mysqli_fetch_assoc($check_pwd_user_result);
-
-        setcookie('OTP',$check_pwd_user_row['email'],time()+60*60,'/');
-        $_SESSION['OTPVerify'] = $check_pwd_user_row['email'];
-        
+       
         $to = $email;
         $subject = "Password Reset";
         $txt = "Your Password Reset OTP is : ".$otp;
@@ -425,6 +422,9 @@
 
         mail($to,$subject,$txt,$headers);
 
+        setcookie('OTP',$check_pwd_user_row['email'],time()+60*60,'/');
+        $_SESSION['OTPVerify'] = $check_pwd_user_row['email'];
         header("location:verify_otp.php");
     }
+
 ?>
