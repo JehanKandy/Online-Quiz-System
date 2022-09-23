@@ -9,6 +9,13 @@
 ?>
 <h2 style="padding: 20px;">Update Profile Image</h2>
 
+<?php 
+    if(isset($_POST['update_pimg'])){
+        $result = update_img($_POST['login_id'], $_FILES['p_img']['name']);
+        echo $result;
+    }
+?>
+
 <?php update_to_view_img(); ?>
 
 <?php include("../layouts/footer.php"); ?>
