@@ -8,7 +8,7 @@
         Verify OTP
     </div>
     <form action="<?php echo($_SERVER['PHP_SELF'])?>">
-        <span class="otp-num">Enter OTP : </span>
+        <span class="otp-num">Enter OTP : </span><br>
         <input type="number" name="otp_num" id="otpid" placeholder="OTP">
 
         <input type="submit" value="Verify OTP" name="otp_verify" class="verify-btn">
