@@ -564,6 +564,11 @@ td {
     cursor: pointer;
 }
 
+.update-acc-back-btn {
+    width: 100%;
+    height: 40px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
