@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="../../../css/dashboard.css">
-<link rel="stylesheet" href="../.././css/style.css">
+<link rel="stylesheet" href="../../../css/style.css">
 <?php include "../../layouts/header.php";?>
 <?php include "../../layouts/nav_loged_user.php";?>
 
@@ -21,12 +21,12 @@
 		<nav class="menu">
 			<?php profile_img_user();?>
 			<p class="profile-name"><?php user_id_loged();?></p>
-			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-			<a href="admin/students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
-			<a href="admin/teachers.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>Teachers &nbsp; <span class="pending">15</span></a>
-			<a href="admin/quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
-			<a href="admin/admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
-			<a href="admin/my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
+			<a href="../admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+			<a href="students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
+			<a href="teachers.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>Teachers &nbsp; <span class="pending">15</span></a>
+			<a href="quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
+			<a href="admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
+			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 
 	</aside>
