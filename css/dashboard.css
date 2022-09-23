@@ -611,6 +611,12 @@ td {
     transition: 0.5s;
 }
 
+.profileimg-update-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
