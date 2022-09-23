@@ -419,6 +419,6 @@
 
         mail($to,$subject,$txt,$headers);
 
-        header("verify_otp.php");
+        header("location:verify_otp.php");
     }
 ?>
