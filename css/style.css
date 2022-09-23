@@ -511,6 +511,8 @@ font-family: 'Teko', sans-serif;
     color: red;
     background: none;
     border: 1px solid red;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 
