@@ -370,7 +370,9 @@
                     <input type='hidden' name='login_id' value='".$user_email."'><br>
 
                     <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image'>
-                </form>
+                </form>";
+                
+            $update_pimg_data .="
             </div>
         ";
 
