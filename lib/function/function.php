@@ -409,7 +409,6 @@
         $con = Connection();
 
         $email = $_GET['id'];
-        echo $email;
 
         $user_check = "
             <div class='check-pass'>
