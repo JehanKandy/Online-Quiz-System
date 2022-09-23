@@ -14,7 +14,7 @@
                 echo $result; 
             }
         ?>
-        <form action="<?php echo($SERVER['PHP_SELF']); ?>" method="POST">    
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">    
             <span class="form-topics">Email :</span><br>
             <input type="email" name="pass_email" id="passemail" class="pass-reset" placeholder="Email"><br>
             <input type="submit" value="Get OTP" name="get_otp" class="otp-btn">
