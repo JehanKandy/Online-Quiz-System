@@ -410,6 +410,7 @@
         
         $check_email = "SELECT email FROM user_tbl WHERE email = '$email'";
         $check_email_result = mysqli_query($con, $check_email);
+        $check_email_row = mysqli_fetch_assoc($check_email_result);
 
         $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
         $opt_insert_result = mysqli_query($con, $opt_insert);
