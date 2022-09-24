@@ -571,8 +571,8 @@ font-family: 'Teko', sans-serif;
 .pass-new-edit {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 250px;
+    padding: 60px;
     width: 600px;
     border: 1px solid rgb(212, 212, 212);
 }
