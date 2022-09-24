@@ -601,6 +601,12 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.pass-new-edit form .new-pass-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
 
 /*
 
