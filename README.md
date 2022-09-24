@@ -208,3 +208,4 @@ Online Quiz System
 2. UPDATE
  - lib/views/pass_reset.php
  - lib/function/function.php
+ - css/
