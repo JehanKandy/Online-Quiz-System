@@ -556,6 +556,8 @@ font-family: 'Teko', sans-serif;
     width: 100%;
     height: 40px;
     border-radius: 5px;
+    border: 1px solid red;
+    color: red;
 }
 
 
