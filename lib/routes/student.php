@@ -23,7 +23,12 @@
                 </div>
                 <div class="body">15</div>
             </div>
-            <div class="student-item4">4</div>
+            <div class="student-item4">
+                <div class="title">
+                    All Quizzes
+                </div>
+                <div class="body">15</div>
+            </div>
             <div class="student-item5">5</div>
             <div class="student-item6">6</div>
         </div>
