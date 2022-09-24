@@ -7,7 +7,7 @@
         <div class="title">
             Change Your Password
         </div>
-        <form action="<?php echo($_SERVER['PHP_SELF'])?>" method="POST">
+        <form action="<?php echo($_SERVER['PHP_SELF'])?>" method="POST" name="new_pass_edit" onsubmit="return passnew()">
             <span class="form-topic">Email Address : </span><br>
             <input type="email" name="email" id="passnewemail" class="new-pass-input" placeholder="Email"><br>
             <span id="emailerror"></span>
