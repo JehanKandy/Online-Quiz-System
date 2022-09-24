@@ -552,6 +552,10 @@ font-family: 'Teko', sans-serif;
     border-radius: 4px;
 }
 
+.verify-otp form verify-btn {
+    width: 100%;
+}
+
 
 /*
 
