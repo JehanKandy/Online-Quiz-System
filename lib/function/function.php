@@ -441,6 +441,9 @@
 
         $email = strval($_SESSION['emailSession']);
         
+        $check_otp = "SELECT * FROM pwd_reset_tbl WHERE email = '$email'";
+        $check_otp_result = mysqli_query($con,$check_otp);
+        
 
     }
 
