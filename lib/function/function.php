@@ -466,6 +466,10 @@
         if($check_email_nor > 0){
             $update_pass = "UPDATE user_tbl SET pass1 = '$pass' WHERE email = '$email'";
             $update_pass_result = mysqli_query($con,$update_pass);
+
+            $update_otp = "UPDATE pwd_reset_tbl SET otp ='00000' WHERE email = '$email'";
+            $update_otp_result = mysqli_query($con, $update_otp);
+            
             header("location:login.php");
         }else{
             return "<p style='color:red';>Email Does Not Exist in System</p>";
