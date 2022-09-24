@@ -640,6 +640,18 @@ font-family: 'Teko', sans-serif;
         padding-top: 45px;
         padding-bottom: 45px;
     }
+    .verify-otp {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 600px;
+        border: 1px solid rgb(206, 206, 206);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 5px;
+        margin-left: 50px;
+    }
 }
 
 
