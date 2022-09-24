@@ -684,6 +684,15 @@ td {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+.student-item1 .title {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.student-item1 .body {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
