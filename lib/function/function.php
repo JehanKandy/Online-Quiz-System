@@ -427,7 +427,7 @@
             header("location:verify_otp.php");
         }
         elseif($check_email_nor == 0){
-            return "<p style=color:red;'></p>"
+            return "<p style=color:red;'></p>";
         }
 
 
