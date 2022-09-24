@@ -713,8 +713,8 @@ td {
 
 .student-item5 {
     grid-area: e;
-    border: 1px solid rgb(29, 152, 235);
-    color: rgb(29, 152, 235);
+    border: 1px solid #50be50;
+    color: #50be50;
 }
 
 .student-item6 {
