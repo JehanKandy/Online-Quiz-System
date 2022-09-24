@@ -533,6 +533,10 @@ font-family: 'Teko', sans-serif;
     border-radius: 5px;
 }
 
+.verify-otp .title {
+    font-size: 35px;
+}
+
 
 /*
 
