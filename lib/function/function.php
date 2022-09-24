@@ -413,18 +413,25 @@
         $check_email_row = mysqli_fetch_assoc($check_email_result);
         $check_email_nor = mysqli_num_rows($check_email_result);
 
+        if($check_email_nor > 0){
+            $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
+            $opt_insert_result = mysqli_query($con, $opt_insert);
+    
+            $to = $email;
+            $subject = "Password Reset";
+            $txt = "Your Password Reset OTP is : ".$otp;
+            $headers = "From: jehankandy@gmail.com";
+    
+            mail($to,$subject,$txt,$headers);
+            
+            header("location:verify_otp.php");
+        }
+        elseif($check_email_nor == 0){
+            return "<p style=color:red;'></p>"
+        }
 
-        $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
-        $opt_insert_result = mysqli_query($con, $opt_insert);
 
-        $to = $email;
-        $subject = "Password Reset";
-        $txt = "Your Password Reset OTP is : ".$otp;
-        $headers = "From: jehankandy@gmail.com";
 
-        mail($to,$subject,$txt,$headers);
-        
-        header("location:verify_otp.php");
     }
 
     function pass_otp_verify($opt_num){
