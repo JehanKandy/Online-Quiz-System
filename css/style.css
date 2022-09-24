@@ -583,6 +583,7 @@ font-family: 'Teko', sans-serif;
 }
 
 .pass-new-edit .new-pass-input {
+    margin-bottom: 10px;
     width: 100%;
     height: 40px;
 }
