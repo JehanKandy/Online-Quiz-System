@@ -82,5 +82,6 @@ function passnew() {
     if (newpassemail == "" || newpassemail == null) {
         document.getElementById('emailerror').style.color = '#ff3f34';
         document.getElementById('emailerror').innerHTML = '<span style="font-size:12px;">Email Connot be empty...!</span>';
+        return false;
     }
 }
