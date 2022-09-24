@@ -421,6 +421,8 @@
         header("location:verify_otp.php");
     }
 
-     
+    function pass_otp_verify($opt_num){
+        $con = Connection();
+    }
 
 ?>
