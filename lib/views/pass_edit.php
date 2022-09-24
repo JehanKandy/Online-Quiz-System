@@ -8,8 +8,10 @@
     </div>
     <form action="<?php echo($_SERVER['PHP_SELF'])?>" method="POST">
         <span class="form-topic">Email Address : </span><br>
-        <input type="email" name="email" id="passnewemail" class="new-pass-input">
+        <input type="email" name="email" id="passnewemail" class="new-pass-input" placeholder="Email"><br>
         
+        <span class="form-topic">New Password</span><br>
+        <input type="password" name="new_pass" id="newpass" class="new-pass-input" placeholder="New Password"><br>
 
     </form>
 </div>
