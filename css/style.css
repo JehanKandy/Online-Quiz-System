@@ -590,7 +590,9 @@ font-family: 'Teko', sans-serif;
     border: 1px solid rgb(211, 211, 211);
 }
 
-.pass-new-edit form .new-pass-btn {}
+.pass-new-edit form .new-pass-btn {
+    width: 100%;
+}
 
 
 /*
