@@ -726,7 +726,9 @@ td {
 .student-item1 .title,
 .student-item2 .title,
 .student-item3 .title,
-.student-item4 .title {
+.student-item4 .title,
+.student-item5 .title,
+.student-item6 .title {
     padding-top: 25px;
     padding-left: 15px;
 }
