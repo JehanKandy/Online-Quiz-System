@@ -79,4 +79,7 @@ function togglemenu() {
 
 function passnew() {
     var newpassemail = document.forms["new_pass_edit"]["passnewemail"].value
+    if(newpassemail == "" || newpassemail == null){
+        
+    }
 }
