@@ -11,7 +11,7 @@
 
         <?php 
             if(isset($_POST['reset_new_pass'])) {
-                $result = new_pass($_POST['email'], $_POST['new_pass']);
+                $result = new_pass($_POST['email'], md5($_POST['new_pass']));
                 echo $result;
             }  
         ?>
