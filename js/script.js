@@ -113,7 +113,8 @@ function passnew() {
     if (newpass != newcpass) {
         document.getElementById('npasserror').style.color = '#ff3f34';
         document.getElementById('cnpasserror').style.color = '#ff3f34';
-
+        document.getElementById('npasserror').innerHTML = '<span style="font-size:12px;">Password Does not Match...!</span>';
+        document.getElementById('cnpasserror').innerHTML = '<span style="font-size:12px;">Password Does not Match...!</span>';
         document.getElementById('newpass').style.borderColor = '#ff3f34';
         document.getElementById('newcpass').style.borderColor = '#ff3f34';
     }
