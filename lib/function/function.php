@@ -448,7 +448,7 @@
 
         if($check_otp_nor > 0){
             if($check_otp_row['otp'] == $opt_num){
-                header();
+                header("location:pass_edit.php");
             }
             elseif($check_otp_row['otp'] != $opt_num){
                 return "<p style='color:red'>OTP is not Valid...!</p>";
