@@ -719,8 +719,8 @@ td {
 
 .student-item6 {
     grid-area: f;
-    border: 1px solid rgb(29, 152, 235);
-    color: rgb(29, 152, 235);
+    border: 1px solid red;
+    color: red;
 }
 
 .student-item1 .title,
@@ -776,7 +776,7 @@ td {
 
 .student-item6:hover {
     color: white;
-    background-color: rgb(29, 152, 235);
+    background-color: red;
     cursor: pointer;
 }
 
