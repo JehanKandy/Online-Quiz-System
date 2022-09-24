@@ -101,4 +101,6 @@ function passnew() {
         document.getElementById('newcpass').style.borderColor = '#ff3f34';
         return false;
     }
+
+    var newpasslength = newpass.length;
 }
