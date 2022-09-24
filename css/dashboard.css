@@ -736,7 +736,9 @@ td {
 .student-item1 .body,
 .student-item2 .body,
 .student-item3 .body,
-.student-item4 .body {
+.student-item4 .body,
+.student-item5 .body,
+.student-item6 .body {
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
