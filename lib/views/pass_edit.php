@@ -10,7 +10,10 @@
         </div>
 
         <?php 
-            
+            if(isset($_POST['reset_new_pass'])) {
+                $result = new_pass($_POST['email'], $_POST['new_pass']);
+                echo $result;
+            }  
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF'])?>" method="POST" name="new_pass_edit" onsubmit="return passnew()">
