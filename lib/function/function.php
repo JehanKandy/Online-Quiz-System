@@ -408,6 +408,9 @@
 
         $otp = rand(10000,99999);
         
+        $check_email = "SELECT email FROM user_tbl WHERE email = '$email'";
+        $check_email_result = mysqli_query($con, $check_email);
+
         $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
         $opt_insert_result = mysqli_query($con, $opt_insert);
 
