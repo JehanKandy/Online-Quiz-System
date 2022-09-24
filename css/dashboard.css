@@ -712,13 +712,13 @@ td {
 }
 
 .student-item5 {
-    grid-area: d;
+    grid-area: e;
     border: 1px solid rgb(29, 152, 235);
     color: rgb(29, 152, 235);
 }
 
 .student-item6 {
-    grid-area: d;
+    grid-area: f;
     border: 1px solid rgb(29, 152, 235);
     color: rgb(29, 152, 235);
 }
