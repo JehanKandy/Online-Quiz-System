@@ -682,6 +682,7 @@ td {
     font-size: 25px;
     color: #50be50;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
 }
 
 .student-item1 .title {
