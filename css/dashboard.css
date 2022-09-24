@@ -702,6 +702,36 @@ td {
     cursor: pointer;
 }
 
+.student-item2 {
+    grid-area: a;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 0.5s;
+}
+
+.student-item2 .title {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.student-item2 .body {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.student-item2:hover {
+    color: white;
+    background-color: #50be50;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
