@@ -543,6 +543,9 @@ font-family: 'Teko', sans-serif;
     font-size: 20px;
 }
 
+.verify-otp form .otp-input {
+    width: 100%;
+}
 
 
 /*
