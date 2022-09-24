@@ -449,7 +449,7 @@
         if($check_otp_nor > 0){
 
         }elseif($check_otp_nor == 0){
-            return "<p style='color:red'></p>";
+            return "<p style='color:red'>OTP is not valid...!</p>";
         }
 
     }
