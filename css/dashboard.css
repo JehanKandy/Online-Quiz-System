@@ -692,7 +692,13 @@ td {
 .student-item1 .body {
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 40px;
+}
+
+.student-item1:hover {
+    color: white;
+    background-color: #50be50;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
