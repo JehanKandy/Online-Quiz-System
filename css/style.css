@@ -531,6 +531,7 @@ font-family: 'Teko', sans-serif;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px;
+    margin-left: 250px;
 }
 
 .verify-otp .title {
