@@ -597,6 +597,7 @@ font-family: 'Teko', sans-serif;
     border: 1px solid red;
     color: red;
     background: none;
+    border-radius: 5px;
 }
 
 
