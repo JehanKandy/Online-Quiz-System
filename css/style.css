@@ -562,6 +562,12 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.verify-otp form .verify-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
 
 /*
 
