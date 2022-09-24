@@ -213,4 +213,4 @@ Online Quiz System
  - lib/function/function.php
  - css/style.css
  - js/script.js
- - css
+ - css/dashboard.css
