@@ -443,7 +443,7 @@
         
         $check_otp = "SELECT * FROM pwd_reset_tbl WHERE email = '$email'";
         $check_otp_result = mysqli_query($con,$check_otp);
-        
+        $check_otp_row = mysqli_fetch_assoc($check_otp_result);
 
     }
 
