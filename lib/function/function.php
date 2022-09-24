@@ -417,6 +417,8 @@
             $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
             $opt_insert_result = mysqli_query($con, $opt_insert);
     
+            $_SESSION['emailSession'] = $email;
+
             $to = $email;
             $subject = "Password Reset";
             $txt = "Your Password Reset OTP is : ".$otp;
@@ -436,6 +438,10 @@
 
     function pass_otp_verify($opt_num){
         $con = Connection();
+
+        $email = strval($_SESSION['emailSession']);
+        
+
     }
 
 ?>
