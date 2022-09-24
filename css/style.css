@@ -548,6 +548,7 @@ font-family: 'Teko', sans-serif;
     margin-top: 5px;
     margin-bottom: 20px;
     height: 40px;
+    border: 1px solid rgb(204, 204, 204);
 }
 
 
