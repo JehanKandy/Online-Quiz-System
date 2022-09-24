@@ -76,3 +76,7 @@ $(document).ready(function() {
 function togglemenu() {
     document.getElementById('sidebar').classList.toggle('active');
 }
+
+function passnew() {
+    var newpassemail = document.forms["new_pass_edit"]["passnewemail"].value
+}
