@@ -567,9 +567,11 @@ font-family: 'Teko', sans-serif;
     color: white;
     cursor: pointer;
 }
-.pass-new-edit{
-    
+
+.pass-new-edit {
+    width: 600px;
 }
+
 
 /*
 
