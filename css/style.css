@@ -539,6 +539,11 @@ font-family: 'Teko', sans-serif;
     padding-bottom: 25px;
 }
 
+.verify-otp form .otp-num {
+    font-size: 20px;
+}
+
+
 
 /*
 
