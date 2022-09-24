@@ -457,6 +457,10 @@
 
     function new_pass($email,$pass){
         $con = Connection();
+
+        $check_email = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $check_email_result = mysqli_query($con, $check_email);
+        
     }
 
 ?>
