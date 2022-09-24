@@ -582,6 +582,10 @@ font-family: 'Teko', sans-serif;
     padding-bottom: 15px;
 }
 
+.pass-new-edit .new-pass-input {
+    width: 100%;
+}
+
 
 /*
 
