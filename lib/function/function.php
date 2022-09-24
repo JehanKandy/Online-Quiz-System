@@ -463,6 +463,12 @@
         $check_email_row = mysqli_fetch_assoc($check_email_result);
         $check_email_nor = mysqli_num_rows($check_email_result);
 
+        if($check_email_nor > 0){
+
+        }else{
+            return "<p style='color:red';>Email Does Not Exist in System</p>";
+        }
+
     }
 
 ?>
