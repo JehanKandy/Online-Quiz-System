@@ -113,6 +113,9 @@ function passnew() {
     if (newpass != newcpass) {
         document.getElementById('npasserror').style.color = '#ff3f34';
         document.getElementById('cnpasserror').style.color = '#ff3f34';
+
+        document.getElementById('newpass').style.borderColor = '#ff3f34';
+        document.getElementById('newcpass').style.borderColor = '#ff3f34';
     }
 
 }
