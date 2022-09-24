@@ -8,6 +8,13 @@
         <div class="title">
             Verify OTP
         </div>
+        <?php 
+            if(isset($_POST[''])){
+                $result = pass_otp_verify();
+                echo $result;
+            }
+
+        ?>
         <form action="<?php echo($_SERVER['PHP_SELF'])?>">
             <span class="otp-num">Enter OTP : </span><br>
             <input type="number" name="otp_num" id="otpid" placeholder="OTP" class="otp-input"><br>
