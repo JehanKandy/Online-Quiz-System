@@ -451,7 +451,7 @@
 
             }
             elseif($check_otp_row['otp'] != $opt_num){
-
+                return "<p style='color:red'>OTP is not Valid...!</p>";
             }
         }elseif($check_otp_nor == 0){
             return "<p style='color:red'>Recodes Not Found...!</p>";
