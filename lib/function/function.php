@@ -446,6 +446,12 @@
         $check_otp_row = mysqli_fetch_assoc($check_otp_result);
         $check_otp_nor = mysqli_num_rows($check_otp_result);
 
+        if($check_otp_nor > 0){
+
+        }elseif($check_otp_nor == 0){
+            return "<p style='color:red'></p>"
+        }
+
     }
 
 ?>
