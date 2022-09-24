@@ -672,20 +672,16 @@ td {
     grid-template-areas: "a b c" "d e f";
 }
 
-.student-item1,
-.student-item2,
-.student-item3,
-.student-item4,
-.student-item5,
-.student-item6 {
-    width: 100%;
-    height: 100%;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+.student-item1 {
+    grid-area: a;
+    height: 200px;
+    border: none;
     border-radius: 5px;
-    background-color: red;
+    background: none;
+    border: 1px solid #50be50;
+    font-size: 25px;
+    color: #50be50;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 @media only screen and (max-width: 1400px) {
