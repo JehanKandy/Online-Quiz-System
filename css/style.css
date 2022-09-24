@@ -546,6 +546,7 @@ font-family: 'Teko', sans-serif;
 .verify-otp form .otp-input {
     width: 100%;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 
