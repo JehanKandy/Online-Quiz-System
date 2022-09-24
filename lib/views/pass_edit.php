@@ -11,12 +11,12 @@
         <input type="email" name="email" id="passnewemail" class="new-pass-input" placeholder="Email"><br>
         <span id="emailerror"></span>
         
-        <span class="form-topic">New Password</span><br>
+        <span class="form-topic">New Password : </span><br>
         <input type="password" name="new_pass" id="newpass" class="new-pass-input" placeholder="New Password"><br>
         <span id="npasserror"></span>
 
-        <span class="form-topic">Confirm New Password</span>
-        <input type="password" name="new_cpass" id="newcpass" class="new-pass-input">
+        <span class="form-topic">Confirm New Password : </span><br>
+        <input type="password" name="new_cpass" id="newcpass" class="new-pass-input"><br>
         <span id="cnpasserror"></span>
     </form>
 </div>
