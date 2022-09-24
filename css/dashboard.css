@@ -708,9 +708,9 @@ td {
     border: none;
     border-radius: 5px;
     background: none;
-    border: 1px solid #50be50;
+    border: 1px solid #f09712;
     font-size: 25px;
-    color: #50be50;
+    color: #f09712;
     font-family: 'Kdam Thmor Pro', sans-serif;
     transition: 0.5s;
 }
@@ -728,7 +728,7 @@ td {
 
 .student-item2:hover {
     color: white;
-    background-color: #50be50;
+    background-color: #f09712;
     cursor: pointer;
 }
 
