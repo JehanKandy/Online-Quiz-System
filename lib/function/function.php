@@ -61,6 +61,11 @@
                 $_SESSION['LoginSession'] = $user_check_row['email'];
                 header("location:../routes/teacher.php");
             }
+            if($user_check_row['roll'] == 'student'){
+                setcookie('login',$user_check_row['email'],time()+60*60,'/');
+                $_SESSION['LoginSession'] = $user_check_row['email'];
+                header("location:../routes/student.php");
+            }
             if(isset($_SESSION['LoginSession'])){
                 $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username',NOW())";
                 $session_time_result = mysqli_query($con, $session_time);                 
@@ -469,7 +474,7 @@
 
             $update_otp = "UPDATE pwd_reset_tbl SET otp ='00000' WHERE email = '$email'";
             $update_otp_result = mysqli_query($con, $update_otp);
-            
+
             header("location:login.php");
         }else{
             return "<p style='color:red';>Email Does Not Exist in System</p>";
