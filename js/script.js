@@ -94,6 +94,14 @@ function passnew() {
         return false;
     }
 
+    var newpasslength = newpass.length;
+    if (newpasslength < 6) {
+        document.getElementById('npasserror').style.color = '#ff3f34';
+        document.getElementById('npasserror').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
+        document.getElementById('newpass').style.borderColor = '#ff3f34';
+        return false;
+    }
+
     var newcpass = document.forms["new_pass_edit"]["newcpass"].value
     if (newcpass == "" || newcpass == null) {
         document.getElementById('cnpasserror').style.color = '#ff3f34';
@@ -102,11 +110,4 @@ function passnew() {
         return false;
     }
 
-    var newpasslength = newpass.length;
-    if (newpasslength < 6) {
-        document.getElementById('npasserror').style.color = '#ff3f34';
-        document.getElementById('npasserror').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
-        document.getElementById('newpass').style.borderColor = '#ff3f34';
-        return false;
-    }
 }
