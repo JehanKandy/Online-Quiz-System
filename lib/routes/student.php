@@ -5,7 +5,12 @@
 <div class="container">
     <div class="student-panal">
         <div class="student-grid">
-            <div class="student-item1">1</div>
+            <div class="student-item1">
+                <div class="title">
+                    All Quizzes
+                </div>
+                <div class="body">15</div>
+            </div>
             <div class="student-item2">2</div>
             <div class="student-item3">3</div>
             <div class="student-item4">4</div>
