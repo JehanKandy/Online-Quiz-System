@@ -768,6 +768,18 @@ td {
     cursor: pointer;
 }
 
+.student-item4:hover {
+    color: white;
+    background-color: rgb(29, 152, 235);
+    cursor: pointer;
+}
+
+.student-item4:hover {
+    color: white;
+    background-color: rgb(29, 152, 235);
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
