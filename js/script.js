@@ -88,8 +88,8 @@ function passnew() {
 
     var newpass = document.forms["new_pass_edit"]["newpass"].value
     if (newpass == "" || newpass == null) {
-        document.getElementById('emailerror').style.color = '#ff3f34';
-        document.getElementById('emailerror').innerHTML = '<span style="font-size:12px;">Email Connot be empty...!</span>';
+        document.getElementById('npasserror').style.color = '#ff3f34';
+        document.getElementById('npasserror').innerHTML = '<span style="font-size:12px;">Password Connot be empty...!</span>';
         document.getElementById('passnewemail').style.borderColor = '#ff3f34';
         return false;
     }
