@@ -577,6 +577,10 @@ font-family: 'Teko', sans-serif;
     border: 1px solid rgb(212, 212, 212);
 }
 
+.pass-new-edit .title {
+    font-size: 40px;
+}
+
 
 /*
 
