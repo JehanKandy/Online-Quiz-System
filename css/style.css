@@ -558,6 +558,8 @@ font-family: 'Teko', sans-serif;
     border-radius: 5px;
     border: 1px solid red;
     color: red;
+    background: none;
+    transition: 0.5s;
 }
 
 
