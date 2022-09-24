@@ -674,7 +674,8 @@ td {
 
 .student-item1,
 .student-item2,
-.student-item3 {
+.student-item3,
+.student-item4 {
     height: 200px;
     border: none;
     border-radius: 5px;
@@ -698,6 +699,12 @@ td {
 
 .student-item3 {
     grid-area: c;
+    border: 1px solid rgb(29, 152, 235);
+    color: rgb(29, 152, 235);
+}
+
+.student-item4 {
+    grid-area: d;
     border: 1px solid rgb(29, 152, 235);
     color: rgb(29, 152, 235);
 }
