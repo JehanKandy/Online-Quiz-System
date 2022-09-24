@@ -593,6 +593,9 @@ font-family: 'Teko', sans-serif;
 .pass-new-edit form .new-pass-btn {
     width: 100%;
     margin-top: 25px;
+    border: 1px solid red;
+    color: red;
+    background: none;
 }
 
 
