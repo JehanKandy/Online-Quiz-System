@@ -695,14 +695,22 @@ td {
     color: #f09712;
 }
 
+.student-item3 {
+    grid-area: c;
+    border: 1px solid rgb(29, 152, 235);
+    color: rgb(29, 152, 235);
+}
+
 .student-item1 .title,
-.student-item2 .title {
+.student-item2 .title,
+.student-item3 .title {
     padding-top: 25px;
     padding-left: 15px;
 }
 
 .student-item1 .body,
-.student-item2 .body {
+.student-item2 .body,
+.student-item3 .body {
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
@@ -717,6 +725,12 @@ td {
 .student-item2:hover {
     color: white;
     background-color: #f09712;
+    cursor: pointer;
+}
+
+.student-item3:hover {
+    color: white;
+    background-color: rgb(29, 152, 235);
     cursor: pointer;
 }
 
