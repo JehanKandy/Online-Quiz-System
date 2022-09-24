@@ -892,6 +892,15 @@ td {
         display: block;
         width: 700px;
     }
+    .student-grid {
+        display: grid;
+        min-width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f";
+    }
 }
 
 @media screen and (max-width: 375px) {
