@@ -17,7 +17,7 @@
             <span id="npasserror"></span>
 
             <span class="form-topic">Confirm New Password : </span><br>
-            <input type="password" name="new_cpass" id="newcpass" class="new-pass-input"><br>
+            <input type="password" name="new_cpass" id="newcpass" class="new-pass-input" placeholder="Confirm New Password"><br>
             <span id="cnpasserror"></span>
 
             <input type="submit" value="Reset Password" name="reset_new_pass" class="new-pass-btn">
