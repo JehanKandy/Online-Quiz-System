@@ -210,3 +210,4 @@ Online Quiz System
  - lib/views/pass_reset.php
  - lib/function/function.php
  - css/style.css
+ - js
