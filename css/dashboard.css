@@ -675,7 +675,9 @@ td {
 .student-item1,
 .student-item2,
 .student-item3,
-.student-item4 {
+.student-item4,
+.student-item5,
+.student-item6 {
     height: 200px;
     border: none;
     border-radius: 5px;
