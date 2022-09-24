@@ -110,4 +110,8 @@ function passnew() {
         return false;
     }
 
+    if (newpass != newcpass) {
+
+    }
+
 }
