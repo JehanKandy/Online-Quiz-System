@@ -447,9 +447,14 @@
         $check_otp_nor = mysqli_num_rows($check_otp_result);
 
         if($check_otp_nor > 0){
+            if($check_otp_row['otp'] == $opt_num){
 
+            }
+            elseif($check_otp_row['otp'] != $opt_num){
+
+            }
         }elseif($check_otp_nor == 0){
-            return "<p style='color:red'>OTP is not valid...!</p>";
+            return "<p style='color:red'>Recodes Not Found...!</p>";
         }
 
     }
