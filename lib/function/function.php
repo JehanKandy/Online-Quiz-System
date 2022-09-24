@@ -431,9 +431,6 @@
         elseif($check_email_nor == 0){
             return "<p style=color:red;'>Email is not valid..!</p>";
         }
-
-
-
     }
 
     function pass_otp_verify($opt_num){
@@ -456,7 +453,10 @@
         }elseif($check_otp_nor == 0){
             return "<p style='color:red'>Recodes Not Found...!</p>";
         }
+    }
 
+    function new_pass($email,$pass){
+        $con = Connection();
     }
 
 ?>
