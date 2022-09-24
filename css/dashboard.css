@@ -711,14 +711,16 @@ td {
 
 .student-item1 .title,
 .student-item2 .title,
-.student-item3 .title {
+.student-item3 .title,
+.student-item4 .title {
     padding-top: 25px;
     padding-left: 15px;
 }
 
 .student-item1 .body,
 .student-item2 .body,
-.student-item3 .body {
+.student-item3 .body,
+.student-item4 .body {
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
@@ -737,6 +739,12 @@ td {
 }
 
 .student-item3:hover {
+    color: white;
+    background-color: rgb(29, 152, 235);
+    cursor: pointer;
+}
+
+.student-item4:hover {
     color: white;
     background-color: rgb(29, 152, 235);
     cursor: pointer;
