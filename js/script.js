@@ -79,7 +79,8 @@ function togglemenu() {
 
 function passnew() {
     var newpassemail = document.forms["new_pass_edit"]["passnewemail"].value
-    if(newpassemail == "" || newpassemail == null){
-        
+    if (newpassemail == "" || newpassemail == null) {
+        document.getElementById('emailerror').style.color = '#ff3f34';
+        document.getElementById('emailerror').innerHTML = '<span style="font-size:12px;">Email Connot be empty...!</span>';
     }
 }
