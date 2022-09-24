@@ -703,7 +703,7 @@ td {
 }
 
 .student-item2 {
-    grid-area: a;
+    grid-area: b;
     height: 200px;
     border: none;
     border-radius: 5px;
