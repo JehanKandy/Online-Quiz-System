@@ -96,9 +96,9 @@ function passnew() {
 
     var newcpass = document.forms["new_pass_edit"]["newcpass"].value
     if (newcpass == "" || newcpass == null) {
-        document.getElementById('npasserror').style.color = '#ff3f34';
-        document.getElementById('npasserror').innerHTML = '<span style="font-size:12px;">Password Connot be empty...!</span>';
-        document.getElementById('newpass').style.borderColor = '#ff3f34';
+        document.getElementById('cnpasserror').style.color = '#ff3f34';
+        document.getElementById('cnpasserror').innerHTML = '<span style="font-size:12px;">Confirm Password Connot be empty...!</span>';
+        document.getElementById('newcpass').style.borderColor = '#ff3f34';
         return false;
     }
 }
