@@ -2,6 +2,7 @@
 <?php include("../layouts/header.php"); ?>
 <?php include("../layouts/nav_loged.php"); ?>
 
+
 <div class="container">
     <div class="student-panal">
         <div class="student-grid">
