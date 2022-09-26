@@ -860,6 +860,7 @@ td {
     border: 1px solid red;
     border-radius: 5px;
     font-size: 20px;
+    color: red;
     transition: 0.5s;
 }
 
