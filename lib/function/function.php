@@ -408,6 +408,9 @@
                 $update_img_result = mysqli_query($con, $update_img); 
 
                 $get_user_roll = "SELECT * FROM user_tbl  WHERE email = '$email'";
+                $get_user_roll_result = mysqli_query($con, $get_user_roll);
+                $get_user_roll_row = mysqli_fetch_assoc($get_user_roll_result);
+                
             }
         }
     }
