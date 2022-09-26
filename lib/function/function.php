@@ -406,6 +406,8 @@
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
                 $update_img = "UPDATE user_tbl SET profile_img = '$filename' WHERE email = '$email'";
                 $update_img_result = mysqli_query($con, $update_img); 
+
+                $get_user_roll = "SELECT * FROM user_tbl  WHERE email = '$email'";
             }
         }
     }
