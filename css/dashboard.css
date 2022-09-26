@@ -798,6 +798,9 @@ td {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.std-body .std-data-grid{
+    
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
