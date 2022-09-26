@@ -516,7 +516,7 @@
                 </div>    
                 <div class='std-data6'>
                     <span class='std-data-topic'>Address : </span><br>
-                    <textarea class='std-data-address' value='".$std_data_row['address']."'></textarea><br>
+                    <textarea class='std-data-address>".$std_data_row['address']."</textarea><br>
                 </div>  
                 <div class='std-data7'>
                     <span class='std-data-topic'>City : </span><br>
