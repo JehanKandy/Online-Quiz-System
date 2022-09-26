@@ -862,6 +862,7 @@ td {
     font-size: 20px;
     color: red;
     transition: 0.5s;
+    background: none;
 }
 
 .std-update-btn:hover {
