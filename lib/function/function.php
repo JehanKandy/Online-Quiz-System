@@ -484,6 +484,9 @@
 
     function std_data(){
         $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $std_data = "SELECT * FROM user_tbl WHERE email = '$email'";
     }
 
 ?>
