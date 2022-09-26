@@ -495,34 +495,36 @@
         $std_data_view = "
             <div class='std-data-grid'>
                 <div class='std-data1'>
+                </div>
+                <div class='std-data2'>
                     <span class='std-data-topic'>Username : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['username']."' disabled><br>
                 </div>
-                <div class='std-data2'>
+                <div class='std-data3'>
                     <span class='std-data-topic'>First Name : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['fname']."' disabled><br>
                 </div>
-                <div class='std-data3'>
+                <div class='std-data4'>
                     <span class='std-data-topic'>Last Name : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['lname']."' disabled><br>
                 </div>  
-                <div class='std-data4'>
+                <div class='std-data5'>
                     <span class='std-data-topic'>Email : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['email']."' disabled><br>
                 </div>  
-                <div class='std-data5'>
+                <div class='std-data6'>
                     <span class='std-data-topic'>Mobile Number : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['mobile_no']."' disabled><br>
                 </div>    
-                <div class='std-data6'>
+                <div class='std-data7'>
                     <span class='std-data-topic'>Address : </span><br>
                     <textarea class='std-data-address'disabled>".$std_data_row['address']."</textarea><br>
                 </div>  
-                <div class='std-data7'>
+                <div class='std-data8'>
                     <span class='std-data-topic'>City : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['city']."' disabled><br>
                 </div>  
-                <div class='std-data8'>
+                <div class='std-data9'>
                     <span class='std-data-topic'>Country : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
                 </div>          
