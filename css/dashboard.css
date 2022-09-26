@@ -854,6 +854,8 @@ td {
 
 .std-update-btn {
     width: 100%;
+    text-decoration: none;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
