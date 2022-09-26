@@ -494,6 +494,9 @@
 
         $std_data_view = "
             <div class='std-data-grid'>
+                <div class='std-data1'>
+                    <span class='std-data-topic'>Username</span><br>
+                </div>
             </div>        
         ";
 
