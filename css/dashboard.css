@@ -794,6 +794,11 @@ td {
     font-size: 35px;
 }
 
+.std-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
