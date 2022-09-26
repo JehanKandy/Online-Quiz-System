@@ -487,6 +487,7 @@
         $email = strval($_SESSION['LoginSession']);
 
         $std_data = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $std_data_result = mysqli_query($con, $std_data);
     }
 
 ?>
