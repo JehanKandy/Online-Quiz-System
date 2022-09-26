@@ -662,6 +662,10 @@ td {
     margin-bottom: 60px;
 }
 
+.student-panal .title {
+    font-size: 45px;
+}
+
 .student-grid {
     display: grid;
     min-width: 100%;
