@@ -495,7 +495,7 @@
         $std_data_view = "
             <div class='std-data-grid'>
                 <div class='std-data1'>
-                    <img src='../../upload/".$std_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+                    <img src='../../upload/".$std_data_row['profile_img']."' alt='Profile Image' class='profile-img-std'>
                 </div>
                 <div class='std-data2'>
                     <span class='std-data-topic'>Username : </span><br>
