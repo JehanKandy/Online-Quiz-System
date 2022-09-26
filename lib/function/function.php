@@ -381,6 +381,8 @@
                     $update_pimg_data .="<a href='admin/my_account_admin.php'><button class='back-btn'>Back</button></a>";
                 }elseif($update_pimg_row['roll'] == 'teacher'){
                     $update_pimg_data .="<a href='teacher/my_account_teacher.php'><button class='back-btn'>Back</button></a>";
+                }elseif($update_pimg_row['roll'] == 'student'){
+                    $update_pimg_data .="<a href='student.php'><button class='back-btn'>Back</button></a>";
                 }
 
             $update_pimg_data .="
@@ -406,11 +408,6 @@
             if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
                 $update_img = "UPDATE user_tbl SET profile_img = '$filename' WHERE email = '$email'";
                 $update_img_result = mysqli_query($con, $update_img); 
-
-                $get_user_roll = "SELECT * FROM user_tbl  WHERE email = '$email'";
-                $get_user_roll_result = mysqli_query($con, $get_user_roll);
-                $get_user_roll_row = mysqli_fetch_assoc($get_user_roll_result);
-                
             }
         }
     }
