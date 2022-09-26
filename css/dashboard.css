@@ -863,6 +863,10 @@ td {
     transition: 0.5s;
 }
 
+.std-update-btn:hover {
+    background-color: red;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
