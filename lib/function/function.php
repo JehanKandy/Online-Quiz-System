@@ -488,6 +488,7 @@
 
         $std_data = "SELECT * FROM user_tbl WHERE email = '$email'";
         $std_data_result = mysqli_query($con, $std_data);
+        $std_data_row = mysqli_fetch_assoc($std_data_result);
     }
 
 ?>
