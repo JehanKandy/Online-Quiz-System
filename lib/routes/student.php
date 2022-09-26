@@ -51,12 +51,7 @@
                 My Information
             </div>
             <div class="std-body">
-                <table>
-                    <tr>
-                        <td>Username : </td>
-                        <td>First Name : </td>
-                    </tr>
-                </table>
+                <?php std_data(); ?>
             </div>
         </div>
     </div>
