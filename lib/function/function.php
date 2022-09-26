@@ -177,7 +177,7 @@
                 $teacher_profile_update .="
                         </tr>
                         <tr>
-                            <td colspan='2'><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></td>
+                            <td colspan='2'><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></a></td>
                         </tr>    
                 </table>
                    
