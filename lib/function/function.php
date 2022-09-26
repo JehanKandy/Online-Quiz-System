@@ -521,7 +521,11 @@
                 <div class='std-data7'>
                     <span class='std-data-topic'>City : </span><br>
                     <input type='text' class='std-data-input' disabled><br>
-                </div>           
+                </div>  
+                <div class='std-data7'>
+                    <span class='std-data-topic'>Country : </span><br>
+                    <input type='text' class='std-data-input' disabled><br>
+                </div>          
             </div>        
         ";
 
