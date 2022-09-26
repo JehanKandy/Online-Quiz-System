@@ -1121,6 +1121,12 @@ td {
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c" "d" "e" "f";
     }
+    .std-data1 .profile-img-std {
+        width: 100%;
+        height: 280px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
     .std-body .std-data-grid {
         display: grid;
         min-width: 100%;
