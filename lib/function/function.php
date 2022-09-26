@@ -492,7 +492,10 @@
         $std_data_nor = mysqli_num_rows($std_data_result);
 
 
-        $std_data_view = "";
+        $std_data_view = "
+            <div class='std-data-grid'>
+            </div>        
+        ";
 
         echo $std_data_view;
     }
