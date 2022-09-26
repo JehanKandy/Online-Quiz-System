@@ -875,10 +875,10 @@ td {
     cursor: pointer;
 }
 
-.profile-img-std {
+.std-data-grid .std-data1 .profile-img-std {
     width: 200px;
     height: 200px;
-    border-radius: 15px;
+    border-radius: none;
     margin-bottom: 15px;
 }
 
