@@ -46,11 +46,6 @@
             </div>
         </div>
         <hr>
-        <div class="my-data-student">
-            <div class="title">
-                Name : Student1
-            </div>
-        </div>
     </div>
 </div>
 <?php include("../layouts/footer.php"); ?>
