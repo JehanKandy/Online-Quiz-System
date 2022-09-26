@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="student-panal">
-        <div class="title">
+        <div class="top-title">
             Student Panel
         </div>
         <div class="student-grid">
