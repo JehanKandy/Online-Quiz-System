@@ -825,6 +825,22 @@ td {
     grid-area: d;
 }
 
+.std-data5 {
+    grid-area: e;
+}
+
+.std-data6 {
+    grid-area: f;
+}
+
+.std-data7 {
+    grid-area: g;
+}
+
+.std-data8 {
+    grid-area: h;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
