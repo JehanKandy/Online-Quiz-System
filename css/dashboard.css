@@ -790,6 +790,10 @@ td {
     margin-bottom: 15px;
 }
 
+.my-data-std .std-title {
+    font-size: 35px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
