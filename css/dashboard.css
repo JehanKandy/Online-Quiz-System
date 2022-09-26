@@ -867,6 +867,7 @@ td {
 .std-update-btn:hover {
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
