@@ -482,4 +482,8 @@
 
     }
 
+    function std_data(){
+        $con = Connection();
+    }
+
 ?>
