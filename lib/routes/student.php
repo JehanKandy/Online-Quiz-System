@@ -2,9 +2,11 @@
 <?php include("../layouts/header.php"); ?>
 <?php include("../layouts/nav_loged.php"); ?>
 
-
 <div class="container">
     <div class="student-panal">
+        <div class="title">
+            Student Panel
+        </div>
         <div class="student-grid">
             <div class="student-item1">
                 <div class="title">
