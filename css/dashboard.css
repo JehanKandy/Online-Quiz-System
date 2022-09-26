@@ -813,7 +813,12 @@ td {
     grid-area: a;
 }
 
-.std-data1 .profile-img-std {}
+.std-data1 .profile-img-std {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
 
 .std-data2 {
     grid-area: b;
