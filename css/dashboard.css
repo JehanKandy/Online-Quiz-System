@@ -882,6 +882,19 @@ td {
     cursor: pointer;
 }
 
+.std-img-update-btn {
+    width: 100%;
+    text-decoration: none;
+    margin-top: 15px;
+    height: 55px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 20px;
+    color: blue;
+    transition: 0.5s;
+    background: none;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
@@ -1120,6 +1133,12 @@ td {
         grid-auto-rows: minmax(50px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a" "b" "c" "d" "e" "f";
+    }
+    .profile-img-data {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 15px;
     }
     .std-data1 .profile-img-std {
         width: 100%;
