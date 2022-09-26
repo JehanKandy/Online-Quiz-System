@@ -46,6 +46,11 @@
             </div>
         </div>
         <hr>
+        <div class="my-data-std">
+            <div class="std-title">
+                My Information
+            </div>
+        </div>
     </div>
 </div>
 <?php include("../layouts/footer.php"); ?>
