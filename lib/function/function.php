@@ -527,7 +527,7 @@
                     <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
                 </div>          
             </div>
-            <a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</a>        
+            <a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</button></a>        
         ";
 
         echo $std_data_view;
