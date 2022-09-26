@@ -526,7 +526,8 @@
                     <span class='std-data-topic'>Country : </span><br>
                     <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
                 </div>          
-            </div>        
+            </div>
+            <a href='update_account.php?id=".$email."'></a>        
         ";
 
         echo $std_data_view;
