@@ -809,6 +809,10 @@ td {
     grid-template-areas: "a b c" "d e f";
 }
 
+.std-data1,
+.std-data2,
+.std-data3 {}
+
 .std-data1 {
     grid-area: a;
 }
