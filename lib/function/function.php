@@ -511,7 +511,7 @@
                     <input type='text' class='std-data-input' disabled><br>
                 </div>  
                 <div class='std-data5'>
-                    <span class='std-data-topic'>Email : </span><br>
+                    <span class='std-data-topic'>Mobile Number : </span><br>
                     <input type='text' class='std-data-input' disabled><br>
                 </div>               
             </div>        
