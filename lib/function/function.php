@@ -495,11 +495,11 @@
         $std_data_view = "
             <div class='std-data-grid'>
                 <div class='std-data1'>
-                    <span class='std-data-topic'>Username</span><br>
+                    <span class='std-data-topic'>Username : </span><br>
                     <input type='text' class='std-data-input' disabled><br>
                 </div>
                 <div class='std-data2'>
-                    <span class='std-data-topic'>Username</span><br>
+                    <span class='std-data-topic'>First Name : </span><br>
                     <input type='text' class='std-data-input' disabled><br>
                 </div>
             </div>        
