@@ -50,6 +50,14 @@
             <div class="std-title">
                 My Information
             </div>
+            <div class="std-body">
+                <table>
+                    <tr>
+                        <td>Username : </td>
+                        <td>First Name : </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </div>
