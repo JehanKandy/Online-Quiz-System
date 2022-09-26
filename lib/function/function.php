@@ -490,6 +490,11 @@
         $std_data_result = mysqli_query($con, $std_data);
         $std_data_row = mysqli_fetch_assoc($std_data_result);
         $std_data_nor = mysqli_num_rows($std_data_result);
+
+
+        $std_data_view = "";
+
+        echo $std_data_view;
     }
 
 ?>
