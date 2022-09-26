@@ -875,6 +875,13 @@ td {
     cursor: pointer;
 }
 
+.profile-img-std {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
