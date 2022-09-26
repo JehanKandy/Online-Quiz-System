@@ -218,7 +218,7 @@ Online Quiz System
 
   <br><hr><br>
  
-<b>24 September 2022</b> 
+<b>26 September 2022</b> 
 1. DEVELOP
 2. UPDATE
  - css/dashboard.css
