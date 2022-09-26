@@ -875,13 +875,6 @@ td {
     cursor: pointer;
 }
 
-.std-data-grid .std-data1 .profile-img-std {
-    width: 200px;
-    height: 200px;
-    border-radius: none;
-    margin-bottom: 15px;
-}
-
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
