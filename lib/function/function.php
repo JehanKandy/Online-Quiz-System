@@ -524,7 +524,7 @@
                 </div>  
                 <div class='std-data8'>
                     <span class='std-data-topic'>Country : </span><br>
-                    <input type='text' class='std-data-input' disabled><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
                 </div>          
             </div>        
         ";
