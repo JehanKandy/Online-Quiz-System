@@ -496,6 +496,7 @@
             <div class='std-data-grid'>
                 <div class='std-data1'>
                     <span class='std-data-topic'>Username</span><br>
+                    <input type='text' class='std-data-input' disabled><br>
                 </div>
             </div>        
         ";
