@@ -811,7 +811,9 @@ td {
 
 .std-data1,
 .std-data2,
-.std-data3 {}
+.std-data3 {
+    width: 100%;
+}
 
 .std-data1 {
     grid-area: a;
