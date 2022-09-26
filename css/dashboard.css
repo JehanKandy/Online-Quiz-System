@@ -809,6 +809,22 @@ td {
     grid-template-areas: "a b c" "d e f";
 }
 
+.std-data1 {
+    grid-area: a;
+}
+
+.std-data2 {
+    grid-area: b;
+}
+
+.std-data3 {
+    grid-area: c;
+}
+
+.std-data4 {
+    grid-area: d;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
