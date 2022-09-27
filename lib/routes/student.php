@@ -87,7 +87,8 @@
             <div class="type-answer">											
 				<div class="std-body">
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
-                        <textarea class="type-answer-input" name="question" id="question"></textarea>                
+                        <textarea class="type-answer-input" name="question" id="question"></textarea>
+                        <input type="submit" value="Post Answer" name="askQuseion" class="question-btn">                
                     </form>
 				</div>
 			</div>
