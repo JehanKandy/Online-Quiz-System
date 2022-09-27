@@ -42,7 +42,7 @@
                 <div class="title">
                     Join Date
                 </div>
-                <div class="body">15</div>
+                <div class="body"><?php join_date();?></div>
             </div>
         </div>
         <hr>
@@ -51,7 +51,7 @@
                 My Information
             </div>
             <div class="std-body">
-                <?php join_date();?>
+                
             </div>
         </div>
     </div>
