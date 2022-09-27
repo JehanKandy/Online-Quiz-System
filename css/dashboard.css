@@ -901,6 +901,8 @@ td {
     cursor: pointer;
 }
 
+.std-msg-grid {}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
