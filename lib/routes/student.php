@@ -51,7 +51,7 @@
                 My Information
             </div>
             <div class="std-body">
-                <?php std_data();?>
+                <?php join_date();?>
             </div>
         </div>
     </div>
