@@ -51,7 +51,7 @@
                 My Information
             </div>
             <div class="std-body">
-                
+                <?php std_data(); ?>
             </div>
         </div>
     </div>
