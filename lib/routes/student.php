@@ -89,6 +89,7 @@
                     <?php 
                         if(isset($_POST['askQuseion'])){
                             $result = check_question($_POST['question']);
+                            echo $result;
                         }
                     ?>
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
