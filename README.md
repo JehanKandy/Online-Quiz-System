@@ -232,4 +232,5 @@ Online Quiz System
  - lib/function/function.php
  - lib/routes/student.php
  - css/dashboard.css
+ - js
  
