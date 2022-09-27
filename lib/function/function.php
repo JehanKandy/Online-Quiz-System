@@ -586,4 +586,8 @@
         }
     }
 
+    function reply_answer_std(){
+        
+    }
+
 ?>
