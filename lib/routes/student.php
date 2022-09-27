@@ -88,7 +88,7 @@
 				<div class="std-body">
                     <?php 
                         if(isset($_POST['askQuseion'])){
-                            $result = 
+                            $result = check_question($_POST['question']);
                         }
                     ?>
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
