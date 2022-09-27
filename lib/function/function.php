@@ -562,6 +562,9 @@
 
     function check_question($question){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
     }
 
 ?>
