@@ -933,7 +933,10 @@ td {
     font-size: 19px;
 }
 
-.type-answer .question-btn:hover {}
+.type-answer .question-btn:hover {
+    background-color: red;
+    color: white;
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
