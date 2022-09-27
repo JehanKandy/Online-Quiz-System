@@ -108,14 +108,6 @@
         <div class="reply-form-title">
             Reply From : Kamal
         </div>
-        <div class="reply-anwser">
-                <td><div class="std-user">Name : Kamal Perera</div>
-                <div class="std-roll">Roll : Teacher</div>
-			<div class="std-msg-body">
-                <div class="title">Answer</div>
-                <textarea class="answer-input" disabled>What is your name ?</textarea>
-			</div>            
-        </div>
 	</div>
 </div>
 </div>
