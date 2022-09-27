@@ -109,9 +109,14 @@
                         <div class="std-user">Name : Kamal Perera</div>
                     </td>                    
                 </tr>
+                <tr>
+                    <td>
+                        <div class="std-roll">Roll : Teacher</div>
+                    </td>
+                </tr>
             </table>
 
-			<div class="std-roll">Roll : Teacher</div>
+
 			<div class="std-msg-body">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
 			</div>            
