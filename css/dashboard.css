@@ -942,7 +942,7 @@ td {
 
 .display-answer {
     grid-area: b;
-    border: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 
 .display-answer .type-answer-input {
