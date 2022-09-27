@@ -596,7 +596,9 @@
         $get_reply_nor = mysqli_num_rows($get_reply_result);
 
         if($get_reply_nor > 0){
-
+            if(empty($get_reply_row['reply_by_username'])){
+                echo "Reply is Pending";
+            }
         }else{
             return false;
         }
