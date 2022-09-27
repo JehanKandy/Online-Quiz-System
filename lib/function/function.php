@@ -595,6 +595,13 @@
         $get_reply_row = mysqli_fetch_assoc($get_reply_result);
         $get_reply_nor = mysqli_num_rows($get_reply_result);
 
+        if($get_reply_nor > 0){
+
+        }else{
+            return false;
+        }
+    
+
         
     }
 
