@@ -956,6 +956,8 @@ td {
     background-color: rgb(0, 110, 255);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-top: 12px;
+    padding-left: 20px;
 }
 
 @media only screen and (max-width: 1400px) {
