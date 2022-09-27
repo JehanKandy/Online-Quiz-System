@@ -550,6 +550,7 @@
 
         $check_date_row = mysqli_fetch_assoc($check_date_result);
 
+        echo $check_date_result['join_date'];
     }
 
 ?>
