@@ -958,6 +958,7 @@ td {
     border-bottom-right-radius: 5px;
     padding-top: 12px;
     padding-left: 20px;
+    color: white;
 }
 
 @media only screen and (max-width: 1400px) {
