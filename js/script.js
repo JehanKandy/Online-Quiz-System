@@ -119,5 +119,8 @@ function passnew() {
         document.getElementById('newcpass').style.borderColor = '#ff3f34';
         return false;
     }
+}
+
+function questionCheck() {
 
 }
