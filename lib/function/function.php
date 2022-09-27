@@ -589,6 +589,8 @@
     function reply_answer_std(){
         $con = Connection();
         $email = strval($_SESSION['LoginSession']);
+
+        $get_reply = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username ='$email'";
         
     }
 
