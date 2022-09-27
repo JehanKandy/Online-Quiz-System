@@ -547,6 +547,9 @@
         $email = strval($_SESSION['LoginSession']);
         $check_date = "SELECT * FROM user_tbl WHERE email = '$email'";
         $check_date_result = mysqli_query($con, $check_date);
+
+        $check_date_row = mysqli_fetch_assoc($check_date_result);
+
     }
 
 ?>
