@@ -122,5 +122,5 @@ function passnew() {
 }
 
 function questionCheck() {
-    var question = document.forms['typeAnser']['']
+    var question = document.forms['typeAnser']['question'].value
 }
