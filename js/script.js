@@ -124,6 +124,6 @@ function passnew() {
 function questionCheck() {
     var question = document.forms['typeAnser']['question'].value
     if (question == "" || question == null) {
-
+        document.getElementById('ansererr').style.color = '#ff3f34';
     }
 }
