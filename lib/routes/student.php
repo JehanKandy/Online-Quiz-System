@@ -86,7 +86,9 @@
 		<div class="std-msg-grid">
             <div class="type-answer">											
 				<div class="std-body">
-					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST"></form>
+					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+                        <textarea class="type-answer-input"></textarea>                
+                    </form>
 				</div>
 			</div>
             <div class="display-answer">											
