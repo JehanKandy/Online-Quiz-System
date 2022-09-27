@@ -598,6 +598,8 @@
         if($get_reply_nor > 0){
             if(empty($get_reply_row['reply_by_username'])){
                 echo "Reply is Pending";
+            }else{
+                echo $get_reply_row['reply_by_username'];
             }
         }else{
             return false;
