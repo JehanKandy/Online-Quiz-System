@@ -911,7 +911,7 @@ td {
     grid-template-areas: "a" "b" "c" "d";
 }
 
-.std-msg-item1 {
+.type-answer {
     grid-area: a;
     border: 1px solid red;
 }
