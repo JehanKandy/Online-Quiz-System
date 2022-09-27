@@ -125,6 +125,7 @@ function questionCheck() {
     var question = document.forms['typeAnser']['question'].value
     if (question == "" || question == null) {
         document.getElementById('ansererr').style.color = '#ff3f34';
-        document.getElementById('ansererr').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>'
+        document.getElementById('ansererr').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
+        document.getElementById('question')
     }
 }
