@@ -921,6 +921,10 @@ td {
     resize: none;
 }
 
+.type-answer .question-btn {
+    width: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
