@@ -939,6 +939,10 @@ td {
     cursor: pointer;
 }
 
+.display-answer {
+    grid-area: b;
+}
+
 .display-answer .type-answer-input {
     width: 100%;
     height: 100px;
