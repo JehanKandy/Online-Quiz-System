@@ -131,4 +131,10 @@ function questionCheck() {
     }
 
     var questionLength = question.length;
+    if (questionLength > 254) {
+        document.getElementById('ansererr').style.color = '#ff3f34';
+        document.getElementById('ansererr').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
+        document.getElementById('question').style.borderColor = '#ff3f34';
+        return false;
+    }
 }
