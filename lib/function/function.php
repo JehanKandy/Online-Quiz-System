@@ -565,7 +565,7 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        $question_add = "INSERT INTO ";
+        $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)";
 
 
     }
