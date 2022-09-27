@@ -913,6 +913,7 @@ td {
 
 .std-msg-item1 {
     grid-area: a;
+    border: 1px solid red;
 }
 
 @media only screen and (max-width: 1400px) {
