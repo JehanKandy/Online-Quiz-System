@@ -102,7 +102,7 @@
             <div class="display-answer">											
 				<div class="std-body">
                     <div class="title">Your Question</div>
-                    <textarea class="type-answer-input" disabled>What is your name ?</textarea>
+                    <textarea class="type-answer-input" disabled><?php view_my_question(); ?></textarea>
 				</div>
 			</div>
         <div class="reply-form-title">
