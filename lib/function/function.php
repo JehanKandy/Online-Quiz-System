@@ -565,6 +565,8 @@
 
         $email = strval($_SESSION['LoginSession']);
 
+        
+
     }
 
 ?>
