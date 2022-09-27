@@ -913,6 +913,7 @@ td {
 
 .type-answer {
     grid-area: a;
+    border-bottom: 1px solid blue;
 }
 
 .type-answer .type-answer-input {
