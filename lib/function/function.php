@@ -587,7 +587,7 @@
     }
 
     function reply_answer_std(){
-        
+        $con = Connection();
     }
 
 ?>
