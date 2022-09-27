@@ -91,7 +91,7 @@
 			</div>
 		</div>
         <div class="std-msg-grid">
-            <div class="type-answer">											
+            <div class="display-answer">											
 				<div class="std-body">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
 				</div>
