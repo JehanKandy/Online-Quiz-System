@@ -122,5 +122,5 @@ function passnew() {
 }
 
 function questionCheck() {
-
+    var question
 }
