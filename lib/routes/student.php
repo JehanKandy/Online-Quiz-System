@@ -106,7 +106,7 @@
 				</div>
 			</div>
         <div class="reply-form-title">
-            Reply From : Kamal
+            Reply From : <?php reply_answer_std(); ?>
         </div>
 	</div>
 </div>
