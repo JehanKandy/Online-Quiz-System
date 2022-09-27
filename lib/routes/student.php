@@ -81,6 +81,32 @@
 					</div>
 				</div>
 	</div>
+    <div class="admin-msg">
+	    <div class="title">Messages From Users</div>
+		<div class="msg-grid">
+			<div class="msg-item1">											
+		    	<div class="msg-user">Kamal Perera</div>
+				<div class="msg-roll">Student</div>
+				<div class="msg-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+			    </div>
+			</div>
+			<div class="msg-item2">
+				<div class="msg-user">Kamal Perera</div>
+			    <div class="msg-roll">Student</div>
+				<div class="msg-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+				</div>
+			</div>
+			<div class="msg-item3">
+				<div class="msg-user">Kamal Perera</div>
+				<div class="msg-roll">Student</div>
+				<div class="msg-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+				</div>
+			</div>
+			</div>
+		</div>
 </div>
 <?php include "../layouts/footer.php";?>
 <script src="../../js/script.js"></script>
