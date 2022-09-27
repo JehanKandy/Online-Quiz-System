@@ -932,6 +932,8 @@ td {
     transition: 0.5s;
 }
 
+.type-answer .question-btn:hover {}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
