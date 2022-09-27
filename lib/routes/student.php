@@ -86,6 +86,9 @@
 		<div class="std-msg-grid">
             <div class="type-answer">											
 				<div class="std-body">
+                    <?php 
+                    
+                    ?>
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
                         <textarea class="type-answer-input" name="question" id="question" placeholder="Ask Question"></textarea>
                         <span id="ansererr"></span><br>
@@ -107,7 +110,7 @@
                 <div class="std-roll">Roll : Teacher</div>
 			<div class="std-msg-body">
                 <div class="title">Answer</div>
-                <textarea class="type-answer-input" disabled>What is your name ?</textarea>
+                <textarea class="answer-input" disabled>What is your name ?</textarea>
 			</div>            
         </div>
 	</div>
