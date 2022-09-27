@@ -584,7 +584,6 @@
         }else{
             return false;
         }
-
     }
 
 ?>
