@@ -966,6 +966,13 @@ td {
     grid-area: d;
 }
 
+.reply-anwser .answer-input {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
