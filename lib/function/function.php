@@ -560,7 +560,7 @@
         echo ($check_date_row['join_date']);
     }
 
-    function check_question(){
+    function check_question($question){
         $con = Connection();
     }
 
