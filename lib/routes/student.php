@@ -90,10 +90,17 @@
 				</div>
 			</div>
 		</div>
+        <div class="std-msg-grid">
+            <div class="type-answer">											
+				<div class="std-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+				</div>
+			</div>
+		</div>
         <div class="reply-form-title">
             Reply From : Kamal
         </div>
-        <div class="std-msg-grid3">
+        <div class="reply-anwser">
             <div class="std-user">Kamal Perera</div>
 			<div class="std-roll">Student</div>
 			<div class="std-msg-body">
