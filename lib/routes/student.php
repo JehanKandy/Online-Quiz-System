@@ -84,14 +84,24 @@
     <div class="admin-msg">
 	    <div class="title">Questions and Answers</div>
 		<div class="std-msg-grid">
-            <div class="msg-item1">											
-			    <div class="msg-user">Kamal Perera</div>
-			    <div class="msg-roll">Student</div>
-				<div class="msg-body">
+            <div class="std-msg-item1">											
+			    <div class="std-user">Kamal Perera</div>
+			    <div class="std-roll">Student</div>
+				<div class="std-body">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
 				</div>
 			</div>
 		</div>
+        <div class="std-msg-grid2">
+            Reply From : Kamal
+        </div>
+        <div class="std-msg-grid3">
+            <div class="std-user">Kamal Perera</div>
+			<div class="std-roll">Student</div>
+			<div class="std-body">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+			</div>            
+        </div>
 	</div>
 </div>
 <?php include "../layouts/footer.php";?>
