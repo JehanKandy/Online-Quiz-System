@@ -569,6 +569,8 @@
         $question_add_result = mysqli_query($con, $question_add);
     }
 
-    
+    function view_question(){
+        $con = Connection();
+    }
 
 ?>
