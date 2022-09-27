@@ -541,4 +541,8 @@
         echo $std_data_view;
     }
 
+    function join_date(){
+        $con = Connection();
+    }
+
 ?>
