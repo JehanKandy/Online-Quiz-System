@@ -55,6 +55,32 @@
             </div>
         </div>
     </div>
+    <div class="admin-comment">
+				<div class="title">User Comments</div>
+				<div class="admin-comment-grid">
+					<div class="comment1">
+						<div class="usern">JehanKandy</div>
+						<div class="user-roll">Admin</div>
+						<div class="commet-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
+						</div>
+					</div>
+					<div class="comment2">
+						<div class="usern">JehanKandy</div>
+						<div class="user-roll">Admin</div>
+						<div class="commet-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
+						</div>
+					</div>
+					<div class="comment3">
+						<div class="usern">JehanKandy</div>
+						<div class="user-roll">Admin</div>
+						<div class="commet-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quod cupiditate? Perspiciatis, voluptatibus necessitatibus eum impedit vitae aspernatur soluta optio, corporis, harum voluptates inventore amet minima provident. Eligendi, repellat officia.
+						</div>
+					</div>
+				</div>
+	</div>
 </div>
 <?php include "../layouts/footer.php";?>
 <script src="../../js/script.js"></script>
