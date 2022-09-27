@@ -129,4 +129,6 @@ function questionCheck() {
         document.getElementById('question').style.borderColor = '#ff3f34';
         return false;
     }
+
+    var questionLength = question.length;
 }
