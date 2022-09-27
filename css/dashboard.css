@@ -910,6 +910,10 @@ td {
     grid-gap: 1rem;
 }
 
+.std-msg-item1 {
+    grid-area: a;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
