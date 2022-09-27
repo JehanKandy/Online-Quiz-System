@@ -569,8 +569,10 @@
         $question_add_result = mysqli_query($con, $question_add);
     }
 
-    function view_question(){
+    function view_my_question(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
     }
 
 ?>
