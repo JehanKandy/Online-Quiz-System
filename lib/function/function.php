@@ -591,6 +591,7 @@
         $email = strval($_SESSION['LoginSession']);
 
         $get_reply = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username ='$email'";
+        $get_reply_result = mysqli_query($con, $get_reply);
         
     }
 
