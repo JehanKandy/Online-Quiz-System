@@ -230,4 +230,4 @@ Online Quiz System
 2. UPDATE
  - lib/function/function.php
  - lib/routes/student.php
- - css/
+ - css/dashboard.css
