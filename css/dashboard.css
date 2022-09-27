@@ -925,6 +925,7 @@ td {
     width: 100%;
     margin-top: 25px;
     height: 35px;
+    border: 1px solid red;
 }
 
 @media only screen and (max-width: 1400px) {
