@@ -565,7 +565,8 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        
+        $question_add = "INSERT INTO ";
+
 
     }
 
