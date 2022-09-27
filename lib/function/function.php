@@ -534,7 +534,12 @@
                     <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
                 </div>          
             </div>
-            <a href='update_pimg.php?id=".$email."'><button class='std-img-update-btn'>Update Profile Image</button></a>
+            <table>
+                <tr>
+                    <td><a href='update_pimg.php?id=".$email."'><button class='std-img-update-btn'>Update Profile Image</button></a></td>
+                </tr>
+            </table>
+            
             <a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</button></a>        
         ";
 
