@@ -930,6 +930,7 @@ td {
     background: none;
     border-radius: 5px;
     transition: 0.5s;
+    font-size: 19px;
 }
 
 .type-answer .question-btn:hover {}
