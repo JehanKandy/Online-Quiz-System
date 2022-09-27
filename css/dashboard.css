@@ -924,6 +924,7 @@ td {
 .type-answer .question-btn {
     width: 100%;
     margin-top: 25px;
+    height: 35px;
 }
 
 @media only screen and (max-width: 1400px) {
