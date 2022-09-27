@@ -537,10 +537,11 @@
             <table>
                 <tr>
                     <td><a href='update_pimg.php?id=".$email."'><button class='std-img-update-btn'>Update Profile Image</button></a></td>
+                    <td><a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</button></a>    </td>
                 </tr>
             </table>
             
-            <a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</button></a>        
+                
         ";
 
         echo $std_data_view;
