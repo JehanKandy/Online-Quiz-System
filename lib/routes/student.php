@@ -95,7 +95,8 @@
 			</div>
             <div class="display-answer">											
 				<div class="std-body">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
+                    <div class="title">Your Question</div>
+                    <textarea class="type-answer-input" disabled>What is your name ?</textarea>
 				</div>
 			</div>
         <div class="reply-form-title">
