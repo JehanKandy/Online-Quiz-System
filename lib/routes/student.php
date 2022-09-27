@@ -87,7 +87,9 @@
             <div class="type-answer">											
 				<div class="std-body">
                     <?php 
-                        if(isset($_POST['askQuseion']))
+                        if(isset($_POST['askQuseion'])){
+                            $result = 
+                        }
                     ?>
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
                         <textarea class="type-answer-input" name="question" id="question" placeholder="Ask Question"></textarea>
