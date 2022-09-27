@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../../css/dashboard.css">
-<?php include("../layouts/header.php"); ?>
-<?php include("../layouts/nav_loged.php"); ?>
+<?php include "../layouts/header.php";?>
+<?php include "../layouts/nav_loged.php";?>
 
 <div class="container">
     <div class="student-panal">
@@ -40,7 +40,7 @@
             </div>
             <div class="student-item6">
                 <div class="title">
-                    All Quizzes
+                    Join Date
                 </div>
                 <div class="body">15</div>
             </div>
@@ -51,10 +51,10 @@
                 My Information
             </div>
             <div class="std-body">
-                <?php std_data(); ?>
+                <?php std_data();?>
             </div>
         </div>
     </div>
 </div>
-<?php include("../layouts/footer.php"); ?>
+<?php include "../layouts/footer.php";?>
 <script src="../../js/script.js"></script>
