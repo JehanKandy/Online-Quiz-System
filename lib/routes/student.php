@@ -87,9 +87,9 @@
             <div class="type-answer">											
 				<div class="std-body">
 					<form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="typeAnser" onsubmit="return questionCheck();">
-                        <textarea class="type-answer-input" name="question" id="question"></textarea>
+                        <textarea class="type-answer-input" name="question" id="question" placeholder="Ask Question"></textarea>
                         <span id="ansererr"></span><br>
-                        <input type="submit" value="Post Answer" name="askQuseion" class="question-btn">                
+                        <input type="submit" value="Ask Question" name="askQuseion" class="question-btn">                
                     </form>
 				</div>
 			</div>
@@ -103,8 +103,15 @@
             Reply From : Kamal
         </div>
         <div class="reply-anwser">
-            <div class="std-user">Kamal Perera</div>
-			<div class="std-roll">Student</div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="std-user">Name : Kamal Perera</div>
+                    </td>                    
+                </tr>
+            </table>
+
+			<div class="std-roll">Roll : Teacher</div>
 			<div class="std-msg-body">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
 			</div>            
