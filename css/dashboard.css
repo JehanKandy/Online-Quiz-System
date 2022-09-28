@@ -1013,6 +1013,10 @@ td {
     margin-top: 25px;
 }
 
+.question-std-bck .question-std-bck-btn {
+    width: 25%;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
