@@ -1,0 +1,1 @@
+<?php include("../layouts/nav_loged_user.php"); ?>
