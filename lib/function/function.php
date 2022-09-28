@@ -633,6 +633,9 @@
                     <td>".$row['ask_by_username']."</td>
                     <td>".$row['ask_date_time']."</td>
                     <td>".$row['question']."</td>
+                    <td>".$row['reply_by_username']."</td>
+                    <td>".$row['reply_date_time']."</td>
+                    <td><a href=''><button class=''>View</button></td>
                 </tr>
             ";
         }
