@@ -614,7 +614,7 @@
         $check_back_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
         $check_back_btn_result = mysqli_query($con, $check_back_btn);
         $check_back_btn_row = mysqli_fetch_assoc($check_back_btn_result);
-        $check_back_btn_nor = mysqli_num_rows($check_back_btn_result);
+
 
     }
 ?>
