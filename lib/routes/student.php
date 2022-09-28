@@ -3,8 +3,9 @@
 <?php include "../layouts/nav_loged.php";?>
 
 <?php 
-    if(empty($_SESSION['LoginSession']))
-
+    if(empty($_SESSION['LoginSession'])){
+        header("location:../views/login.php");
+    }
 ?>
 
 <div class="container">
