@@ -4,7 +4,16 @@
 
 <div class="container">
     <div class="all-td-question">
-        
+        <table class="all-question-std-tbl">
+            <thead>
+                <tr>
+                    <th>Queston From</th>
+                    <th>Ask Date</th>
+                    <th>Question</th>
+                    <th>Relpy By</th>
+                </tr>
+            </thead>
+        </table>
     </div>
 </div>
 
