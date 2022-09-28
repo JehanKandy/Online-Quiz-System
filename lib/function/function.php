@@ -632,7 +632,7 @@
                 <tr>
                     <td>".$row['ask_by_username']."</td>
                     <td>".$row['ask_date_time']."</td>
-                    
+                    <td>".$row['question']."</td>
                 </tr>
             ";
         }
