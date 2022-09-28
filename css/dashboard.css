@@ -1016,6 +1016,7 @@ td {
 .question-std-bck .question-std-bck-btn {
     width: 25%;
     height: 40px;
+    border: 1px solid blue;
 }
 
 @media only screen and (max-width: 1400px) {
