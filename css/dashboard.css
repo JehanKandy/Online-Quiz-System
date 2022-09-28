@@ -1023,7 +1023,9 @@ td {
     transition: 0.5s;
 }
 
-.question-std-bck .question-std-bck-btn:hover {}
+.question-std-bck .question-std-bck-btn:hover {
+    background-color: blue;
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
