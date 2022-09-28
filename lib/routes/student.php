@@ -2,6 +2,11 @@
 <?php include "../layouts/header.php";?>
 <?php include "../layouts/nav_loged.php";?>
 
+<?php 
+    if(empty($_SESSION['LoginSession']))
+
+?>
+
 <div class="container">
     <div class="student-panal">
         <div class="top-title">
