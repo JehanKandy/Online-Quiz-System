@@ -635,7 +635,7 @@
                     <td>".$row['question']."</td>
                     <td>".$row['reply_by_username']."</td>
                     <td>".$row['reply_date_time']."</td>
-                    <td><a href=''><button class=''>View</button></td>
+                    <td><a href=''><button class='view-std-question'>View</button></td>
                 </tr>
             ";
         }
