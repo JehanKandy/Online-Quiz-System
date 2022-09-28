@@ -5,6 +5,8 @@
 <div class="container">
     <div class="all-td-question">
         <?php std_question_back_btn(); ?>
+
+        <div class="title">Pending Questions</div>
         <table class="all-question-std-tbl">
             <thead>
                 <tr>
@@ -18,33 +20,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>std1</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td>Hi aallll?</td>
-                    <td>Jehan</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td><button>view</button></td>
-                    <td>replyed</td>
-                </tr>
-                <tr>
-                    <td>std1</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td>Hi aallll?</td>
-                    <td>Jehan</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td><button>view</button></td>
-                    <td>pending</td>
-                </tr>
-                <tr>
-                    <td>std1</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td>Hi aallll?</td>
-                    <td>Jehan</td>
-                    <td>2022 05 09 12:10:25</td>
-                    <td><button>view</button></td>
-                    <td>replyed</td>
-                </tr>
+                <?php all_std_question(); ?>
             </tbody>
         </table>
     </div>
