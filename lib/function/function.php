@@ -645,7 +645,7 @@
                     <td><a href=''><button class='view-std-question'>View</button></td>";
 
                     if($row['is_pending'] == 1){
-                        $std_question .="<td><div class='panding-std-question'></div></td>";                        
+                        $std_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
                     }
 
             $std_question .="
