@@ -610,5 +610,8 @@
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
+
+        $check_back_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
+        
     }
 ?>
