@@ -12,6 +12,7 @@
                     <th>Question</th>
                     <th>Relpy By</th>
                     <th>Reply Date</th>
+                    <th>View Question</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,6 +22,7 @@
                     <td>Hi aallll?</td>
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
+                    <td><button>view</button></td>
                 </tr>
                 <tr>
                     <td>std1</td>
@@ -28,6 +30,7 @@
                     <td>Hi aallll?</td>
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
+                    <td><button>view</button></td>
                 </tr>
                 <tr>
                     <td>std1</td>
@@ -35,6 +38,7 @@
                     <td>Hi aallll?</td>
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
+                    <td><button>view</button></td>
                 </tr>
             </tbody>
         </table>
