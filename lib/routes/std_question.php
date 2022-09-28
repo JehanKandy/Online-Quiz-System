@@ -34,7 +34,7 @@
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
                     <td><button>view</button></td>
-                    <td>replyed</td>
+                    <td>pending</td>
                 </tr>
                 <tr>
                     <td>std1</td>
