@@ -248,5 +248,5 @@ Online Quiz System
  - lib/routes/admin/students.php
  - lib/routes/admin/teachers.php
  - css/dashboard.css
- - lib/
+ - lib/function/
  
