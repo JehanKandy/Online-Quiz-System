@@ -13,7 +13,7 @@
                     <th>Queston From</th>
                     <th>Ask Date</th>
                     <th>Question</th>
-                    <th>Relpy By</th>
+                    <th>Reply By</th>
                     <th>Reply Date</th>
                     <th>View Question</th>
                     <th>Status</th>
