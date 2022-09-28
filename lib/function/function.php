@@ -612,6 +612,7 @@
         $email = strval($_SESSION['LoginSession']);
 
         $check_back_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
-        
+        $check_back_btn_result = mysqli_query($con, $check_back_btn);
+
     }
 ?>
