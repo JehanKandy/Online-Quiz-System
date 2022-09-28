@@ -1009,6 +1009,10 @@ td {
     border-bottom: 1px solid #dddddd;
 }
 
+.question-std-bck {
+    margin-top: 25px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
