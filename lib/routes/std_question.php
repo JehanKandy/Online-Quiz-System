@@ -4,6 +4,7 @@
 
 <div class="container">
     <div class="all-td-question">
+        <?php std_question_back_btn(); ?>
         <table class="all-question-std-tbl">
             <thead>
                 <tr>
