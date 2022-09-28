@@ -973,6 +973,14 @@ td {
     margin-top: 15px;
 }
 
+.all-td-question {
+    margin-bottom: 15px;
+}
+
+.all-td-question .title {
+    font-size: 30px;
+}
+
 .all-question-std-tbl {
     border-collapse: collapse;
     margin: 25px 0;
