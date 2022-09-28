@@ -628,7 +628,7 @@
         $all_qustion_std_result = mysqli_query($con, $all_qustion_std);
 
         while($row = mysqli_fetch_assoc($all_qustion_std_result)){
-            $std_question =  "
+            $std_question = "
                 <tr>
                     <td>".$row['ask_by_username']."</td>
                     <td>".$row['ask_date_time']."</td>
@@ -642,7 +642,10 @@
                     }
 
             $std_question .="
-                    <td><a href=''><button class='view-std-question'>View</button></td>
+                    <td><a href=''><button class='view-std-question'>View</button></td>";
+
+                    
+            $std_question .="
                 </tr>
             ";
 
