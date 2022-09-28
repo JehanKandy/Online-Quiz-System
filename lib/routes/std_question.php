@@ -14,6 +14,7 @@
                     <th>Relpy By</th>
                     <th>Reply Date</th>
                     <th>View Question</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -24,6 +25,7 @@
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
                     <td><button>view</button></td>
+                    <td>replyed</td>
                 </tr>
                 <tr>
                     <td>std1</td>
@@ -32,6 +34,7 @@
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
                     <td><button>view</button></td>
+                    <td>replyed</td>
                 </tr>
                 <tr>
                     <td>std1</td>
@@ -40,6 +43,7 @@
                     <td>Jehan</td>
                     <td>2022 05 09 12:10:25</td>
                     <td><button>view</button></td>
+                    <td>replyed</td>
                 </tr>
             </tbody>
         </table>
