@@ -608,5 +608,7 @@
 
     function std_question_back_btn(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
     }
 ?>
