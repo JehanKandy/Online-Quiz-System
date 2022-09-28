@@ -26,6 +26,7 @@
 			<a href="teachers.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>Teachers &nbsp; <span class="pending">15</span></a>
 			<a href="quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
 			<a href="admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admin</a>
+			<a href="../std_question.php" class="menu-item"><i class="far fa-comments"></i>Chats</a>
 			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 
