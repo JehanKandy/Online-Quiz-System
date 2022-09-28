@@ -983,6 +983,32 @@ td {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
+.all-question-std-tbl tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.all-question-std-tbl thead {
+    background-color: rgb(29, 152, 235);
+    color: white;
+}
+
+.all-question-std-tbl thead tr {
+    background-color: rgb(0, 128, 202);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    height: 40px;
+}
+
+.all-question-std-tbl th,
+td {
+    padding: 12px 15px;
+}
+
+.all-question-std-tbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
