@@ -1115,6 +1115,15 @@ td {
         overflow: hidden;
         box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     }
+    .all-question-std-tbl {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 100%;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    }
     .msg-grid {
         display: grid;
         margin-top: 25px;
@@ -1137,15 +1146,27 @@ td {
         display: block;
         width: 700px;
     }
-    .lastuser-tbl {
+    .all-question-std-tbl {
         min-width: 700px;
     }
-    .lastuser-tbl thead {
+    .all-question-std-tbl thead {
         display: none;
     }
-    .lastuser-tbl,
-    .lastuser-tbl tbody .lastuser-tbl tbody tr,
-    .lastuser-tbl tbody td {
+    .all-question-std-tbl,
+    .all-question-std-tbl tbody .all-question-std-tbl tbody tr,
+    .all-question-std-tbl tbody td {
+        display: block;
+        width: 700px;
+    }
+    .all-question-std-tbl {
+        min-width: 700px;
+    }
+    .all-question-std-tbl thead {
+        display: none;
+    }
+    .all-question-std-tbl,
+    .all-question-std-tbl tbody .all-question-std-tbl tbody tr,
+    .all-question-std-tbl tbody td {
         display: block;
         width: 700px;
     }
