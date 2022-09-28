@@ -620,4 +620,8 @@
         }
 
     }
+
+    function all_std_question(){
+        $con = Connection();
+    }
 ?>
