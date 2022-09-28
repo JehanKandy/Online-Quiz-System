@@ -636,7 +636,7 @@
                     <td>".$row['reply_by_username']."</td>";
 
                     if($row['reply_date_time'] == 0){
-
+                        $std_question .="Answer is Pending..!";
                     }
 
             $std_question .="
