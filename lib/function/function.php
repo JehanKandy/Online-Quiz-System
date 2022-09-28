@@ -615,6 +615,9 @@
         $check_back_btn_result = mysqli_query($con, $check_back_btn);
         $check_back_btn_row = mysqli_fetch_assoc($check_back_btn_result);
 
+        if($check_back_btn_row['roll'] == 'admin'){
+            echo "<div class='question-std-bck-btn'></div>"
+        }
 
     }
 ?>
