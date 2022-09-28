@@ -616,7 +616,7 @@
         $check_back_btn_row = mysqli_fetch_assoc($check_back_btn_result);
 
         if($check_back_btn_row['roll'] == 'admin'){
-            echo "<div class='question-std-bck-btn'></div>"
+            echo "<div class='question-std-bck'><a href='admin.php'><button class='question-std-bck-btn'>Back</button></a></div>";
         }
 
     }
