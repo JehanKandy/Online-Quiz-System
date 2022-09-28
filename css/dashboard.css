@@ -1019,6 +1019,7 @@ td {
     border: 1px solid blue;
     background: none;
     color: blue;
+    border: 5px;
 }
 
 @media only screen and (max-width: 1400px) {
