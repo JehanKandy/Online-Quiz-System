@@ -244,5 +244,5 @@ Online Quiz System
  - lib/routes/admin.php
  - lib/routes/admin/admins.php
  - lib/routes/admin/my_account_admin.php
- - lib/
+ - lib/routes/admin/my_account_admin.php
  
