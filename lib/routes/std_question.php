@@ -11,6 +11,7 @@
                     <th>Ask Date</th>
                     <th>Question</th>
                     <th>Relpy By</th>
+                    <th>Reply Date</th>
                 </tr>
             </thead>
         </table>
