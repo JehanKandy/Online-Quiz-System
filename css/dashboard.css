@@ -1037,6 +1037,12 @@ td {
     cursor: pointer;
 }
 
+.view-std-question {
+    width: 100%;
+    height: 30px;
+    border: 1px solid blue;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
