@@ -1019,7 +1019,7 @@ td {
     border: 1px solid blue;
     background: none;
     color: blue;
-    border: 5px;
+    border-radius: 5px;
     transition: 0.5s;
 }
 
