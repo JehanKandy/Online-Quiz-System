@@ -1026,6 +1026,7 @@ td {
 .question-std-bck .question-std-bck-btn:hover {
     background-color: blue;
     color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
