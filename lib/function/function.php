@@ -635,6 +635,10 @@
                     <td>".$row['question']."</td>
                     <td>".$row['reply_by_username']."</td>";
 
+                    if($row['reply_date_time'] == 0){
+
+                    }
+
             $std_question .="
                     <td><a href=''><button class='view-std-question'>View</button></td>
                 </tr>
