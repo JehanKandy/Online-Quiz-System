@@ -628,7 +628,7 @@
         $all_qustion_std_result = mysqli_query($con, $all_qustion_std);
 
         while($row = mysqli_fetch_assoc($all_qustion_std_result)){
-
+            echo "";
         }
         
     }
