@@ -657,7 +657,5 @@
         
     }
 
-    function replyed_question(){
-        $con = Connection();
-    }
+
 ?>
