@@ -240,7 +240,7 @@ Online Quiz System
  - lib
  - - lib/routes
  - - - lib/routes/std_question.php
- - - - lib/
+ - - - lib/routes/
 2. UPDATE
  - lib/routes/admin.php
  - lib/routes/admin/admins.php
