@@ -1085,6 +1085,8 @@ td {
     border: 1px solid rgb(194, 194, 194);
     padding-top: 45px;
     padding-bottom: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media only screen and (max-width: 1400px) {
