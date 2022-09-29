@@ -665,6 +665,9 @@
         $get_question = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username= '$id'";
         $get_question_result = mysqli_query($con, $get_question);
         $get_question_row = mysqli_fetch_assoc($get_question_result);
+        $get_question_nor = mysqli_num_rows($get_question_result);
+        
+        
     }
 
 ?>
