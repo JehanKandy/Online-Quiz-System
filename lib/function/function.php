@@ -716,6 +716,9 @@
 
         $email = strval($_SESSION['LoginSession']);
         $answer_by = strval($_SESSION['idSession']);
+
+        $delete_question = "DELETE FROM question_ask_std_tbl WHERE ask_by_username = '$answer_by'";
+        $delete_question_result = mysqli_query($con, $delete_question);
     }
 ?>
 
