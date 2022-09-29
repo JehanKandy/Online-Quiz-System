@@ -661,7 +661,8 @@
         $con = Connection();
 
         $id = $_GET['id'];
-        echo $id;
+
+        $get_question = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username= '$id'";
     }
 
 ?>
