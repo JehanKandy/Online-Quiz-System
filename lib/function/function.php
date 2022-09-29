@@ -711,6 +711,8 @@
 
     function get_answer($answer){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
     }
 ?>
 
