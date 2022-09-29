@@ -1074,6 +1074,11 @@ td {
     margin-bottom: 25px;
 }
 
+.view-question .question-view_input {
+    width: 100%;
+    height: 50px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
