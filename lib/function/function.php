@@ -726,6 +726,10 @@
         header("location:std_question.php");
         session_destroy();
     }
+
+    function answer_for_question(){
+        
+    }
 ?>
 
 <script src="../../js/script.js"></script>
