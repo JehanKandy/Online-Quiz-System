@@ -29,6 +29,24 @@
                 <?php all_std_question(); ?>
             </tbody>
         </table>
+        <hr>
+        <div class="title">Pending Questions</div>
+        <table class="all-question-std-tbl">
+            <thead>
+                <tr>
+                    <th>Queston From</th>
+                    <th>Ask Date</th>
+                    <th>Question</th>
+                    <th>Reply By</th>
+                    <th>Reply Date</th>
+                    <th>View Question</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php all_std_question(); ?>
+            </tbody>
+        </table>
     </div>
 </div>
 
