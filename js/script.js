@@ -133,7 +133,7 @@ function questionCheck() {
 
 function answerValidate() {
     var anserer = document.forms['anserForm']['anserreply'].value
-    if (anserer == "" || anserer == null){
-        
+    if (anserer == "" || anserer == null) {
+        document.getElementById('answererror').style.color = '#ff3f34';
     }
 }
