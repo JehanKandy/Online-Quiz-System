@@ -669,7 +669,7 @@
         
         if($get_question_nor > 0){
             $std_view = "
-                <span><input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span>
+                <span>Question By : <input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span>
 
             ";
 
