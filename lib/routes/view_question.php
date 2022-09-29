@@ -2,6 +2,13 @@
 <?php include("../layouts/header.php"); ?>
 <?php include("../function/function.php"); ?>
 
+<?php 
+    if(empty($_SESSION['idSession'])){
+        header("location:std_question.php");
+    }
+
+?>
+
 <div class="container">
     <div class="view-question">
         <div class="title">
