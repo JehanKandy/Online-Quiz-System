@@ -261,5 +261,5 @@ Online Quiz System
  - lib/function/function.php
  - css/dashboard.css
  - lib/routes/std_question.php
- - js
+ - js/script.js
  
