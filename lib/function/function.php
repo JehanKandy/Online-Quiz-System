@@ -667,7 +667,11 @@
         $get_question_row = mysqli_fetch_assoc($get_question_result);
         $get_question_nor = mysqli_num_rows($get_question_result);
         
-        
+        if($get_question_nor > 0){
+
+        }else{
+            return false;
+        }
     }
 
 ?>
