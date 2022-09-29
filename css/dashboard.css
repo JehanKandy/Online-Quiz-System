@@ -1102,7 +1102,8 @@ td {
     margin-top: 20px;
     border: 1px solid blue;
     background: none;
-    border-radius: 0.5s;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
