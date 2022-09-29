@@ -729,6 +729,9 @@
 
     function answer_for_question(){
         $con = Connection();
+        
+        $all_question_update = "SELECT * FROM question_ask_std_tbl";
+        $all_question_update_result = mysqli_query($con, $all_question_update);
     }
 ?>
 
