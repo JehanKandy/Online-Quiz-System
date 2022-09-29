@@ -1064,6 +1064,10 @@ td {
     border-radius: 5px;
 }
 
+.view-question {
+    margin-top: 30px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
