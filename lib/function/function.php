@@ -705,10 +705,12 @@
         }elseif($bck_btn_row['roll'] == 'teacher'){
             $reply_to_question .= "<a href='teacher.php'><button class='answer-bck-btn'>Go Back</button></a>";
         }
-
-        
-
+      
         echo $reply_to_question;
+    }
+
+    function get_answer($answer){
+
     }
 ?>
 
