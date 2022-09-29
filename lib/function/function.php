@@ -1099,6 +1099,7 @@ td {
 .answer-btn {
     width: 100%;
     height: 40px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 1400px) {
