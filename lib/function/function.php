@@ -668,7 +668,16 @@
         $get_question_nor = mysqli_num_rows($get_question_result);
         
         if($get_question_nor > 0){
+            $std_view = "
+                <table>
+                    <tr>
+                        <td>Email : </td>
+                        <td>".$get_question_row['ask_by_username']."</td>
+                    </tr>
+                </table>
+            ";
 
+            echo $std_view;
         }else{
             return false;
         }
