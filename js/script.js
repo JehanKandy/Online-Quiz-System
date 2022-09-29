@@ -133,5 +133,7 @@ function questionCheck() {
 
 function answerValidate() {
     var anserer = document.forms['anserForm']['anserreply'].value
-    if ()
+    if (anserer == "" || anserer == null){
+        
+    }
 }
