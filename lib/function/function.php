@@ -722,6 +722,8 @@
 
         $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), is_pending = '0' WHERE ask_username = '$answer_by'";
         $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
+
+        header("location:std_question.php");
     }
 ?>
 
