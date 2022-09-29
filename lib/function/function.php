@@ -710,7 +710,7 @@
     }
 
     function get_answer($answer){
-
+        $con = Connection();
     }
 ?>
 
