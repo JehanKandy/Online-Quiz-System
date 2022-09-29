@@ -719,6 +719,8 @@
 
         $delete_question = "DELETE FROM question_ask_std_tbl WHERE ask_by_username = '$answer_by'";
         $delete_question_result = mysqli_query($con, $delete_question);
+
+        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email'"
     }
 ?>
 
