@@ -19,6 +19,7 @@
         }
     }
 
+
     function reg_teacher($username,$email,$password){
         $con = Connection();
 
