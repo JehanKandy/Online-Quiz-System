@@ -658,7 +658,7 @@
     }
 
     function get_question_to_answer(){
-
+        $con = Connection();
     }
 
 ?>
