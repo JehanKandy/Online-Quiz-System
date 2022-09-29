@@ -669,12 +669,8 @@
         
         if($get_question_nor > 0){
             $std_view = "
-                <table>
-                    <tr>
-                        <td>Email : </td>
-                        <td><input type='text' value='".$get_question_row['ask_by_username']."' disabled></td>
-                    </tr>
-                </table>
+                <span><input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span>
+
             ";
 
             echo $std_view;
