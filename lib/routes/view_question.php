@@ -10,7 +10,7 @@
         <div class="body">
             <?php 
                 if(isset($_POST['answer_std'])){
-                    
+                    $result = get_answer($_POST[''])
                 }            
             ?>
             <div class="std-question">
