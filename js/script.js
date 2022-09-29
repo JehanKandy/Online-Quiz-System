@@ -130,3 +130,8 @@ function questionCheck() {
         return false;
     }
 }
+
+function answerValidate() {
+    var anserer = document.forms['anserForm']['anserreply'].value
+    if ()
+}
