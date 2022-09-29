@@ -728,7 +728,7 @@
     }
 
     function answer_for_question(){
-        
+        $con = Connection();
     }
 ?>
 
