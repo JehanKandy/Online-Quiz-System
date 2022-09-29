@@ -1100,6 +1100,8 @@ td {
     width: 100%;
     height: 40px;
     margin-top: 20px;
+    border: 1px solid blue;
+    background: none;
 }
 
 @media only screen and (max-width: 1400px) {
