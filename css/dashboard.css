@@ -1066,6 +1066,7 @@ td {
 
 .view-question {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
