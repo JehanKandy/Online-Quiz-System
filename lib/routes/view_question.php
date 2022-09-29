@@ -8,9 +8,14 @@
             Question
         </div>
         <div class="body">
+            <?php 
+                if(isset($_POST['answer_std'])){
+                    
+                }            
+            ?>
             <div class="std-question">
                 <?php get_question_to_answer(); ?>
-                <hr>
+                <hr>                
                 <?php reply_asnwer(); ?>
             </div>
         </div>
