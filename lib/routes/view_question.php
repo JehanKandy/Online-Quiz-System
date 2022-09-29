@@ -10,9 +10,12 @@
         <div class="body">
             <div class="std-question">
                 <?php get_question_to_answer(); ?>
+                <hr>
+                <?php reply_asnwer(); ?>
             </div>
         </div>
     </div>
+
 </div>
 
 <?php include("../layouts/footer.php"); ?>
