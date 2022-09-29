@@ -671,6 +671,9 @@
             $std_view = "
                 <span>Question By : <input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span><br><br>
                 <span>Question Date : <input type='text' class='question-view_input' value='".$get_question_row['ask_date_time']."' disabled></span>
+            
+                <br><br>
+                <textarea class='view-question'>".$get_question_row['question']."</textarea>
             ";
 
             echo $std_view;
