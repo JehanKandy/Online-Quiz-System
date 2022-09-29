@@ -3,7 +3,11 @@
 <?php include("../function/function.php"); ?>
 
 <div class="container">
-    hi
+    <div class="view-question">
+        <div class="title">
+            Question
+        </div>
+    </div>
 </div>
 
 <?php include("../layouts/footer.php"); ?>
