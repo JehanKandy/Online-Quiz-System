@@ -690,7 +690,10 @@
 
         $reply_to_question = "
             <h3>Answer</h3>
-            <textarea class='view-question-input' name='reply_answer'></textarea>
+            <form action='' method='POST'>
+                <textarea class='view-question-input' name='reply_answer'></textarea>
+                <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
+            </form>
         ";
 
         echo $reply_to_question;
