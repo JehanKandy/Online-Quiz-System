@@ -1069,6 +1069,10 @@ td {
     margin-bottom: 30px;
 }
 
+.view-question .title {
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
