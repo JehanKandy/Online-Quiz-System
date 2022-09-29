@@ -11,6 +11,7 @@
             <?php 
                 if(isset($_POST['answer_std'])){
                     $result = get_answer($_POST['reply_answer']);
+                    echo $result;
                 }            
             ?>
             <div class="std-question">
