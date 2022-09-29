@@ -8,8 +8,9 @@
             Question
         </div>
         <div class="body">
-            <div class="std-question"></div>
-            <?php get_question_to_answer(); ?>
+            <div class="std-question">
+                <?php get_question_to_answer(); ?>
+            </div>
         </div>
     </div>
 </div>
