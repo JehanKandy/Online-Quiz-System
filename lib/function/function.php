@@ -692,7 +692,7 @@
             <h3>Answer</h3>
             <form action='' method='POST' name='anserForm' onsubmit='return answerValidate();'>
                 <textarea class='view-question-input' name='reply_answer' id='anserreply'></textarea>
-                <span id='answererror'></span>
+                <span id='answererror'></span><br>
                 <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
             </form>
         ";
