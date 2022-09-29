@@ -690,7 +690,7 @@
 
         $reply_to_question = "
             <h3>Answer</h3>
-            <form action='' method='POST'>
+            <form action='' method='POST' name='anserForm' onsubmit='return answerValidate();'>
                 <textarea class='view-question-input' name='reply_answer'></textarea>
                 <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
             </form>
