@@ -685,5 +685,8 @@
 
     function reply_asnwer(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+        
     }
 ?>
