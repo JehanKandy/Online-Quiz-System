@@ -698,6 +698,7 @@
         
         $bck_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
         $bck_btn_result = mysqli_query($con, $bck_btn);
+        $bck_btn_row = mysqli_fetch_assoc($bck_btn_result);
 
         $reply_to_question .= "";
 
