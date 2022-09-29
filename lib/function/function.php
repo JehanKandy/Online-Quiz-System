@@ -695,6 +695,9 @@
                 <span id='answererror'></span><br>
                 <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
             </form>";
+        
+        $bck_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $bck_btn_result = mysqli_query($con, $bck_btn);
 
         $reply_to_question .= "";
 
