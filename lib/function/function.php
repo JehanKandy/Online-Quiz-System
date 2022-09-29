@@ -700,7 +700,11 @@
         $bck_btn_result = mysqli_query($con, $bck_btn);
         $bck_btn_row = mysqli_fetch_assoc($bck_btn_result);
 
-        $reply_to_question .= "";
+        if($bck_btn_row['roll'] == 'admin'){
+            $reply_to_question .= "<a href='admin.php'></a>";
+        }
+
+        
 
         echo $reply_to_question;
     }
