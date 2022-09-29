@@ -8,7 +8,7 @@
             Question
         </div>
         <div class="body">
-            ajhdjfhsjkh
+            <?php get_question_to_answer(); ?>
         </div>
     </div>
 </div>
