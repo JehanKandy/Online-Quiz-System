@@ -1104,6 +1104,7 @@ td {
     background: none;
     border-radius: 5px;
     transition: 0.5s;
+    color: blue;
 }
 
 .answer-btn:hover {
