@@ -689,6 +689,7 @@
         $email = strval($_SESSION['LoginSession']);
 
         $reply_to_question = "
+            <h3>Answer</h3>
             <textarea class='view-question-input' name='reply_answer'></textarea>
         ";
 
