@@ -687,6 +687,9 @@
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
-        
+
+        $reply_to_question = "
+            <textarea class='view-question-input' name='reply_answer'></textarea>
+        ";
     }
 ?>
