@@ -703,7 +703,7 @@
         if($bck_btn_row['roll'] == 'admin'){
             $reply_to_question .= "<a href='admin.php'><button class='answer-bck-btn'>Go Back</button></a>";
         }elseif($bck_btn_row['roll'] == 'teacher'){
-            $reply_to_question .= "<a href='admin.php'><button class='answer-bck-btn'>Go Back</button></a>";
+            $reply_to_question .= "<a href='teacher.php'><button class='answer-bck-btn'>Go Back</button></a>";
         }
 
         
