@@ -256,7 +256,7 @@ Online Quiz System
 1. DEVELOP
  - lib/
  - - lib/routes/
- - - - lib/
+ - - - lib/routes/
 2. UPDATE
  - lib/function/function.php
  - css/dashboard.css
