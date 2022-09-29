@@ -1089,11 +1089,16 @@ td {
     padding-right: 50px;
 }
 
-.view-question {
+.view-question-input {
     width: 100%;
     height: 100px;
     resize: none;
     margin-top: 15px;
+}
+
+.send-answer {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
