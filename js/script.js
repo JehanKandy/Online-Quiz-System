@@ -136,6 +136,6 @@ function answerValidate() {
     if (anserer == "" || anserer == null) {
         document.getElementById('answererror').style.color = '#ff3f34';
         document.getElementById('answererror').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
-        document.getElementById('question').style.borderColor = '#ff3f34';
+        document.getElementById('anserreply').style.borderColor = '#ff3f34';
     }
 }
