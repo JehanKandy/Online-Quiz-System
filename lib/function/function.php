@@ -673,8 +673,8 @@
                 <span>Question Date : <input type='text' class='question-view_input' value='".$get_question_row['ask_date_time']."' disabled></span>
             
                 <br><br>
-                Question :
-                <textarea class='view-question' disabled>".$get_question_row['question']."</textarea>
+                Question :<br>
+                <textarea class='view-question-input' disabled>".$get_question_row['question']."</textarea>
             ";
 
             echo $std_view;
@@ -683,4 +683,7 @@
         }
     }
 
+    function reply_asnwer(){
+        $con = Connection();
+    }
 ?>
