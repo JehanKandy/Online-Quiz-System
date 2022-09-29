@@ -1106,6 +1106,10 @@ td {
     transition: 0.5s;
 }
 
+.answer-btn {
+    background-color: blue;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
