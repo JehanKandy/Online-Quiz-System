@@ -672,7 +672,7 @@
                 <table>
                     <tr>
                         <td>Email : </td>
-                        <td><input type='text' value='".$get_question_row['ask_by_username']."' disabled</td>
+                        <td><input type='text' value='".$get_question_row['ask_by_username']."' disabled></td>
                     </tr>
                 </table>
             ";
