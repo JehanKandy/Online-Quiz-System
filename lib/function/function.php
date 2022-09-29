@@ -19,7 +19,6 @@
         }
     }
 
-
     function reg_teacher($username,$email,$password){
         $con = Connection();
 
@@ -692,7 +691,8 @@
         $reply_to_question = "
             <h3>Answer</h3>
             <form action='' method='POST' name='anserForm' onsubmit='return answerValidate();'>
-                <textarea class='view-question-input' name='reply_answer'></textarea>
+                <textarea class='view-question-input' name='reply_answer' id='anserreply'></textarea>
+                <span id='answererror'></span>
                 <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
             </form>
         ";
@@ -700,3 +700,5 @@
         echo $reply_to_question;
     }
 ?>
+
+<script src="../../js/script.js"></script>
