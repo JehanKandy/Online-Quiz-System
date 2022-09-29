@@ -701,7 +701,7 @@
         $bck_btn_row = mysqli_fetch_assoc($bck_btn_result);
 
         if($bck_btn_row['roll'] == 'admin'){
-            $reply_to_question .= "<a href='admin.php'></a>";
+            $reply_to_question .= "<a href='admin.php'><button class='answer-bck-btn'>Go Back</button></a>";
         }
 
         
