@@ -734,7 +734,31 @@
         $all_question_update_result = mysqli_query($con, $all_question_update);
 
         while($row = mysqli_fetch_assoc($all_question_update_result)){
-            
+            $std_asnwered_question = "
+            <tr>
+                <td>".$row['ask_by_username']."</td>
+                <td>".$row['ask_date_time']."</td>
+                <td>".$row['question']."</td>
+                <td>".$row['reply_by_username']."</td>";
+
+                if($row['reply_date_time'] == 0){
+                    $std_asnwered_question .="<td><span style='color:red;'>Answer is Pending..!</span></td>";
+                }else{
+                    $std_asnwered_question .="<td>".$row['reply_date_time']."</td>";
+                }
+
+        $std_asnwered_question .="
+                <td><a href='view_question.php?id=".$row['ask_by_username']."'><button class='view-std-question'>View</button></td>";
+
+                if($row['is_pending'] == 1){
+                    $std_asnwered_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
+                }
+
+        $std_asnwered_question .="
+            </tr>
+        ";
+
+        echo $std_asnwered_question;
         }
     }
 ?>
