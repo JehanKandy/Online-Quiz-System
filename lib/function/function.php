@@ -760,6 +760,15 @@
         ";
 
         echo $std_asnwered_question;
+
+        $to = $row['ask_username'];
+        $subject = "Answer Replyed";
+        $txt = "Your Password Reset OTP is : ";
+        $headers = "From: jehankandy@gmail.com";
+
+        mail($to,$subject,$txt,$headers);
+
+
         }
     }
 ?>
