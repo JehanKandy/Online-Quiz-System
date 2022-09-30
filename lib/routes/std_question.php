@@ -45,7 +45,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php all_std_question(); ?>
+                <?php answer_for_question(); ?>
             </tbody>
         </table>
     </div>
