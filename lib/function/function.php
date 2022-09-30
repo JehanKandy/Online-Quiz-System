@@ -741,7 +741,7 @@
                 <td>".$row['question']."</td>
                 <td>".$row['reply_username']."</td>";
 
-                if($row['reply_date_time'] == "0000-00-00 00:00:00"){
+                if($row['reply_time'] == "0000-00-00 00:00:00"){
                     $std_asnwered_question .="<td><span style='color:red;'>Answer is Pending..!</span></td>";
                 }else{
                     $std_asnwered_question .="<td>".$row['reply_time']."</td>";
@@ -749,7 +749,7 @@
 
         $std_asnwered_question .="
                 <td>".$row['answer_for_question']."</td>
-                <td><a href='view_question.php?id=".$row['ask_by_username']."'><button class='view-std-question'>View</button></td>";
+                <td><a href='view_question.php?id=".$row['ask_username']."'><button class='view-std-question'>View</button></td>";
 
                 if($row['is_pending'] == 0){
                     $std_asnwered_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
