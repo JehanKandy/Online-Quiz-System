@@ -752,7 +752,7 @@
                 <td><a href='view_question.php?id=".$row['ask_username']."'><button class='view-std-question'>View</button></td>";
 
                 if($row['is_pending'] == 0){
-                    $std_asnwered_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
+                    $std_asnwered_question .="<td><div class='panding-std-question'>Answered</div></td>";                        
                 }
 
         $std_asnwered_question .="
