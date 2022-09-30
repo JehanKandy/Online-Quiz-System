@@ -739,12 +739,12 @@
                 <td>".$row['ask_username']."</td>
                 <td>".$row['ask_time']."</td>
                 <td>".$row['question']."</td>
-                <td>".$row['reply_by_username']."</td>";
+                <td>".$row['reply_username']."</td>";
 
-                if($row['reply_date_time'] == 0){
+                if($row['reply_date_time'] == "0000-00-00 00:00:00"){
                     $std_asnwered_question .="<td><span style='color:red;'>Answer is Pending..!</span></td>";
                 }else{
-                    $std_asnwered_question .="<td>".$row['reply_date_time']."</td>";
+                    $std_asnwered_question .="<td>".$row['reply_time']."</td>";
                 }
 
         $std_asnwered_question .="
