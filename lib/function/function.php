@@ -760,7 +760,7 @@
 
         echo $std_asnwered_question;
 
-        $answer_std = "Your Answer for Question ".$row['question']." and the Answer is ".$row['answer_for_question'];
+        $answer_std = "Your Answer for Question: ".$row['question']." and the Answer is: ".$row['answer_for_question'];
 
         $to = $row['ask_username'];
         $subject = "Answer Replyed";
