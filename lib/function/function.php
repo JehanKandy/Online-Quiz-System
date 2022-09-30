@@ -732,6 +732,10 @@
         
         $all_question_update = "SELECT * FROM question_ask_std_tbl";
         $all_question_update_result = mysqli_query($con, $all_question_update);
+
+        while($row = mysqli_fetch_assoc($all_question_update_result)){
+            
+        }
     }
 ?>
 
