@@ -736,7 +736,7 @@
         while($row = mysqli_fetch_assoc($all_question_update_result)){
             $std_asnwered_question = "
             <tr>
-                <td>".$row['ask_by_username']."</td>
+                <td>".$row['ask_username']."</td>
                 <td>".$row['ask_date_time']."</td>
                 <td>".$row['question']."</td>
                 <td>".$row['reply_by_username']."</td>";
