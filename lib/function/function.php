@@ -730,7 +730,7 @@
     function answer_for_question(){
         $con = Connection();
         
-        $all_question_update = "SELECT * FROM question_ask_std_tbl";
+        $all_question_update = "SELECT * FROM question_replyed_std_tbl";
         $all_question_update_result = mysqli_query($con, $all_question_update);
 
         while($row = mysqli_fetch_assoc($all_question_update_result)){
@@ -750,7 +750,7 @@
         $std_asnwered_question .="
                 <td><a href='view_question.php?id=".$row['ask_by_username']."'><button class='view-std-question'>View</button></td>";
 
-                if($row['is_pending'] == 1){
+                if($row['is_pending'] == 0){
                     $std_asnwered_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
                 }
 
