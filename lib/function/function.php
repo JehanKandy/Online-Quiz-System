@@ -724,7 +724,6 @@
         $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
 
         header("location:std_question.php");
-        session_destroy();
     }
 
     function answer_for_question(){
