@@ -720,7 +720,7 @@
         $delete_question = "DELETE FROM question_ask_std_tbl WHERE ask_by_username = '$answer_by'";
         $delete_question_result = mysqli_query($con, $delete_question);
 
-        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), is_pending = '0' WHERE ask_username = '$answer_by'";
+        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), answer_for_question = '$answer' is_pending = '0' WHERE ask_username = '$answer_by'";
         $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
 
         header("location:std_question.php");
