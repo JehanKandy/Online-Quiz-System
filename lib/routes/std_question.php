@@ -30,7 +30,7 @@
             </tbody>
         </table>
         <hr>
-        <div class="title">Pending Questions</div>
+        <div class="title">Answered Questions</div>
         <table class="all-question-std-tbl">
             <thead>
                 <tr>
