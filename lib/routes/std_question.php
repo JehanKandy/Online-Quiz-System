@@ -39,6 +39,7 @@
                     <th>Question</th>
                     <th>Reply By</th>
                     <th>Reply Date</th>
+                    <th>Answer</th>
                     <th>View Question</th>
                     <th>Status</th>
                 </tr>
