@@ -727,9 +727,9 @@
         $get_data_result = mysqli_query($con, $get_data);
         $fetch_data = mysqli_fetch_assoc($get_data_result);
 
-        $answer_std = "Your Answer for Question: ".$row['question']." and the Answer is: ".$row['answer_for_question'];
+        $answer_std = "Your Answer for Question: ".$fetch_data['question']." and the Answer is: ".$fetch_data['answer_for_question'];
 
-        $to = $row['ask_username'];
+        $to = $fetch_data['ask_username'];
         $subject = "Answer Replyed";
         $txt = $answer_std;
         $headers = "From: jehankandy@gmail.com";
