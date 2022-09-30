@@ -748,6 +748,7 @@
                 }
 
         $std_asnwered_question .="
+                <td>".$row['answer_for_question']."</td>
                 <td><a href='view_question.php?id=".$row['ask_by_username']."'><button class='view-std-question'>View</button></td>";
 
                 if($row['is_pending'] == 0){
