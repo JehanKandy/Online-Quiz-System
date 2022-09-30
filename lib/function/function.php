@@ -777,5 +777,14 @@
         }
     }
 ?>
-
-<script src="../../js/script.js"></script>
+<script>
+function answerValidate() {
+    var anserer = document.forms['anserForm']['anserreply'].value
+    if (anserer == "" || anserer == null) {
+        document.getElementById('answererror').style.color = '#ff3f34';
+        document.getElementById('answererror').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
+        document.getElementById('anserreply').style.borderColor = '#ff3f34';
+        return false;
+    }
+}
+</script>
