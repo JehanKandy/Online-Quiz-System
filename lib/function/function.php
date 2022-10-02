@@ -569,6 +569,11 @@
         $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
         $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
+
+        $answered_question = "SELECT * FROM question_replyed_std_tbl WHERE question ='$question' && ask_username ='$email'";
+        $answered_question_result = mysqli_query($con, $answered_question);
+        $answered_question_nor = mysqli_num_rows($answered_question_result);
+        
         if($check_question_is_exists_nor > 0){
             return "<p style='color:red;'>You already Ask This question</p>";
         }else{
