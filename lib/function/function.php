@@ -569,8 +569,11 @@
         $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
         $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
-        $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
-        $question_add_result = mysqli_query($con, $question_add);
+        if($check_question_is_exists_nor > 0){
+            $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
+            $question_add_result = mysqli_query($con, $question_add);
+        }
+
     }
 
     function view_my_question(){
