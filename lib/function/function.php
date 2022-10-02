@@ -567,6 +567,7 @@
 
         $check_question_is_exists = "SELECT * FROM question_replyed_std_tbl WHERE question='$question'";
         $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
+        $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
         $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
         $question_add_result = mysqli_query($con, $question_add);
