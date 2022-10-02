@@ -569,15 +569,9 @@
         $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
         $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
-
-        $answered_question = "SELECT * FROM question_replyed_std_tbl WHERE question ='$question' && ask_username ='$email'";
-        $answered_question_result = mysqli_query($con, $answered_question);
-        $answered_question_nor = mysqli_num_rows($answered_question_result);
-
         if($check_question_is_exists_nor > 0){
-            if($answered_question_nor > 0){
-                return "<p style='color:red;'>You already Ask This question</p>";
-            }            
+            return "<p style='color:red;'>You already Ask This question</p>";
+                        
         }else{
             $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
             $question_add_result = mysqli_query($con, $question_add);
