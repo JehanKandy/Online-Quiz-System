@@ -565,6 +565,9 @@
 
         $email = strval($_SESSION['LoginSession']);
 
+        $check_question_is_exists = "SELECT * FROM question_replyed_std_tbl WHERE question='$question'";
+        $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
+
         $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
         $question_add_result = mysqli_query($con, $question_add);
     }
@@ -723,7 +726,7 @@
         $delete_question_result = mysqli_query($con, $delete_question);
 
 
-        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), answer_for_question = '$answer', is_pending = '0' WHERE ask_username = '$answer_by' && && question = '$question_session'";
+        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), answer_for_question = '$answer', is_pending = '0' WHERE ask_username = '$answer_by' && question = '$question_session'";
         $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
 
         $get_data = "SELECT * FROM question_replyed_std_tbl WHERE ask_username = '$answer_by'";
