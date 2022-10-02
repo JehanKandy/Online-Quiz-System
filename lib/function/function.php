@@ -570,10 +570,10 @@
         $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
         if($check_question_is_exists_nor > 0){
+            return "<p style='color:red;'>You already Ask This question</p>";
+        }else{
             $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
             $question_add_result = mysqli_query($con, $question_add);
-        }else{
-            return "<p style='color:red;'>You already Ask This question</p>";
         }
 
     }
