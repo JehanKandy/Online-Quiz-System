@@ -565,7 +565,7 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        $check_question_is_exists = "SELECT * FROM question_replyed_std_tbl WHERE question='$question' && ask_username='$email'";
+        $check_question_is_exists = "SELECT * FROM question_replyed_std_tbl WHERE question ='$question' && ask_username ='$email'";
         $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
         $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
 
