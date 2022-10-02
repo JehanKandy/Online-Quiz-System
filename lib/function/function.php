@@ -669,6 +669,7 @@
         $get_question_row = mysqli_fetch_assoc($get_question_result);
         $get_question_nor = mysqli_num_rows($get_question_result);
         
+        $question_session = $_SESSION['questionSession'] = $get_question_row['question'];
         if($get_question_nor > 0){
             $std_view = "
                 <span>Question By : <input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span><br><br>
@@ -716,9 +717,11 @@
 
         $email = strval($_SESSION['LoginSession']);
         $answer_by = strval($_SESSION['idSession']);
-
+        $question_session = strval($_SESSION['questionSession']);
+         
         $delete_question = "DELETE FROM question_ask_std_tbl WHERE ask_by_username = '$answer_by'";
         $delete_question_result = mysqli_query($con, $delete_question);
+
 
         $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), answer_for_question = '$answer', is_pending = '0' WHERE ask_username = '$answer_by'";
         $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
@@ -761,7 +764,7 @@
 
         $std_asnwered_question .="
                 <td>".$row['answer_for_question']."</td>
-                <td><a href='view_question.php?id=".$row['ask_username']."'><button class='view-std-question'>View</button></td>";
+                <td><a href='view_question_after.php?id=".$row['ask_username']."'><button class='view-std-question'>View</button></td>";
 
                 if($row['is_pending'] == 0){
                     $std_asnwered_question .="<td><div class='answered-std-question'>Answered</div></td>";                        
