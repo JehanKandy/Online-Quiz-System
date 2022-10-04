@@ -790,6 +790,7 @@
         $con = Connection();
         
         $all_coment_user = "SELECT * FROM comment_tbl";
+        $all_coment_user_result = mysqli_query($con, $all_coment_user);
 
     }
 
