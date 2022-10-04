@@ -25,6 +25,9 @@
         <div class='comment-grid'>
             <?php user_commnets(); ?>
         </div>
+        <center>
+            <a href="all_commnet.php"></a>
+        </center>
     </div>
 </div>
 <div class="partner">
