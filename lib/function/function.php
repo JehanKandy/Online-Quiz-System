@@ -613,6 +613,7 @@ font-family: 'Teko', sans-serif;
     border: 1px solid rgb(27, 108, 230);
     color: rgb(27, 108, 230);
     background: none;
+    transition: 0.5s;
 }
 
 
