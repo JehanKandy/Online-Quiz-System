@@ -783,11 +783,12 @@
         $std_asnwered_question .="
             </tr>
         ";
-
         echo $std_asnwered_question;
-
-
         }
+    }
+
+    function answered_by(){
+        $con = Connection();
     }
 ?>
 <script>
