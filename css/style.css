@@ -618,6 +618,8 @@ font-family: 'Teko', sans-serif;
 
 .all-commnet-btn:hover {
     background-color: rgb(27, 108, 230);
+    color: white;
+    cursor: pointer;
 }
 
 
