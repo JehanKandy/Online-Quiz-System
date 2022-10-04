@@ -789,6 +789,10 @@
 
     function answered_by(){
         $con = Connection();
+        
+        $check_answered "SELECT * FROM "
+        
+
     }
 ?>
 <script>
