@@ -1147,6 +1147,7 @@ td {
     height: 35px;
     border: 1px solid green;
     border-radius: 5px;
+    color: green;
 }
 
 @media only screen and (max-width: 1400px) {
