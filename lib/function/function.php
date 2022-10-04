@@ -788,6 +788,9 @@
 
     function user_commnets(){
         $con = Connection();
+        
+        $all_coment_user = "SELECT * FROM "
+
     }
 
 ?>
