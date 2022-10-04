@@ -127,6 +127,7 @@
 						</div>
 					</div>
 				</div>
+				<a href="comment.php"><button class="comment-add">Add a Comment</button></a>
 			</div>
 			<div class="admin-msg">
 				<div class="title">Messages From Users</div>
