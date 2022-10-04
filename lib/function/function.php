@@ -789,34 +789,19 @@
     function user_commnets(){
         $con = Connection();
         
-        $all_coment_user = "SELECT * FROM comment_tbl LIMIT 3";
+        $all_coment_user = "SELECT * FROM comment_tbl LIMIT 1";
         $all_coment_user_result = mysqli_query($con, $all_coment_user);
 
         while($row = mysqli_fetch_assoc($all_coment_user_result)){
             $comment_msg = "
             <div class='comment-grid'>
-            <div class='comment1'>
-                <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>".$row['roll']."</div>
-                <div class='comment-body'>
-                    ".$row['comment_msg']."
-                </div>
+                <div class='comment1'>
+                    <div class='usern'>".$row['comment_user']."</div>
+                    <div class='user-roll'>".$row['roll']."</div>
+                    <div class='comment-body'>
+                        ".$row['comment_msg']."
+                </div>                
             </div>
-            <div class='comment2'>
-                <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>".$row['roll']."</div>
-                <div class='comment-body'>
-                ".$row['comment_msg']."
-                </div>
-            </div>
-            <div class='comment3>
-                <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>".$row['roll']."</div>
-                <div class='comment-body'>
-                ".$row['comment_msg']."
-                </div>
-            </div>
-        </div>
             ";
 
         echo $comment_msg;
