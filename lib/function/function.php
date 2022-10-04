@@ -789,8 +789,9 @@
 
     function answered_by(){
         $con = Connection();
-        
-        $check_answered "SELECT * FROM "
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_answered "SELECT * FROM question_replyed_std_tbl WHERE ask_username"
         
 
     }
