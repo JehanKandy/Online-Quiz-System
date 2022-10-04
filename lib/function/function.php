@@ -793,6 +793,32 @@
         $all_coment_user_result = mysqli_query($con, $all_coment_user);
 
         while($row = mysqli_fetch_assoc($all_coment_user_result)){
+            $comment_msg = "
+            <div class='comment-grid'>
+            <div class='comment1'>
+                <div class='usern'>JehanKandy</div>
+                <div class='user-roll'>Admin</div>
+                <div class='comment-body'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+            <div class='comment2'>
+                <div class='usern'>JehanKandy</div>
+                <div class='user-roll'>Admin</div>
+                <div class='comment-body'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+            <div class='comment3>
+                <div class='usern'>JehanKandy</div>
+                <div class='user-roll'>Admin</div>
+                <div class='comment-body'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
+                </div>
+            </div>
+        </div>
+            ";
+
             
         }
 
