@@ -616,6 +616,10 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.all-commnet-btn:hover {
+    background-color: rgb(27, 108, 230);
+}
+
 
 /*
 
