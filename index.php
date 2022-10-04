@@ -22,7 +22,9 @@
         Comments from users
     </div>
     <div class="body">
-        <?php user_commnets(); ?>
+        <div class='comment-grid'>
+            <?php user_commnets(); ?>
+        </div>
     </div>
 </div>
 <div class="partner">
