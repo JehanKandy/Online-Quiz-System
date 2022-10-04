@@ -26,7 +26,7 @@
             <?php user_commnets(); ?>
         </div>
         <center>
-            <a href="all_commnet.php"><button class="all-commnet-btn"></button></a>
+            <a href="all_commnet.php"><button class="all-commnet-btn">See All Comments</button></a>
         </center>
     </div>
 </div>
