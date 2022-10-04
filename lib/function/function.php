@@ -819,10 +819,8 @@
         </div>
             ";
 
-
+        echo $comment_msg;
         }
-
-
 
     }
 
