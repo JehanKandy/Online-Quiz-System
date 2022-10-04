@@ -1152,6 +1152,10 @@ td {
     transition: 0.5s;
 }
 
+.comment-add:hover {
+    background-color: green;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
