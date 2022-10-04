@@ -786,6 +786,10 @@
         }
     }
 
+    function user_commnets(){
+        $con = Connection();
+    }
+
 ?>
 <script>
 function answerValidate() {
