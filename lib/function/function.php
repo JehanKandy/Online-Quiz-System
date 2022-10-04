@@ -804,14 +804,14 @@
             </div>
             <div class='comment2'>
                 <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>Admin</div>
+                <div class='user-roll'>".$row['roll']."</div>
                 <div class='comment-body'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
                 </div>
             </div>
             <div class='comment3>
                 <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>Admin</div>
+                <div class='user-roll'>".$row['roll']."</div>
                 <div class='comment-body'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis ut cumque quasi dolorum magnam dolores, assumenda vero repellat cupiditate dolore ratione, illum distinctio pariatur. Dignissimos quia pariatur soluta molestias?
                 </div>
