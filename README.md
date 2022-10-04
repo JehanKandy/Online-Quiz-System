@@ -289,5 +289,5 @@ Online Quiz System
  - lib/routes/teacher.php
  - lib/routes/teacher/tea_student.php
  - lib/routes/teacher/my_account_teacher.php
- - lib/
+ - lib/routes/
  
