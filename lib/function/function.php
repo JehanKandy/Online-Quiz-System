@@ -1,837 +1,823 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap+Sharp');
-
-/*
-
-use font families
-
-font-family: 'Bebas Neue', cursive;
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Kdam Thmor Pro', sans-serif;
-font-family: 'Roboto Flex', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Teko', sans-serif;
-*/
-
-.login-nav-btn {
-    font-size: 15px;
-    padding: 10px;
-    border: 2px solid red;
-    border-radius: 5px;
-    background: none;
-    color: red;
-    transition: 0.5s;
-}
-
-.login-nav-btn:hover {
-    background-color: red;
-    color: white;
-}
-
-.footer {
-    text-align: center;
-    background-color: rgb(248, 248, 248);
-    padding-bottom: 15px;
-}
-
-.footer hr {
-    border-bottom: 1px solid rgb(206, 206, 206);
-}
-
-.home-body {
-    text-align: center;
-    padding-top: 50px;
-}
-
-.home-body .title {
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 45px;
-}
-
-.home-body .content {
-    font-size: 30px;
-}
-
-.home-body .quiz-img {
-    height: 75%;
-    width: 75%;
-}
-
-.login-content {
-    margin-top: 75px;
-    margin-bottom: 75px;
-    margin-left: 600px;
-    margin-right: 600px;
-    border: 1px solid rgb(214, 214, 214);
-    border-radius: 5px;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-    width: 500px;
-}
-
-.login-content .title {
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 40px;
-}
-
-.login-content .body {
-    font-family: 'Rubik', sans-serif;
-    width: 100%;
-}
-
-.login-content .body form table .login-input {
-    width: 380px;
-    height: 50px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 2px;
-}
-
-.login-content .body form table .login-btn {
-    width: 100%;
-    margin-top: 15px;
-    height: 50px;
-    border: 1px solid rgb(40, 40, 255);
-    color: rgb(40, 40, 255);
-    border-radius: 2px;
-    background-color: none;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.login-content .body form table .login-btn:hover {
-    background-color: rgb(63, 63, 243);
-    color: white;
-}
-
-.reg-content {
-    margin-top: 75px;
-    margin-bottom: 75px;
-    margin-left: 600px;
-    margin-right: 600px;
-    border: 1px solid rgb(214, 214, 214);
-    border-radius: 5px;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-    width: 500px;
-}
-
-.reg-content .title {
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 40px;
-}
-
-.reg-content .body {
-    font-family: 'Rubik', sans-serif;
-    width: 100%;
-}
-
-.reg-content .body form table .reg-input {
-    width: 380px;
-    height: 50px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 2px;
-}
-
-.reg-content .body form table .reg-clear-btn {
-    width: 49%;
-    margin-top: 15px;
-    height: 50px;
-    border: 1px solid rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
-    border-radius: 2px;
-    background-color: none;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.reg-content .body form table .reg-clear-btn:hover {
-    background-color: rgb(255, 0, 0);
-    color: white;
-}
-
-.reg-content .body form table .reg-btn {
-    width: 49%;
-    margin-top: 15px;
-    height: 50px;
-    border: 1px solid rgb(40, 40, 255);
-    color: rgb(40, 40, 255);
-    border-radius: 2px;
-    background-color: none;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.reg-content .body form table .reg-btn:hover {
-    background-color: rgb(63, 63, 243);
-    color: white;
-}
-
-.waiting-content {
-    padding-top: 50px;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.waiting-title {
-    font-size: 35px;
-    font-family: 'Rubik', sans-serif;
-}
-
-.waiting-body {
-    font-size: 20px;
-    font-family: 'Roboto Flex', sans-serif;
-}
-
-.logout-btn-nav {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: red;
-    background: none;
-    border: 1px solid red;
-    transition: 0.5;
-    border-radius: 5px;
-}
-
-.logout-btn-nav:hover {
-    background-color: red;
-    color: white;
-}
-
-.pending {
-    font-size: 12px;
-    padding: 2px;
-    background-color: red;
-}
-
-.home-img {
-    background-image: url("../images/675928.png");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.home-title {
-    padding-top: 50px;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 30px;
-}
-
-.home-grid {
-    display: grid;
-    width: 100%;
-    height: auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(350px, auto);
-    grid-gap: 1rem;
-    grid-template-areas: "a b c d" "e f g h";
-    padding: 45 45 45 45;
-}
-
-.grid-item1 {
-    background-image: url("../images/outside.jpg");
-    transition: 0.5s;
-}
-
-.grid-item2 {
-    background-image: url("../images/engine.jpg");
-    transition: 0.5s;
-}
-
-.grid-item3 {
-    background-image: url("../images/maths.jpg");
-    transition: 0.5s;
-}
-
-.grid-item4 {
-    background-image: url("../images/robot.jpg");
-    transition: 0.5s;
-}
-
-.grid-item5 {
-    background-image: url("../images/sport.jpg");
-    transition: 0.5s;
-}
-
-.grid-item6 {
-    background-image: url("../images/poliution.jpg");
-    transition: 0.5s;
-}
-
-.grid-item7 {
-    background-image: url("../images/mind.jpg");
-    transition: 0.5s;
-}
-
-.grid-item8 {
-    background-image: url("../images/it.jpg");
-    transition: 0.5s;
-}
-
-.grid-item1:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item2:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item3:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item4:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item5:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item6:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: black;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item7:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item8:hover {
-    text-align: center;
-    padding-top: 40%;
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-.grid-item1,
-.grid-item2,
-.grid-item3,
-.grid-item4,
-.grid-item5,
-.grid-item6,
-.grid-item7,
-.grid-item8 {
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-}
-
-.comment {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background-color: rgb(243, 243, 243);
-}
-
-.comment .title {
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 45px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-.comment-grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(50px, auto);
-    grid-gap: 1rem;
-    grid-template-areas: "a b c";
-    padding: 45 45 45 45;
-}
-
-.comment1,
-.comment2,
-.comment3 {
-    width: 100%;
-    height: 100%;
-    background: none;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 5px;
-}
-
-.comment1 {
-    border: 1px solid rgb(29, 152, 235);
-}
-
-.comment2 {
-    border: 1px solid #50be50;
-}
-
-.comment3 {
-    border: 1px solid #f09712;
-}
-
-.usern {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.user-roll {
-    font-size: 13px;
-}
-
-.partner {
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.partner .title {
-    text-align: center;
-    font-size: 40px;
-}
-
-.partner-grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(350px, auto);
-    grid-gap: 1rem;
-    grid-template-areas: "a b c d e f";
-}
-
-.partner-grid .p-item1,
-.p-item2,
-.p-item3,
-.p-item4,
-.p-item5,
-.p-item6 {
-    width: 200px;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-}
-
-.partner-grid .p-item1 {
-    background-image: url("../images/logo1.png");
-}
-
-.partner-grid .p-item2 {
-    background-image: url("../images/logo3.png");
-}
-
-.partner-grid .p-item3 {
-    background-image: url("../images/logo4.png");
-}
-
-.partner-grid .p-item4 {
-    background-image: url("../images/logo5.png");
-}
-
-.partner-grid .p-item5 {
-    background-image: url("../images/logo6.png");
-}
-
-.partner-grid .p-item6 {
-    background-image: url("../images/logo7.png");
-}
-
-.pass-reset-email {
-    width: 600px;
-    border: 1px solid rgb(214, 214, 214);
-    margin-left: 250px;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-
-.pass-reset-email .title {
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-.pass-reset-email form .form-topics {
-    font-size: 20px;
-}
-
-.pass-reset-email form .pass-reset {
-    margin-top: 5px;
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.pass-reset-email form .otp-btn {
-    width: 100%;
-    height: 40px;
-    color: red;
-    background: none;
-    border: 1px solid red;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.pass-reset-email form .otp-btn:hover {
-    background-color: red;
-    color: white;
-    cursor: pointer;
-}
-
-.verify-otp {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 600px;
-    border: 1px solid rgb(206, 206, 206);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 5px;
-    margin-left: 250px;
-}
-
-.verify-otp .title {
-    font-size: 35px;
-    padding-bottom: 25px;
-}
-
-.verify-otp form .otp-num {
-    font-size: 20px;
-}
-
-.verify-otp form .otp-input {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    height: 40px;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 4px;
-}
-
-.verify-otp form .verify-btn {
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid red;
-    color: red;
-    background: none;
-    transition: 0.5s;
-}
-
-.verify-otp form .verify-btn:hover {
-    background-color: red;
-    color: white;
-    cursor: pointer;
-}
-
-.pass-new-edit {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 250px;
-    padding: 60px;
-    width: 600px;
-    border: 1px solid rgb(212, 212, 212);
-}
-
-.pass-new-edit .title {
-    font-size: 40px;
-    padding-bottom: 15px;
-}
-
-.pass-new-edit form .new-pass-input {
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid rgb(211, 211, 211);
-}
-
-.pass-new-edit form .new-pass-btn {
-    width: 100%;
-    height: 45px;
-    margin-top: 25px;
-    border: 1px solid red;
-    color: red;
-    background: none;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.pass-new-edit form .new-pass-btn:hover {
-    background-color: red;
-    color: white;
-    cursor: pointer;
-}
-
-.all-commnet-btn {
-    height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid rgb(27, 108, 230);
-    color: rgb(27, 108, 230);
-    background: none;
-    transition: 0.5s;
-}
-
-
-/*
-
-*   laptop Screen size
-
-*/
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
-    .login-content {
-        margin-left: 440px;
-        margin-right: 440px;
+<?php 
+    include("config.php");
+    use FTP\Connection;
+    session_start();
+
+    function reg_std($username,$email,$password){
+        $con = Connection();
+
+        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email' && roll = 'student'";
+        $check_user_result = mysqli_query($con, $check_user);
+        $check_user_nor = mysqli_num_rows($check_user_result);
+        
+        if($check_user_nor > 0){
+            return "<span style='color:red;'>Student Already Exists</span>";
+        }else{
+            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','student','1',NOW(),'0')";
+            $user_insert_result = mysqli_query($con,$user_insert);
+            header("location:../views/login.php");
+        }
     }
-    .partner-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: minmax(350px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a b c" "d e f";
+
+    function reg_teacher($username,$email,$password){
+        $con = Connection();
+
+        $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email' && roll = 'teacher'";
+        $check_user_result = mysqli_query($con, $check_user);
+        $check_user_nor = mysqli_num_rows($check_user_result);
+        
+        $_SESSION['teacherID'] = $username;
+        if($check_user_nor > 0){
+            return "<span style='color:red;'>Teacher Already Exists</span>";
+        }else{
+            $user_insert = "INSERT INTO user_tbl(username,email,pass1,roll,user_status,join_date,is_pending)VALUES('$username','$email','$password','teacher','0',NOW(),'1')";
+            $user_insert_result = mysqli_query($con,$user_insert);
+            header("location:../views/teacher_wait.php");
+        }
     }
-}
 
-
-/*
-
-*   ipad - portrait
-
-*/
-
-@media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
-    .login-content {
-        margin-left: 320px;
-        margin-right: 120px;
+    function user_id(){
+        $con = Connection();
+        $userid = strval($_SESSION['teacherID']);
+        echo $userid;
     }
-    .home-grid {
-        display: grid;
-        width: 100%;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: minmax(350px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a b" "c d" "e f" "g h";
-        padding: 45 45 45 45;
+
+    function user_login($username, $password){
+        $con = Connection();
+    
+        $user_check = "SELECT * FROM user_tbl WHERE username = '$username' && pass1 = '$password' && user_status = '1' && is_pending = '0'";
+        $user_check_result = mysqli_query($con, $user_check);
+        $user_check_nor = mysqli_num_rows($user_check_result);
+        $user_check_row = mysqli_fetch_assoc($user_check_result);
+
+        if($user_check_nor > 0){
+            if($user_check_row['roll'] == 'admin'){
+                setcookie('login',$user_check_row['email'],time()+60*60,'/');
+                $_SESSION['LoginSession'] = $user_check_row['email'];
+                header("location:../routes/admin.php");                
+            }
+            if($user_check_row['roll'] == 'teacher'){
+                setcookie('login',$user_check_row['email'],time()+60*60,'/');
+                $_SESSION['LoginSession'] = $user_check_row['email'];
+                header("location:../routes/teacher.php");
+            }
+            if($user_check_row['roll'] == 'student'){
+                setcookie('login',$user_check_row['email'],time()+60*60,'/');
+                $_SESSION['LoginSession'] = $user_check_row['email'];
+                header("location:../routes/student.php");
+            }
+            if(isset($_SESSION['LoginSession'])){
+                $session_time = "INSERT INTO log_time_tbl(username,time_login)VALUES('$username',NOW())";
+                $session_time_result = mysqli_query($con, $session_time);                 
+            }
+        }         
+        if($user_check_nor == 0){
+            return "<span style='color:red;'>Recodes Not Found...!</span>";
+        }
     }
-    .comment-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c";
-        padding: 45 45 45 45;
+    function user_id_loged(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $user_id_get = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $user_id_get_result = mysqli_query($con, $user_id_get);
+
+        $user_id_row = mysqli_fetch_assoc($user_id_get_result);
+
+        echo ($user_id_row['username']);
+                
     }
-    .partner-grid {
-        padding-left: 40px;
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a b" "c d" "e f";
-    }
-    .pass-reset-email {
-        width: 600px;
-        border: 1px solid rgb(214, 214, 214);
-        margin-left: 60px;
-        margin-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 45px;
-        padding-bottom: 45px;
-    }
-    .verify-otp {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 600px;
-        border: 1px solid rgb(206, 206, 206);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 5px;
-        margin-left: 50px;
-    }
-}
 
 
-/*
+    function profile_img(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
 
-*   ipad - landscape 
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
+        $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
 
-*/
-
-@media only screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
-    .login-content {
-        margin-left: 250px;
-        margin-right: 250px;
+        echo "
+            <img src='../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+        ";
     }
-}
+    
+    
+    function profile_img_user(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
+        $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
+
+        echo "
+            <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+        ";
+    }
+    function teacher_data(){
+        $con = Connection();
+        $user_email = strval($_SESSION['LoginSession']);
+
+        $check_teacher = "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $check_teacher_result = mysqli_query($con, $check_teacher);
+        $teacher_row = mysqli_fetch_assoc($check_teacher_result);
+
+        $teacher_profile_update = "
+            <div class='teacher_data'>                
+                <img src='../../../upload/".$teacher_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+                <a href='../update_pimg.php?id=".$user_email."'><button class='pimg-update-btn'>Profile Image Update</button></a>
+                    <table class='teacher_data'>
+                        <tr>
+                            <td>Username : </td>
+                            <td><input type='text' name='update_username' class='proflie_update' value='".$teacher_row['username']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>First Name : </td>
+                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$teacher_row['fname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name : </td>
+                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$teacher_row['lname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Email : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$teacher_row['email']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['mobile_no']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td style='vertical-align: top;'>Address</td>
+                            <td><textarea class='address_user'disabled>".$teacher_row['address']."</textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['city']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['country']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$teacher_row['roll']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Status : </td>";
+                        if($teacher_row['user_status'] == 1){
+                            $teacher_profile_update .= "<td><span class='active'>Active</span></td>";
+                        }
+                        elseif($teacher_row['user_status'] == 0){
+                            $teacher_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
+                        }
+                        
+                $teacher_profile_update .="
+                        </tr>
+                        <tr>
+                            <td colspan='2'><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></a></td>
+                        </tr>    
+                </table>
+                   
+               </div>
+        ";
+
+        echo $teacher_profile_update;
+
+    }
+    function admin_data(){
+        $con = Connection();
+        $user_email = strval($_SESSION['LoginSession']);
+
+        $check_admin= "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $check_admin_result = mysqli_query($con, $check_admin);
+        $admin_row = mysqli_fetch_assoc($check_admin_result);
+
+        $admin_profile_update = "
+            <div class='teacher_data'>                
+                <img src='../../../upload/".$admin_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+                <a href='../update_pimg.php?id=".$user_email."'><button class='pimg-update-btn'>Profile Image Update</button></a>
+                    <table class='teacher_data'>
+                        <tr>
+                            <td>Username : </td>
+                            <td><input type='text' name='update_username' class='proflie_update' value='".$admin_row['username']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>First Name : </td>
+                            <td><input type='fn' name='update_fn' class='proflie_update' value='".$admin_row['fname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name : </td>
+                            <td><input type='ln' name='update_ln' class='proflie_update' value='".$admin_row['lname']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Email : </td>
+                            <td><input type='email' name='update_email' class='proflie_update' value='".$admin_row['email']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['mobile_no']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td style='vertical-align: top;'>Address</td>
+                            <td><textarea class='address_user'disabled>".$admin_row['address']."</textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['city']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['country']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' name='update_mobile' class='proflie_update' value='".$admin_row['roll']."' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>User Status : </td>";
+                        if($admin_row['user_status'] == 1){
+                            $admin_profile_update .= "<td><span class='active'>Active</span></td>";
+                        }
+                        elseif($admin_row['user_status'] == 0){
+                            $admin_profile_update .= "<td><span class='deactive'>Deactive</span></td>";
+                        }
+                        
+                $admin_profile_update .="
+                        </tr>
+                        <tr>
+                            <td colspan='2'><a href='../update_account.php?id=".$user_email."'><button class='account-update-btn'>Edit</button></a></td>
+                        </tr>    
+                </table>
+                   
+               </div>
+        ";
+
+        echo $admin_profile_update;
+    }
+
+    function account_update(){
+        $con = Connection();
+
+        $user_email = $_GET['id'];
+
+        $get_user_data = "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $get_user_data_result = mysqli_query($con, $get_user_data);
+        $user_data_row = mysqli_fetch_assoc($get_user_data_result);
+
+        $user_update_data = "
+            <div class='update-user-data'>
+            <img src='../../upload/".$user_data_row['profile_img']."' alt='Profile Image' class='profile-img-data'>
+            <table>
+                <form action='' method='POST'>
+                        <tr>
+                            <td>Username </td>
+                            <td><input type='text' name='update_username' value='".$user_data_row['username']."' class='proflie_update'>
+                                <input type='hidden' name='user_id' value='".$user_email."'>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>First Name </td>
+                            <td><input type='text' name='update_fn' value='".$user_data_row['fname']."' class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name </td>
+                            <td><input type='text' name='update_ln' value='".$user_data_row['lname']."' class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>Email </td>
+                            <td><input type='email' name='update_email' value='".$user_data_row['email']."' class='proflie_update' disabled></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number </td>
+                            <td><input type='text' name='update_mobile' value='".$user_data_row['mobile_no']."' class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td style='vertical-align: top;'>Address</td>
+                            <td><textarea class='address_user' name='update_address'>".$user_data_row['address']."</textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City : </td>
+                            <td><input type='mobile' name='update_city'  value='".$user_data_row['city']."'  class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>Country : </td>
+                            <td><input type='mobile' name='update_country'  value='".$user_data_row['country']."'  class='proflie_update'></td>
+                        </tr>
+                        <tr>
+                            <td>User Roll : </td>
+                            <td><input type='mobile' value='".$user_data_row['roll']."'  class='proflie_update' disabled></td>
+                        </tr>
+                        <tr>
+                            <td colspan='2'><input type='submit' name='update_user_data' class='update-user-data-btn' value='Update'></td>
+                        </tr>                    
+                </form>
+                <tr>
+                ";
 
 
-/*
+            if($user_data_row['roll'] == 'admin'){
+                $user_update_data .= "<td colspan='2'><a href='admin/my_account_admin.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
+            }elseif($user_data_row['roll'] == 'teacher'){
+                $user_update_data .= "<td colspan='2'><a href='teacher/my_account_teacher.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
+            }elseif($user_data_row['roll'] == 'student'){
+                $user_update_data .= "<td colspan='2'><a href='student.php'><button class='update-acc-back-btn'>Bcak</button></a></td>";
+            }
 
-*   iphone X - portrait 
+            $user_update_data .= "
+            </tr>
+            </table>            
+            </div>
+        ";
 
-*/
+        echo $user_update_data;
+               
+    }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
-    .login-content {
-        margin-top: 75px;
-        margin-bottom: 75px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: 1px solid rgb(214, 214, 214);
-        border-radius: 5px;
-        padding-top: 50px;
-        padding-bottom: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 350px;
+    function update_data_user($user_id,$username,$fn,$ln,$mobile_no,$user_address,$city,$country){
+        $con = Connection();
+
+        $data_update = "UPDATE user_tbl SET username ='$username', fname = '$fn', lname = '$ln', mobile_no = '$mobile_no', address = '$user_address', city='$city', country = '$country' WHERE  email = '$user_id'";
+        $data_update_result = mysqli_query($con, $data_update);
+
+        if($data_update_result){
+            header("location:../views/logout.php");
+
+            $update_tbl = "INSERT INTO acc_update_tbl(email,update_date)VALUES('$user_id',NOW())";
+            $update_tbl_result = mysqli_query($con, $update_tbl);
+
+            $to = $user_id;
+            $subject = "Update Account in E-Quize";
+            $txt = "Your Updated Data in The System";
+            $headers = "From: jehankandy@gmail.com";
+
+            mail($to,$subject,$txt,$headers);
+        }
     }
-    .login-content .body form table .login-input {
-        width: 320px;
-        height: 50px;
-        border: 1px solid rgb(204, 204, 204);
-        border-radius: 2px;
+    function update_to_view_img(){
+        $con = Connection();
+
+        $user_email = strval($_SESSION['LoginSession']);
+
+        $update_pimg = "SELECT * FROM user_tbl WHERE email = '$user_email'";
+        $update_pimg_result = mysqli_query($con,$update_pimg);
+        $update_pimg_row = mysqli_fetch_assoc($update_pimg_result);
+
+        $update_pimg_data = "
+            <div class='profile-img-update'>
+                <img src='../../upload/".$update_pimg_row['profile_img']."' alt='Profile Image' class='profile-img-data'><br>
+
+                <form action='' method='POST' enctype='multipart/form-data'>
+                    <input type='file' name='file' accept='image/*'>
+                    <input type='hidden' name='login_id' value='".$user_email."'><br>
+
+                    <input type='submit' name='update_pimg' class='profileimg-update-btn' value='Update Profile Image' required>
+                </form>";
+
+                if($update_pimg_row['roll'] == 'admin'){
+                    $update_pimg_data .="<a href='admin/my_account_admin.php'><button class='back-btn'>Back</button></a>";
+                }elseif($update_pimg_row['roll'] == 'teacher'){
+                    $update_pimg_data .="<a href='teacher/my_account_teacher.php'><button class='back-btn'>Back</button></a>";
+                }elseif($update_pimg_row['roll'] == 'student'){
+                    $update_pimg_data .="<a href='student.php'><button class='back-btn'>Back</button></a>";
+                }
+
+            $update_pimg_data .="
+            </div>
+        ";
+
+        echo $update_pimg_data;
     }
-    .home-grid {
-        display: grid;
-        width: 100%;
-        height: auto;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(350px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
-        padding: 45 45 45 45;
+
+    function update_img($image, $login_id){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $image_dir = "../../upload/";
+        
+        $filename = basename($_FILES["file"]["name"]);
+        $image_target_path = $image_dir . $filename;
+        $filetype = pathinfo($image_target_path, PATHINFO_EXTENSION);
+
+        $image_types = array('jpg','png','jpeg','gif','PNG');
+
+        if(in_array($filetype, $image_types)){
+            if(move_uploaded_file($_FILES["file"]["tmp_name"], $image_target_path)){
+                $update_img = "UPDATE user_tbl SET profile_img = '$filename' WHERE email = '$email'";
+                $update_img_result = mysqli_query($con, $update_img); 
+            }
+        }
     }
-    .comment-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c";
-        padding: 45 45 45 45;
+
+    function check_email($email){
+        $con = Connection();
+
+        $otp = rand(10000,99999);
+        
+        $check_email = "SELECT email FROM user_tbl WHERE email = '$email'";
+        $check_email_result = mysqli_query($con, $check_email);
+        $check_email_row = mysqli_fetch_assoc($check_email_result);
+        $check_email_nor = mysqli_num_rows($check_email_result);
+
+        if($check_email_nor > 0){
+            $opt_insert = "INSERT INTO pwd_reset_tbl(email,otp)VALUES('$email','$otp')";
+            $opt_insert_result = mysqli_query($con, $opt_insert);
+    
+            $_SESSION['emailSession'] = $email;
+
+            $to = $email;
+            $subject = "Password Reset";
+            $txt = "Your Password Reset OTP is : ".$otp;
+            $headers = "From: jehankandy@gmail.com";
+    
+            mail($to,$subject,$txt,$headers);
+            
+            header("location:verify_otp.php");
+        }
+        elseif($check_email_nor == 0){
+            return "<p style=color:red;'>Email is not valid..!</p>";
+        }
     }
-    .partner-grid {
-        padding-left: 40px;
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c" "d" "e" "f";
+
+    function pass_otp_verify($opt_num){
+        $con = Connection();
+
+        $email = strval($_SESSION['emailSession']);
+        
+        $check_otp = "SELECT * FROM pwd_reset_tbl WHERE email = '$email'";
+        $check_otp_result = mysqli_query($con,$check_otp);
+        $check_otp_row = mysqli_fetch_assoc($check_otp_result);
+        $check_otp_nor = mysqli_num_rows($check_otp_result);
+
+        if($check_otp_nor > 0){
+            if($check_otp_row['otp'] == $opt_num){
+                header("location:pass_edit.php");
+            }
+            elseif($check_otp_row['otp'] != $opt_num){
+                return "<p style='color:red'>OTP is not Valid...!</p>";
+            }
+        }elseif($check_otp_nor == 0){
+            return "<p style='color:red'>Recodes Not Found...!</p>";
+        }
     }
-    .pass-reset-email {
-        width: 300px;
-        border: 1px solid rgb(214, 214, 214);
-        margin-left: 20px;
-        margin-top: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 45px;
-        padding-bottom: 45px;
+
+    function new_pass($email,$pass){
+        $con = Connection();
+
+        $check_email = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $check_email_result = mysqli_query($con, $check_email);
+        $check_email_row = mysqli_fetch_assoc($check_email_result);
+        $check_email_nor = mysqli_num_rows($check_email_result);
+
+        if($check_email_nor > 0){
+            $update_pass = "UPDATE user_tbl SET pass1 = '$pass' WHERE email = '$email'";
+            $update_pass_result = mysqli_query($con,$update_pass);
+
+            $update_otp = "UPDATE pwd_reset_tbl SET otp = null WHERE email = '$email'";
+            $update_otp_result = mysqli_query($con, $update_otp);
+
+            header("location:login.php");
+        }else{
+            return "<p style='color:red';>Email Does Not Exist in System</p>";
+        }
+
     }
-    .verify-otp {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 300px;
-        border: 1px solid rgb(206, 206, 206);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 5px;
-        margin-left: 20px;
-    }
-}
+
+    function std_data(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $std_data = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $std_data_result = mysqli_query($con, $std_data);
+        $std_data_row = mysqli_fetch_assoc($std_data_result);
+        $std_data_nor = mysqli_num_rows($std_data_result);
 
 
-/*
+        $std_data_view = "
+            <div class='std-data-grid'>
+                <div class='std-data1'>
+                    <img src='../../upload/".$std_data_row['profile_img']."' alt='Profile Image' class='profile-img-std'>
+                </div>
+                <div class='std-data2'>
+                    <span class='std-data-topic'>Username : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['username']."' disabled><br>
+                </div>
+                <div class='std-data3'>
+                    <span class='std-data-topic'>First Name : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['fname']."' disabled><br>
+                </div>
+                <div class='std-data4'>
+                    <span class='std-data-topic'>Last Name : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['lname']."' disabled><br>
+                </div>  
+                <div class='std-data5'>
+                    <span class='std-data-topic'>Email : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['email']."' disabled><br>
+                </div>  
+                <div class='std-data6'>
+                    <span class='std-data-topic'>Mobile Number : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['mobile_no']."' disabled><br>
+                </div>    
+                <div class='std-data7'>
+                    <span class='std-data-topic'>Address : </span><br>
+                    <textarea class='std-data-address'disabled>".$std_data_row['address']."</textarea><br>
+                </div>  
+                <div class='std-data8'>
+                    <span class='std-data-topic'>City : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['city']."' disabled><br>
+                </div>  
+                <div class='std-data9'>
+                    <span class='std-data-topic'>Country : </span><br>
+                    <input type='text' class='std-data-input' value='".$std_data_row['country']."' disabled><br>
+                </div>          
+            </div>
+            <table style='width:100%;'>
+                <tr>
+                    <td><a href='update_pimg.php?id=".$email."'><button class='std-img-update-btn'>Update Profile Image</button></a></td>
+                    <td><a href='update_account.php?id=".$email."'><button class='std-update-btn'>Update My Data</button></a>    </td>
+                </tr>
+            </table>
+            
+                
+        ";
 
-*   iphone X - landscape 
+        echo $std_data_view;
+    }
 
-*/
+    function join_date(){
+        $con = Connection();
 
-@media screen and (min-width: 811px) and (max-width: 812px) {
-    .login-content {
-        margin-left: 150px;
-        margin-right: 150px;
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_date = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $check_date_result = mysqli_query($con, $check_date);
+
+        $check_date_row = mysqli_fetch_assoc($check_date_result);
+
+        echo ($check_date_row['join_date']);
     }
-    .home-grid {
-        display: grid;
-        width: 100%;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: minmax(350px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a b" "c d" "e f" "g h";
-        padding: 45 45 45 45;
+
+    function check_question($question){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_question_is_exists = "SELECT * FROM question_ask_std_tbl WHERE question ='$question' && ask_by_username ='$email'";
+        $check_question_is_exists_result = mysqli_query($con, $check_question_is_exists);
+        $check_question_is_exists_nor = mysqli_num_rows($check_question_is_exists_result);
+
+        if($check_question_is_exists_nor > 0){
+            return "<p style='color:red;'>You already Ask This question</p>";
+                        
+        }else{
+            $question_add = "INSERT INTO question_ask_std_tbl(ask_by_username,ask_date_time,question,is_pending)VALUES('$email',NOW(),'$question',1)";
+            $question_add_result = mysqli_query($con, $question_add);
+        }
+
     }
-    .comment-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c";
-        padding: 45 45 45 45;
+
+    function view_my_question(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $get_question = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username ='$email'";
+        $get_question_result = mysqli_query($con, $get_question);
+        $get_question_row = mysqli_fetch_assoc($get_question_result);
+        $get_question_nor = mysqli_num_rows($get_question_result);
+
+        if($get_question_nor > 0){
+            echo $get_question_row['question'];
+        }else{
+            return false;
+        }
     }
-    .partner-grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: minmax(50px, auto);
-        grid-gap: 1rem;
-        grid-template-areas: "a" "b" "c" "d" "e" "f";
+
+    function reply_answer_std(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $get_reply = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username ='$email'";
+        $get_reply_result = mysqli_query($con, $get_reply);
+        $get_reply_row = mysqli_fetch_assoc($get_reply_result);
+        $get_reply_nor = mysqli_num_rows($get_reply_result);
+
+        if($get_reply_nor > 0){
+            if(empty($get_reply_row['reply_by_username'])){
+                echo "Reply is Pending";
+            }else{
+                echo $get_reply_row['reply_by_username'];
+            }
+        }else{
+            return false;
+        }
+    }
+
+    function std_question_back_btn(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_back_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $check_back_btn_result = mysqli_query($con, $check_back_btn);
+        $check_back_btn_row = mysqli_fetch_assoc($check_back_btn_result);
+
+        if($check_back_btn_row['roll'] == 'admin'){
+            echo "<div class='question-std-bck'><a href='admin.php'><button class='question-std-bck-btn'>Back</button></a></div>";
+        }
+
+    }
+
+    function all_std_question(){
+        $con = Connection();
+
+        $all_qustion_std = "SELECT * FROM question_ask_std_tbl";
+        $all_qustion_std_result = mysqli_query($con, $all_qustion_std);
+
+        while($row = mysqli_fetch_assoc($all_qustion_std_result)){
+            $std_question = "
+                <tr>
+                    <td>".$row['ask_by_username']."</td>
+                    <td>".$row['ask_date_time']."</td>
+                    <td>".$row['question']."</td>
+                    <td>".$row['reply_by_username']."</td>";
+
+                    if($row['reply_date_time'] == 0){
+                        $std_question .="<td><span style='color:red;'>Answer is Pending..!</span></td>";
+                    }else{
+                        $std_question .="<td>".$row['reply_date_time']."</td>";
+                    }
+
+            $std_question .="
+                    <td><a href='view_question.php?id=".$row['ask_by_username']."'><button class='view-std-question'>View</button></td>";
+
+                    if($row['is_pending'] == 1){
+                        $std_question .="<td><div class='panding-std-question'>Pending</div></td>";                        
+                    }
+
+            $std_question .="
+                </tr>
+            ";
+
+            echo $std_question;
+        }
+        
+    }
+
+    function get_question_to_answer(){
+        $con = Connection();
+
+        $id = $_GET['id'];
+
+        $id_session = $_SESSION['idSession'] = $id;
+
+        $get_question = "SELECT * FROM question_ask_std_tbl WHERE ask_by_username= '$id'";
+        $get_question_result = mysqli_query($con, $get_question);
+        $get_question_row = mysqli_fetch_assoc($get_question_result);
+        $get_question_nor = mysqli_num_rows($get_question_result);
+        
+        $question_session = $_SESSION['questionSession'] = $get_question_row['question'];
+        if($get_question_nor > 0){
+            $std_view = "
+                <span>Question By : <input type='text' class='question-view_input' value='".$get_question_row['ask_by_username']."' disabled></span><br><br>
+                <span>Question Date : <input type='text' class='question-view_input' value='".$get_question_row['ask_date_time']."' disabled></span>
+            
+                <br><br>
+                Question :<br>
+                <textarea class='view-question-input' disabled>".$get_question_row['question']."</textarea>
+            ";
+
+            echo $std_view;
+        }else{
+            return false;
+        }
+    }
+
+    function reply_asnwer(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $reply_to_question = "
+            <h3>Answer</h3>
+            <form action='' method='POST' name='anserForm' onsubmit='return answerValidate();'>
+                <textarea class='view-question-input' name='reply_answer' id='anserreply'></textarea>
+                <span id='answererror'></span><br>
+                <input type='submit' name='answer_std' value='Post Answer' class='answer-btn'>
+            </form>";
+        
+        $bck_btn = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $bck_btn_result = mysqli_query($con, $bck_btn);
+        $bck_btn_row = mysqli_fetch_assoc($bck_btn_result);
+
+        if($bck_btn_row['roll'] == 'admin'){
+            $reply_to_question .= "<a href='admin.php'><button class='answer-bck-btn'>Go Back</button></a>";
+        }elseif($bck_btn_row['roll'] == 'teacher'){
+            $reply_to_question .= "<a href='teacher.php'><button class='answer-bck-btn'>Go Back</button></a>";
+        }
+      
+        echo $reply_to_question;
+    }
+
+    function get_answer($answer){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+        $answer_by = strval($_SESSION['idSession']);
+        $question_session = strval($_SESSION['questionSession']);
+         
+        $delete_question = "DELETE FROM question_ask_std_tbl WHERE ask_by_username = '$answer_by'";
+        $delete_question_result = mysqli_query($con, $delete_question);
+
+
+        $update_trigger_tbl = "UPDATE question_replyed_std_tbl SET reply_username = '$email', reply_time = NOW(), answer_for_question = '$answer', is_pending = '0' WHERE ask_username = '$answer_by' && question = '$question_session'";
+        $update_trigger_tbl_result = mysqli_query($con, $update_trigger_tbl);
+
+        $get_data = "SELECT * FROM question_replyed_std_tbl WHERE ask_username = '$answer_by'";
+        $get_data_result = mysqli_query($con, $get_data);
+        $fetch_data = mysqli_fetch_assoc($get_data_result);
+
+        $answer_std = "Your Answer for Q: Question: ".$fetch_data['question']." A: and the Answer is: ".$fetch_data['answer_for_question'];
+
+        $to = $fetch_data['ask_username'];
+        $subject = "Answer Replyed";
+        $txt = $answer_std;
+        $headers = "From: jehankandy@gmail.com";
+
+        mail($to,$subject,$txt,$headers);
+
+        header("location:std_question.php");
+    }
+
+    function answer_for_question(){
+        $con = Connection();
+        
+        $all_question_update = "SELECT * FROM question_replyed_std_tbl";
+        $all_question_update_result = mysqli_query($con, $all_question_update);
+
+        while($row = mysqli_fetch_assoc($all_question_update_result)){
+            $std_asnwered_question = "
+            <tr>
+                <td>".$row['ask_username']."</td>
+                <td>".$row['ask_time']."</td>
+                <td>".$row['question']."</td>
+                <td>".$row['reply_username']."</td>";
+
+                if($row['reply_time'] == "0000-00-00 00:00:00"){
+                    $std_asnwered_question .="<td><span style='color:red;'>Answer is Pending..!</span></td>";
+                }else{
+                    $std_asnwered_question .="<td>".$row['reply_time']."</td>";
+                }
+
+        $std_asnwered_question .="
+                <td>".$row['answer_for_question']."</td>";
+
+                if($row['is_pending'] == 0){
+                    $std_asnwered_question .="<td><div class='answered-std-question'>Answered</div></td>";                        
+                }
+
+        $std_asnwered_question .="
+            </tr>
+        ";
+        echo $std_asnwered_question;
+        }
+    }
+
+    function user_commnets(){
+        $con = Connection();
+        
+        $all_coment_user = "SELECT * FROM comment_tbl LIMIT 3";
+        $all_coment_user_result = mysqli_query($con, $all_coment_user);
+
+        while($row = mysqli_fetch_assoc($all_coment_user_result)){
+            $comment_msg = "
+            
+                <div class='comment1'>
+                    <div class='usern'>".$row['comment_user']."</div>
+                    <div class='user-roll'>".$row['roll']."</div>
+                    <div class='comment-body'>
+                        ".$row['comment_msg']."
+                </div>                
+            </div>
+            ";
+
+        echo $comment_msg;
+        }
+
+    }
+
+?>
+<script>
+function answerValidate() {
+    var anserer = document.forms['anserForm']['anserreply'].value
+    if (anserer == "" || anserer == null) {
+        document.getElementById('answererror').style.color = '#ff3f34';
+        document.getElementById('answererror').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
+        document.getElementById('anserreply').style.borderColor = '#ff3f34';
+        return false;
     }
 }
+</script>
