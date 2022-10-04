@@ -801,7 +801,7 @@
                     <div class='comment-body'>
                         ".$row['comment_msg']."
                 </div>                
-
+            </div>
             ";
 
         echo $comment_msg;
