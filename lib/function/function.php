@@ -791,7 +791,7 @@
         $con = Connection();
         $email = strval($_SESSION['LoginSession']);
 
-        $check_answered "SELECT * FROM question_replyed_std_tbl WHERE ask_username"
+        $check_answered "SELECT * FROM question_replyed_std_tbl WHERE ask_username = '$email'";
         
 
     }
