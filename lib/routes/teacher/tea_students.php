@@ -21,8 +21,9 @@
 			<?php profile_img_user();?>
 			<p class="profile-name"><?php user_id_loged();?></p>
 			<a href="../teacher.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-			<a href="students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
+			<a href="tea_students.php" class="menu-item"><i class="fas fa-user-graduate"></i>Students</a>
 			<a href="quizzes.php" class="menu-item"><i class="fas fa-question-circle"></i>Quizzes</a>
+			<a href="../std_question.php" class="menu-item"><i class="far fa-comments"></i>Chats</a>
 			<a href="my_account_teacher.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 
