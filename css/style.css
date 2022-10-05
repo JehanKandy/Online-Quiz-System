@@ -646,6 +646,12 @@ font-family: 'Teko', sans-serif;
     transition: 0.5s;
 }
 
+.bck-comment-btn:hover {
+    background-color: rgb(5, 107, 223);
+    color: white;
+    cursor: pointer;
+}
+
 
 /*
 
