@@ -8,7 +8,9 @@
             All Comments
         </div>
         <div class="body">
-            <?php all_comments(); ?>
+            <div class='comment-grid'>
+                <?php all_comments(); ?>
+            </div>
         </div>
     </div>
 </div>
