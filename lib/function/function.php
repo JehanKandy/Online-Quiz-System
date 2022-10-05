@@ -811,7 +811,8 @@
     function all_comments(){
         $con = Connection();
 
-        $all_comments_view = "SELECT * FROM "
+        $all_comments_view = "SELECT * FROM comment_tbl";
+        $all_comments_view_result = mysqli_query($con, $all_comments_view);
     }
 
 ?>
