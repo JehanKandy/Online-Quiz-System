@@ -1,5 +1,6 @@
 <?php include "lib/layouts/header.php"; ?>
 <?php include "lib/layouts/nav_login.php"; ?>
+<?php include "lib/function/function.php"; ?>
 
 <div class="container">
     <div class="all-comment">
