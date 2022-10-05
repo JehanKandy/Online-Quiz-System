@@ -813,6 +813,10 @@
 
         $all_comments_view = "SELECT * FROM comment_tbl";
         $all_comments_view_result = mysqli_query($con, $all_comments_view);
+        
+        while($row = mysqli_fetch_assoc($all_comments_view_result)){
+            
+        }
     }
 
 ?>
