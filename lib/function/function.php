@@ -806,7 +806,10 @@
 
         echo $comment_msg;
         }
+    }
 
+    function all_comments(){
+        $con = Connection();
     }
 
 ?>
