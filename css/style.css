@@ -624,9 +624,12 @@ font-family: 'Teko', sans-serif;
 
 .all-comment {
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.all-comment .title {
     text-align: center;
     font-size: 40px;
-    padding-bottom: 50px;
 }
 
 
