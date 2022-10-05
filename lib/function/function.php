@@ -815,7 +815,17 @@
         $all_comments_view_result = mysqli_query($con, $all_comments_view);
         
         while($row = mysqli_fetch_assoc($all_comments_view_result)){
-            $all_comments = "";
+            $all_comments = "
+                        <div class='comment1'>
+                        <div class='usern'>".$row['comment_user']."</div>
+                        <div class='user-roll'>".$row['roll']."</div>
+                        <div class='comment-body'>
+                            ".$row['comment_msg']."
+                    </div>                
+                </div>
+            ";
+
+            echo $all_comments;
         }
     }
 
