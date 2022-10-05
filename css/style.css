@@ -643,6 +643,7 @@ font-family: 'Teko', sans-serif;
     color: rgb(5, 107, 223);
     background: none;
     border-radius: 2px;
+    transition: 0.5s;
 }
 
 
