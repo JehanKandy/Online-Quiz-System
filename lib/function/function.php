@@ -810,6 +810,8 @@
 
     function all_comments(){
         $con = Connection();
+
+        $all_comments_view = "SELECT * FROM "
     }
 
 ?>
