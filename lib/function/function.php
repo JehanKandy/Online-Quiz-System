@@ -789,7 +789,7 @@
     function user_commnets(){
         $con = Connection();
         
-        $all_coment_user = "SELECT * FROM comment_tbl LIMIT 3";
+        $all_coment_user = "SELECT * FROM comment_tbl WHERE id ORDER BY id DESC LIMIT 3";
         $all_coment_user_result = mysqli_query($con, $all_coment_user);
 
         while($row = mysqli_fetch_assoc($all_coment_user_result)){
