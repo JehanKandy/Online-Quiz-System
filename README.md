@@ -315,4 +315,4 @@ Online Quiz System
 2. UPDATE
  - lib/routes/admin.php
  - css/dashboard.css
- - lib/function/
+ - lib/function/function.php
