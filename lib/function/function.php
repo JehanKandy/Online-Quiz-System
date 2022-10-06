@@ -879,6 +879,7 @@
     function add_comment_to_tbl($comment_user, $comment_email, $comment_roll, $comment_msg_add){
         $con = Connection();
 
+        $add_comment = "INSERT INTO comment_tbl()"
 
     }
 
