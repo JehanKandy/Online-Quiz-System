@@ -839,19 +839,22 @@
         
         $user_comment_here = "
             <form action='' method='POST' name='userComment' onsubmit='return commentVelidate()'>
-                <div class='comment-item1'>
-                    <span class='comment-input-title'>Username:</span><br>
-                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
-                </div> 
-                <div class='comment-item2'>
-                    <span class='comment-input-title'>Email:</span><br>
-                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['email']."' disabled>
-                </div>
-                <div class='comment-item3'>
-                    <span class='comment-input-title'>Roll:</span><br>
-                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['roll']."' disabled>
+                <div class='add-comment-grid'>
+                    <div class='comment-item1'>
+                        <span class='comment-input-title'>Username:</span><br>
+                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                    </div> 
+                    <div class='comment-item2'>
+                        <span class='comment-input-title'>Email:</span><br>
+                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['email']."' disabled>
+                    </div>
+                    <div class='comment-item3'>
+                        <span class='comment-input-title'>Roll:</span><br>
+                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['roll']."' disabled>
+                    </div>
                 </div>  
             </form>
+
 
         ";
         
