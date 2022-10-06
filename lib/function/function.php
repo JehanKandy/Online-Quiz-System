@@ -834,6 +834,7 @@
 
         $email = strval($_SESSION['LoginSession']);
         $get_loged_user = "SELECT * FROM user_tbl WHERE email = $email";
+        $get_loged_user_result = mysqli_query($con, $get_loged_user);
         
     }
 
