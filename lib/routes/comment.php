@@ -13,7 +13,9 @@
             Post a Comment
         </div>
         <div class="body">
-            <?php user_commnet_add(); ?>
+            <div class="add-comment-grid">
+                <?php user_commnet_add(); ?>
+            </div>            
         </div>
     </div>
 </div>
