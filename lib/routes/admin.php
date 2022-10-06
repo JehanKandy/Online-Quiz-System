@@ -154,6 +154,7 @@
 						</div>
 					</div>
 				</div>
+				<a href="std_question.php"><button class="view-admin-question">View All Messages</button></a>
 			</div>
 		</div>
 	</main>
