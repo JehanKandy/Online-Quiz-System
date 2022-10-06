@@ -852,6 +852,10 @@
                         <span class='comment-input-title'>Roll:</span><br>
                         <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['roll']."' disabled>
                     </div>
+                    <div class='comment-item4'>
+                        <span class='comment-input-title'>Comment:</span><br>
+                        <textarea class='comment-textarea' name='comment_msg_add' id='comment-msg-add'></textarea>
+                    </div>
                 </div>  
             </form>
 
