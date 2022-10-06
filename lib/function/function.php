@@ -831,6 +831,10 @@
 
     function user_commnet_add(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+        $get_loged_user = "SELECT * FROM user_tbl WHERE email = $email";
+        
     }
 
 ?>
