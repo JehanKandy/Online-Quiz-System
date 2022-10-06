@@ -829,6 +829,10 @@
         }
     }
 
+    function user_commnet_add(){
+        $con = Connection();
+    }
+
 ?>
 <script>
 function answerValidate() {
