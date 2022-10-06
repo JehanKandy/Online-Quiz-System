@@ -13,8 +13,8 @@
             Post a Comment
         </div>
         <?php 
-            if(isset($_POST[''])){
-                
+            if(isset($_POST['post_comment'])){
+
             }
         ?>
         <div class="body">
