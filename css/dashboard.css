@@ -1164,6 +1164,9 @@ td {
     padding-right: 20px;
     border: 1px solid green;
     height: 45px;
+    color: green;
+    background: none;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
