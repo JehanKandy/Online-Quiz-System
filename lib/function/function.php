@@ -876,6 +876,10 @@
         echo $user_comment_here;
     }
 
+    function add_comment_to_tbl(){
+        $con = Connection();
+    }
+
 ?>
 <script>
 function answerValidate() {
