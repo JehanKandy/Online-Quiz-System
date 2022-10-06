@@ -317,4 +317,4 @@ Online Quiz System
  - lib/function/function.php
  - lib/routes/teacher.php
  - lib/routes/student.php
- - lib/routes/
+ - lib/routes/admin.php
