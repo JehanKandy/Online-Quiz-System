@@ -13,7 +13,7 @@
             Post a Comment
         </div>
         <div class="body">
-            Comment body
+            <?php user_commnet_add(); ?>
         </div>
     </div>
 </div>
