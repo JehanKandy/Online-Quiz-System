@@ -5,6 +5,9 @@
 		header("location:../views/login.php");
 	}
 ?>
-
-
+<div class="container">
+    <div class="all-comment-user">
+        All Comments
+    </div>
+</div>
 <?php include("../layouts/footer.php"); ?>
