@@ -12,6 +12,11 @@
         <div class="title">
             Post a Comment
         </div>
+        <?php 
+            if(isset($_POST[''])){
+                
+            }
+        ?>
         <div class="body">
             <?php user_commnet_add(); ?>          
         </div>
