@@ -311,7 +311,7 @@ Online Quiz System
 1. DEVELOP
  - lib/
  - - lib/routes/
- - - - lib/
+ - - - lib/routes/
 2. UPDATE
  - lib/routes/admin.php
  - css/dashboard.css
