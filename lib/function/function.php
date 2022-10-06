@@ -863,6 +863,9 @@
                 </div>  
             </form>";
 
+            if($get_loged_user_row['roll'] == 'admin'){
+                $user_comment_here .= "<a href='admin.php'><button class='comment-bck-btn'>Back</button></a>";
+            }
 
         $user_comment_here .= "
 
