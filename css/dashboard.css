@@ -1162,6 +1162,7 @@ td {
     margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    border: 1px solid green;
 }
 
 @media only screen and (max-width: 1400px) {
