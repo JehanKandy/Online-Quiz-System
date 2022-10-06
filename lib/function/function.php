@@ -869,6 +869,9 @@
             if($get_loged_user_row['roll'] == 'teacher'){
                 $user_comment_here .= "<a href='teacher.php'><button class='comment-bck-btn'>Back</button></a>";
             }
+            if($get_loged_user_row['roll'] == 'student'){
+                $user_comment_here .= "<a href='teacher.php'><button class='comment-bck-btn'>Back</button></a>";
+            }
 
         $user_comment_here .= "
 
