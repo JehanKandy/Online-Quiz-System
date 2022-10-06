@@ -1189,14 +1189,26 @@ td {
     padding-top: 50px;
 }
 
-.add-comment-grid {
+.user-comment .body form .add-comment-grid {
     display: grid;
     min-width: 100%;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
     grid-gap: 1rem;
-    grid-template-areas: "a b c" "d";
+    grid-template-areas: "a b c" "a e e" "a d f" "g g g" "h h i";
+}
+
+.comment-item1 {
+    grid-area: a;
+}
+
+.comment-item2 {
+    grid-area: b;
+}
+
+.comment-item3 {
+    grid-area: c;
 }
 
 .comment-input-title {
