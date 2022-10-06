@@ -14,7 +14,7 @@
         </div>
         <?php 
             if(isset($_POST['post_comment'])){
-                $result = 
+                $result = add_comment_to_tbl($_POST['user_comment'], $_POST['email_comment'])
             }
         ?>
         <div class="body">
