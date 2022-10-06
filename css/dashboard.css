@@ -1243,6 +1243,7 @@ td {
     border: 1px solid red;
     border-radius: 2px;
     color: red;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 1400px) {
