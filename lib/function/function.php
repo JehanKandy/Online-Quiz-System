@@ -839,6 +839,7 @@
         
         $user_comment_here = "";
         
+        echo $user_comment_here;
     }
 
 ?>
