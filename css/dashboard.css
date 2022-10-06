@@ -1248,6 +1248,7 @@ td {
 
 .post-comment-btn:hover {
     background-color: red;
+    color: white;
 }
 
 @media only screen and (max-width: 1400px) {
