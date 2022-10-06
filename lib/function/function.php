@@ -856,6 +856,9 @@
                         <span class='comment-input-title'>Comment:</span><br>
                         <textarea class='comment-textarea' name='comment_msg_add' id='comment-msg-add'></textarea>
                     </div>
+                    <div class='comment-item4'>
+                    
+                    </div>
                 </div>  
             </form>
 
