@@ -846,11 +846,11 @@
                     </div> 
                     <div class='comment-item2'>
                         <span class='comment-input-title'>Email:</span><br>
-                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['email']."' disabled>
+                        <input type='text' class='comment-input' name='email_comment' value='".$get_loged_user_row['email']."' disabled>
                     </div>
                     <div class='comment-item3'>
                         <span class='comment-input-title'>Roll:</span><br>
-                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['roll']."' disabled>
+                        <input type='text' class='comment-input' name='roll_comment' value='".$get_loged_user_row['roll']."' disabled>
                     </div>
                     <div class='comment-item4'>
                         <span class='comment-input-title'>Comment:</span><br>
@@ -878,6 +878,8 @@
 
     function add_comment_to_tbl(){
         $con = Connection();
+
+
     }
 
 ?>
