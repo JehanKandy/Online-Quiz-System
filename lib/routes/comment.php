@@ -14,7 +14,7 @@
         </div>
         <?php 
             if(isset($_POST['post_comment'])){
-
+                $result = 
             }
         ?>
         <div class="body">
