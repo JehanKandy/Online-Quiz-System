@@ -1211,6 +1211,10 @@ td {
     grid-area: c;
 }
 
+.comment-item4 {
+    grid-area: d;
+}
+
 .comment-input-title {
     font-size: 20px;
     padding-bottom: 15px;
