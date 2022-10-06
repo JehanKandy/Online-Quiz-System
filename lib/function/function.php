@@ -876,7 +876,7 @@
         echo $user_comment_here;
     }
 
-    function add_comment_to_tbl(){
+    function add_comment_to_tbl($comment_user, $comment_email, $comment_roll, $comment_msg_add){
         $con = Connection();
 
 
