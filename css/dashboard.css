@@ -1263,7 +1263,7 @@ td {
     transition: 0.5s;
 }
 
-.post-comment-btn:hover {
+.comment-bck-btn:hover {
     background-color: rgb(25, 80, 231);
     color: white;
     cursor: pointer;
