@@ -1191,6 +1191,7 @@ td {
 
 .comment-input-title {
     font-size: 20px;
+    padding-bottom: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
