@@ -1158,6 +1158,12 @@ td {
     cursor: pointer;
 }
 
+.view-admin-question {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
