@@ -839,8 +839,18 @@
         
         $user_comment_here = "
             <form action='' method='POST' name='userComment' onsubmit='return commentVelidate()'>
-                <span class='comment-input-title'>Username:</span><br>
-                <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled> 
+                <div class='comment-item1'>
+                    <span class='comment-input-title'>Username:</span><br>
+                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                </div> 
+                <div class='comment-item2'>
+                    <span class='comment-input-title'>Username:</span><br>
+                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                </div>
+                <div class='comment-item2'>
+                    <span class='comment-input-title'>Username:</span><br>
+                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                </div>  
             </form>
 
         ";
