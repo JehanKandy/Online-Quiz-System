@@ -872,10 +872,6 @@
             elseif($get_loged_user_row['roll'] == 'student'){
                 $user_comment_here .= "<a href='student.php'><button class='comment-bck-btn'>Back</button></a>";
             }
-
-        $user_comment_here .= "
-
-        ";
         
         echo $user_comment_here;
     }
