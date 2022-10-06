@@ -845,11 +845,11 @@
                 </div> 
                 <div class='comment-item2'>
                     <span class='comment-input-title'>Email:</span><br>
-                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['email']."' disabled>
                 </div>
                 <div class='comment-item2'>
-                    <span class='comment-input-title'>Username:</span><br>
-                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
+                    <span class='comment-input-title'>Roll:</span><br>
+                    <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['roll']."' disabled>
                 </div>  
             </form>
 
