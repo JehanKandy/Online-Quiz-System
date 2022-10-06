@@ -1189,6 +1189,16 @@ td {
     padding-top: 50px;
 }
 
+.add-comment-grid {
+    display: grid;
+    min-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a" "b" "c" "d";
+}
+
 .comment-input-title {
     font-size: 20px;
     padding-bottom: 15px;
