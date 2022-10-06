@@ -837,6 +837,7 @@
         $get_loged_user_result = mysqli_query($con, $get_loged_user);
         $get_loged_user_row = mysqli_fetch_assoc($get_loged_user_result);
         
+        $user_comment_here = "";
         
     }
 
