@@ -884,9 +884,9 @@ function answerValidate() {
 function commentVelidate() {
     var anserer = document.forms['userComment']['commentmsgadd'].value
     if (anserer == "" || anserer == null) {
-        document.getElementById('answererror').style.color = '#ff3f34';
-        document.getElementById('answererror').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
-        document.getElementById('anserreply').style.borderColor = '#ff3f34';
+        document.getElementById('commenterror').style.color = '#ff3f34';
+        document.getElementById('commenterror').innerHTML = '<span style="font-size:12px;">Input Feild Cannot be empty</span>';
+        document.getElementById('commentmsgadd').style.borderColor = '#ff3f34';
         return false;
     }
 }
