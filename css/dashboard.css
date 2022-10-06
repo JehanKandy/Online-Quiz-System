@@ -1252,6 +1252,17 @@ td {
     cursor: pointer;
 }
 
+.comment-bck-btn {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 1px solid rgb(25, 80, 231);
+    border-radius: 2px;
+    color: rgb(25, 80, 231);
+    transition: 0.5s;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
