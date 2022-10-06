@@ -861,8 +861,10 @@
                         <input type='submit' name='post_comment' class='post-comment-btn' value='Post Comment'>
                     </div>
                 </div>  
-            </form>
+            </form>";
 
+
+        $user_comment_here .= "
 
         ";
         
