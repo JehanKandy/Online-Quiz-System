@@ -1196,7 +1196,7 @@ td {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
     grid-gap: 1rem;
-    grid-template-areas: "a b c" "d d d";
+    grid-template-areas: "a b c" "d d d" "e e e";
 }
 
 .comment-item1 {
@@ -1213,6 +1213,10 @@ td {
 
 .comment-item4 {
     grid-area: d;
+}
+
+.comment-item5 {
+    grid-area: e;
 }
 
 .comment-input-title {
