@@ -314,4 +314,4 @@ Online Quiz System
 2. UPDATE
  - lib/routes/admin.php
  - css/dashboard.css
- - liv/
+ - lib/
