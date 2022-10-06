@@ -330,4 +330,4 @@ Online Quiz System
  - lib/routes/admin.php
  - lib/routes/teacher.php
  - lib/routes/student.php
- - lib/function/
+ - lib/function/function.php
