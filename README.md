@@ -326,4 +326,4 @@ Online Quiz System
 1. DEVELOP
 2. UPDATE
  - lib/routes/admin.php
- - lib/routes/
+ - lib/routes/teacher.php
