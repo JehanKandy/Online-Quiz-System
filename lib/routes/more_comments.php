@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../css/dashboard.css">
+<link rel="stylesheet" href="../../css/style.css>
 <?php include("../layouts/header.php"); ?>
 <?php include("../layouts/nav_loged.php"); ?>
 <?php 
