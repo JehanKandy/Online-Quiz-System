@@ -6,8 +6,17 @@
 	}
 ?>
 <div class="container">
-    <div class="all-comment-user">
-        All Comments
+    <div class="all-comment">
+        <div class="title">
+            All Comments
+        </div>
+        <a href="index.php"><button class="bck-comment-btn">Back to Home</button></a>
+        <div class="body">
+            <div class='comment-grid'>
+                <?php all_comments(); ?>
+            </div>
+        </div>
     </div>
 </div>
+
 <?php include("../layouts/footer.php"); ?>
