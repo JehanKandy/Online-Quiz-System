@@ -898,6 +898,9 @@
         elseif($check_roll_row['roll'] == 'teacher'){
             $roll_result = "<a href='teacher.php'><button class='bck-comment-btn'>Back</button></a>";
         }
+        elseif($check_roll_row['roll'] == 'student'){
+            $roll_result = "<a href='student.php'><button class='bck-comment-btn'>Back</button></a>";
+        }
     }
 
 ?>
