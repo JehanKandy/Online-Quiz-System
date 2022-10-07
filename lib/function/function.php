@@ -879,7 +879,7 @@
     function add_comment_to_tbl($comment_user, $comment_email, $comment_roll, $comment_msg_add){
         $con = Connection();
 
-        $add_comment = "INSERT INTO comment_tbl(comment_user,roll,comment_date,comment_msg)VALUE('$comment_user','$comment_email','$comment_roll',NOW(),'$comment_msg_add')";
+        $add_comment = "INSERT INTO comment_tbl(comment_user,roll,comment_date,comment_msg)VALUES('$comment_user','$comment_email','$comment_roll',NOW(),'$comment_msg_add')";
         $add_comment_result = mysqli_query($con, $add_comment);
         header("location:more_comments.php");
     }
