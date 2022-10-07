@@ -887,8 +887,9 @@
     function all_comments_bck_btn(){
         $con = Connection();
         $email = strval($_SESSION['LoginSession']);
-        
+
         $check_roll = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $check_roll_result = mysqli_query($con, $check_roll);
     }
 
 ?>
