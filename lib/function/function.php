@@ -893,7 +893,7 @@
         $check_roll_row = mysqli_fetch_assoc($check_roll_result);
 
         if($check_roll_row['roll'] == 'admin'){
-            $roll_result = "<a href='index.php'><button class='bck-comment-btn'>Back</button></a>";
+            $roll_result = "<a href='admin.php'><button class='bck-comment-btn'>Back</button></a>";
         }
     }
 
