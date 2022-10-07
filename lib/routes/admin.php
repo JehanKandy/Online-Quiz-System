@@ -109,33 +109,6 @@
 				</div>
 				<a href="more_comments.php"><button class="comment-add">More Comment</button></a>
 			</div>
-			<div class="admin-msg">
-				<div class="title">Most Asked Questions</div>
-				<div class="msg-grid">
-					<div class="msg-item1">											
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-					<div class="msg-item2">
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-					<div class="msg-item3">
-						<div class="msg-user">Kamal Perera</div>
-						<div class="msg-roll">Student</div>
-						<div class="msg-body">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit dolorem deserunt eveniet, dignissimos dicta eum nobis quaerat, maiores animi reprehenderit aliquid atque, amet itaque possimus est numquam vitae rerum?
-						</div>
-					</div>
-				</div>
-				<a href="std_question.php"><button class="view-admin-question">View All Messages</button></a>
-			</div>
 		</div>
 	</main>
 </div>
