@@ -66,7 +66,7 @@
 				<div class="admin-comment-grid">
                 <?php user_commnets(); ?>
 				</div>
-				<a href="more_comment.php"><button class="comment-add">More Comment</button></a>
+				<a href="more_comments.php"><button class="comment-add">More Comment</button></a>
 	</div>
     <div class="admin-msg">
 	    <div class="title">Questions and Answers</div>
