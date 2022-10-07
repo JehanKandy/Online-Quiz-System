@@ -1277,6 +1277,12 @@ td {
     transition: 0.5s;
 }
 
+.add-comment-btn-user:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
