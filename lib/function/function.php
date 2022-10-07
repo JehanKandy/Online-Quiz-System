@@ -890,6 +890,7 @@
 
         $check_roll = "SELECT * FROM user_tbl WHERE email = '$email'";
         $check_roll_result = mysqli_query($con, $check_roll);
+        $check_roll_row = mysqli_fetch_assoc($check_roll_result);
     }
 
 ?>
