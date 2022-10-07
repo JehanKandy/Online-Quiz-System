@@ -909,7 +909,8 @@
     function most_asked_questions(){
         $con = Connection();
 
-        $select_questions = "SELECT * FROM "
+        $select_questions = "SELECT * FROM question_replyed_std_tbl WHERE id ORDER BY id DESC LIMIT 3";
+        $select_questions_result = mysqli_query($con, $select_questions);
     }
 ?>
 <script>
