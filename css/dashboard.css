@@ -1272,6 +1272,7 @@ td {
 .add-comment-btn-user {
     border: 1px solid red;
     color: red;
+    background: none;
 }
 
 @media only screen and (max-width: 1400px) {
