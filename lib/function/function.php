@@ -870,6 +870,7 @@
 
         $get_data_user = "SELECT * FROM user_tbl WHERE email = '$email'";
         $get_data_user_result = mysqli_query($con, $get_data_user);
+        $get_data_user_row = mysqli_fetch_assoc($get_data_user_result);
 
 
         $add_comment = "INSERT INTO comment_tbl(comment_msg)VALUES('$comment_msg_add')";
