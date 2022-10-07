@@ -11,6 +11,7 @@
             All Comments
         </div>
         <?php all_comments_bck_btn(); ?>
+        <a href="comment.php"><button class="add-comment-btn-user">Add a Comment</button></a>
         <div class="body">
             <div class='comment-grid'>
                 <?php all_comments(); ?>
