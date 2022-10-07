@@ -1270,6 +1270,8 @@ td {
 }
 
 .add-comment-btn-user {
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid red;
     color: red;
     background: none;
