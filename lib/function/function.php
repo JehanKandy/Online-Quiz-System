@@ -906,6 +906,9 @@
         echo $roll_result;
     }
 
+    function most_asked_questions(){
+        $con = Connection();
+    }
 ?>
 <script>
 function answerValidate() {
