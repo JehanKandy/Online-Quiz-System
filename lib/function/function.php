@@ -884,6 +884,10 @@
         header("location:more_comments.php");
     }
 
+    function all_comments_bck_btn(){
+        $con = Connection();
+    }
+
 ?>
 <script>
 function answerValidate() {
