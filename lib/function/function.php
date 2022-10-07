@@ -840,21 +840,9 @@
         $user_comment_here = "
             <form action='' method='POST' name='userComment' onsubmit='return commentVelidate()'>
                 <div class='add-comment-grid'>
-                    <div class='comment-item1'>
-                        <span class='comment-input-title'>Username:</span><br>
-                        <input type='text' class='comment-input' name='user_comment' value='".$get_loged_user_row['username']."' disabled>
-                    </div> 
-                    <div class='comment-item2'>
-                        <span class='comment-input-title'>Email:</span><br>
-                        <input type='text' class='comment-input' name='email_comment' value='".$get_loged_user_row['email']."' disabled>
-                    </div>
-                    <div class='comment-item3'>
-                        <span class='comment-input-title'>Roll:</span><br>
-                        <input type='text' class='comment-input' name='roll_comment' value='".$get_loged_user_row['roll']."' disabled>
-                    </div>
                     <div class='comment-item4'>
                         <span class='comment-input-title'>Comment:</span><br>
-                        <textarea class='comment-textarea' name='comment_msg_add' id='commentmsgadd'></textarea>
+                        <textarea class='comment-textarea' name='comment_add' id='commentmsgadd'></textarea>
                         <span id='commenterror'></span>
                     </div>
                     <div class='comment-item5'>
@@ -876,12 +864,22 @@
         echo $user_comment_here;
     }
 
-    function add_comment_to_tbl($comment_user, $comment_email, $comment_roll, $comment_msg_add){
+    function add_comment_to_tbl($comment_msg_add){
         $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
 
-        $add_comment = "INSERT INTO comment_tbl(comment_user,roll,comment_date,comment_msg)VALUES('$comment_user','$comment_email','$comment_roll',NOW(),'$comment_msg_add')";
+        $get_data_user = "SELECT * FROM user_tbl WHERE email = '$email'";
+        $get_data_user_result = mysqli_query($con, $get_data_user);
+
+
+        $add_comment = "INSERT INTO comment_tbl(comment_msg)VALUES('$comment_msg_add')";
         $add_comment_result = mysqli_query($con, $add_comment);
-        header("location:more_comments.php");
+        if($add_comment_result){
+            header("location:more_comments.php");
+        }else{
+            return "False";
+        }
+
     }
 
     function all_comments_bck_btn(){
