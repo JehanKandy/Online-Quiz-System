@@ -901,6 +901,8 @@
         elseif($check_roll_row['roll'] == 'student'){
             $roll_result = "<a href='student.php'><button class='bck-comment-btn'>Back</button></a>";
         }
+
+        echo $roll_result;
     }
 
 ?>
