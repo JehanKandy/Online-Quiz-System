@@ -908,6 +908,8 @@
 
     function most_asked_questions(){
         $con = Connection();
+
+        $select_questions = "SELECT * FROM "
     }
 ?>
 <script>
