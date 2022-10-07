@@ -1269,6 +1269,8 @@ td {
     cursor: pointer;
 }
 
+.add-comment-btn-user {}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
