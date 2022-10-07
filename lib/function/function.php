@@ -875,7 +875,7 @@
         $username = $get_data_user_row['username'];
         $roll = $get_data_user_row['roll'];
 
-        $add_comment = "INSERT INTO comment_tbl(comment_user,roll,comment_date,comment_msg)VALUES('','$comment_msg_add')";
+        $add_comment = "INSERT INTO comment_tbl(comment_user,roll,comment_date,comment_msg)VALUES('$username','$roll',NOW(),'$comment_msg_add')";
         $add_comment_result = mysqli_query($con, $add_comment);
         if($add_comment_result){
             header("location:more_comments.php");
