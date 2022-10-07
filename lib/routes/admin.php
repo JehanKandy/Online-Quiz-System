@@ -107,7 +107,7 @@
 				<div class="admin-comment-grid">
 				<?php user_commnets(); ?>
 				</div>
-				<a href="comment.php"><button class="comment-add">Add a Comment</button></a>
+				<a href="more_comment.php"><button class="comment-add">More Comment</button></a>
 			</div>
 			<div class="admin-msg">
 				<div class="title">Messages From Users</div>
