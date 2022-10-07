@@ -1269,7 +1269,10 @@ td {
     cursor: pointer;
 }
 
-.add-comment-btn-user {}
+.add-comment-btn-user {
+    border: 1px solid red;
+    color: red;
+}
 
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
