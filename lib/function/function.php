@@ -2,7 +2,6 @@
     include("config.php");
     use FTP\Connection;
 
-use function PHPSTORM_META\map;
 
     session_start();
 
