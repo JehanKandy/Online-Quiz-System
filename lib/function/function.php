@@ -944,7 +944,7 @@
 
 
                 $all_std_view_data .="       
-                    <td><button class='infor-btn'>Infor</button></td>
+                    <td><a href='user_data_update.php'><button class='infor-btn'>Infor</button></a></td>
                 </tr>
 
             ";
