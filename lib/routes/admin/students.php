@@ -61,6 +61,7 @@
 						</tr>
 					</thead>
 					<tbody>
+						<?php all_studnets_view(); ?>
 						<!--
 						<tr>
 							<td>jehna@123</td>
