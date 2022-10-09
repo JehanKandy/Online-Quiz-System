@@ -916,6 +916,9 @@
         echo $count_stu_nor;
     }
 
+    function all_studnets_view(){
+        $con = Connection();
+    }
 ?>
 <script>
 function answerValidate() {
