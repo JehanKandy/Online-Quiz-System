@@ -1,6 +1,9 @@
 <?php 
     include("config.php");
     use FTP\Connection;
+
+use function PHPSTORM_META\map;
+
     session_start();
 
     function reg_std($username,$email,$password){
@@ -918,6 +921,13 @@
 
     function all_studnets_view(){
         $con = Connection();
+
+        $all_std = "SELECT * FROM user_tbl WHERE roll = 'student'";
+        $all_std_result = mysqli_query($con, $all_std);
+        
+        $all_std_view_data = "";
+
+        echo $all_std_view_data;
     }
 ?>
 <script>
