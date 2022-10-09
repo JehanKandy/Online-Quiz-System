@@ -906,28 +906,10 @@
         echo $roll_result;
     }
 
-    function most_asked_questions(){
+    function count_std(){
         $con = Connection();
-
-        $select_questions = "SELECT * FROM question_replyed_std_tbl WHERE id ORDER BY id DESC LIMIT 3";
-        $select_questions_result = mysqli_query($con, $select_questions);
-
-        while($row = mysqli_fetch_assoc($select_questions_result)){
-            $question = "
-            
-            <div class='comment1'>
-                <div class='usern'>".$row['comment_user']."</div>
-                <div class='user-roll'>".$row['roll']."</div>
-                <div class='comment-body'>
-                    ".$row['comment_msg']."
-            </div>                
-        </div>
-        ";
-
-        
-        }
-        echo $question;
     }
+
 ?>
 <script>
 function answerValidate() {
