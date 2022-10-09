@@ -931,8 +931,8 @@
             $all_std_view_data = "
                 <tr>
                     <td>".$row['email']."</td>
-                    <td>Jehankandy</td>
-                    <td>+94 711758851</td>
+                    <td>".$row['username']."</td>
+                    <td>".$row['mobile_no']."</td>
                     <td>Sri Lanka</td>
                     <td><span class='active'>Active</span></td>
                     <td><button class='infor-btn'>Infor</button></td>
