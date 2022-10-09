@@ -61,6 +61,7 @@
 						</tr>
 					</thead>
 					<tbody>
+						<!--
 						<tr>
 							<td>jehna@123</td>
 							<td>Jehankandy</td>
@@ -85,6 +86,7 @@
 							<td><span class="deactive">Dective</span></td>
 							<td><button class="infor-btn">Infor</button></td>
 						</tr>
+						-->
 					</tbody>
 				</table>
 			</div>
