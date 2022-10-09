@@ -924,19 +924,24 @@
         $all_std = "SELECT * FROM user_tbl WHERE roll = 'student'";
         $all_std_result = mysqli_query($con, $all_std);
         
-        $all_std_view_data = "
-            <tr>
-                <td>jehna@123</td>
-                <td>Jehankandy</td>
-                <td>+94 711758851</td>
-                <td>Sri Lanka</td>
-                <td><span class='active'>Active</span></td>
-                <td><button class='infor-btn'>Infor</button></td>
-            </tr>
 
-        ";
+        while($row = mysqli_fetch_assoc($all_std_result)){
 
-        echo $all_std_view_data;
+        
+            $all_std_view_data = "
+                <tr>
+                    <td>".$row['email']."</td>
+                    <td>Jehankandy</td>
+                    <td>+94 711758851</td>
+                    <td>Sri Lanka</td>
+                    <td><span class='active'>Active</span></td>
+                    <td><button class='infor-btn'>Infor</button></td>
+                </tr>
+
+            ";
+
+            echo $all_std_view_data;
+        }
     }
 ?>
 <script>
