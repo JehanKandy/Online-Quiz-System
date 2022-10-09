@@ -338,4 +338,4 @@ Online Quiz System
 1. DEVELOP
 2. UPDATE
  - lib/function/function.php
- - lib/routes/admin/student.php
+ - lib/routes/admin/students.php
