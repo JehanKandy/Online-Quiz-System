@@ -933,8 +933,17 @@
                     <td>".$row['email']."</td>
                     <td>".$row['username']."</td>
                     <td>".$row['mobile_no']."</td>
-                    <td>".$row['country']."</td>
-                    <td><span class='active'>Active</span></td>
+                    <td>".$row['country']."</td>";
+
+                    if($row['user_status'] == 1){
+                        $all_std_view_data .="<td><span class='active'>Active</span></td>";
+                    }elseif($row['user_status'] == 0){
+                        $all_std_view_data .="<td><span class='deactive'>Deactive</span></td>";
+                    }
+
+
+
+                $all_std_view_data .="       
                     <td><button class='infor-btn'>Infor</button></td>
                 </tr>
 
