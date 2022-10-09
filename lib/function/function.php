@@ -908,6 +908,9 @@
 
     function count_std(){
         $con = Connection();
+
+        $count_stu = "SELECT * FROM user_tbl WHERE roll = 'student'";
+        $count_stu_result = mysqli_query($con, $count_stu);
     }
 
 ?>
