@@ -933,7 +933,7 @@
                     <td>".$row['email']."</td>
                     <td>".$row['username']."</td>
                     <td>".$row['mobile_no']."</td>
-                    <td>Sri Lanka</td>
+                    <td>".$row['country']."</td>
                     <td><span class='active'>Active</span></td>
                     <td><button class='infor-btn'>Infor</button></td>
                 </tr>
