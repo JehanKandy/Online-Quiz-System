@@ -911,6 +911,7 @@
 
         $count_stu = "SELECT * FROM user_tbl WHERE roll = 'student'";
         $count_stu_result = mysqli_query($con, $count_stu);
+        $count_stu_nor = mysqli_num_rows($count_stu_result);
     }
 
 ?>
