@@ -1285,6 +1285,11 @@ td {
     cursor: pointer;
 }
 
+.data-update-user {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
