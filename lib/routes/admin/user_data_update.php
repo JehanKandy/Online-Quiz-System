@@ -8,15 +8,15 @@
 		header("location:../../views/login.php");
 	}
 ?>
-
-<div class="data-update-user">
-	<div class="title">
-		Update Information
-	</div>
-	<div class="body">
-		hi all
+<div class="container">
+	<div class="data-update-user">
+		<div class="title">
+			Update Information
+		</div>
+		<div class="body">
+			hi all
+		</div>
 	</div>
 </div>
-
 
 <?php include("../../layouts/footer.php"); ?>
