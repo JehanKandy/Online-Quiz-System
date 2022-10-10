@@ -1290,6 +1290,10 @@ td {
     margin-bottom: 50px;
 }
 
+.data-update-use .title {
+    font-size: 35px;
+}
+
 @media only screen and (max-width: 1400px) {
     .menu-toggle {
         display: block;
