@@ -944,7 +944,7 @@
 
 
                 $all_std_view_data .="       
-                    <td><a href='user_data_update.php?id='".$row['email']."'><button class='infor-btn'>Infor</button></a></td>
+                    <td><a href='user_data_update.php?id=".$row['email']."'><button class='infor-btn'>Infor</button></a></td>
                 </tr>
 
             ";
@@ -952,6 +952,12 @@
             echo $all_std_view_data;
         }
     }
+
+    function update_user_title(){
+        $con = Connection();
+    }
+
+
 ?>
 <script>
 function answerValidate() {
