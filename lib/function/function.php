@@ -955,6 +955,9 @@
 
     function update_user_title(){
         $con = Connection();
+
+        $id = $_GET['id'];
+        echo $id;
     }
 
 
